@@ -215,9 +215,11 @@ function allPlayerSummaries(run){
 }
 function collectStats(run){
   const bossTurns = [], bossDamage = [], fightRewards = [], removed = [], upgraded = [], restChoices = [];
+  const roomCounts = {};
   let bossRewardCardOffered = 0, bossRewardCardPicked = 0;
   for(const act of run.map_point_history || []) for(const mp of act || []){
     const typ = mp.map_point_type || mp.rooms?.[0]?.room_type || '';
+    roomCounts[typ] = (roomCounts[typ] || 0) + 1;
     const room = mp.rooms?.[0] || {};
     if(typ === 'boss') bossTurns.push(Number(room.turns_taken || 0));
     for(const ps of mp.player_stats || []){
@@ -233,7 +235,7 @@ function collectStats(run){
       }
     }
   }
-  return { bossTurns, bossDamage, fightRewards, removed, upgraded, restChoices, bossRewardCardOffered, bossRewardCardPicked };
+  return { bossTurns, bossDamage, fightRewards, removed, upgraded, restChoices, roomCounts, bossRewardCardOffered, bossRewardCardPicked };
 }
 function extractRun(raw){
   let run;
@@ -280,6 +282,10 @@ function evalTask(task, ex, room, teamId){
     case 'duplicate_card': return passResult(s.win && s.maxDuplicateCard >= p.count, `同名卡最大 ${s.maxDuplicateCard}/${p.count}`, s.maxDuplicateCard);
     case 'skip_boss_cards': return passResult(s.win && st.bossRewardCardPicked === 0, `Boss 奖励抓取 ${st.bossRewardCardPicked}/${st.bossRewardCardOffered}`, st.bossRewardCardPicked);
     case 'upgrades': return passResult(st.upgraded.length >= p.count, `升级 ${st.upgraded.length}/${p.count}`, st.upgraded.length);
+    case 'room_count': {
+      const got = st.roomCounts?.[p.roomType] || 0;
+      return passResult((!p.win || s.win) && got >= p.count, `${p.roomType} 房间 ${got}/${p.count}`, got);
+    }
     case 'badges_total': {
       const seedCount = room.settings.seeds.length;
       const target = p.perSeed * seedCount;

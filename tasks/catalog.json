@@ -1,62 +1,660 @@
 [
-  {"id":"S01","difficulty":"S","description":"赢得一局游戏并获得 >=9 徽章","kind":"badges_single","params":{"count":9,"win":true}},
-  {"id":"S02","difficulty":"S","description":"15min 以内通关一局","kind":"win_time","params":{"seconds":900}},
-  {"id":"S03","difficulty":"S","description":"胜利时拥有 1000 及以上金币","kind":"win_gold","params":{"gold":1000}},
-  {"id":"S04","difficulty":"S","description":"拥有 30 个遗物","kind":"relics","params":{"count":30}},
-  {"id":"S05","difficulty":"S","description":"以不超过 5 张卡通关。","kind":"deck_max","params":{"count":5}},
-  {"id":"S06","difficulty":"S","description":"在一场 boss 战中花费 <=1 个回合","kind":"boss_turn_le","params":{"turns":1}},
-  {"id":"S07","difficulty":"S","description":"不受伤害击败所有个 boss","kind":"all_boss_no_damage","params":{}},
-  {"id":"S08","difficulty":"S","description":"所有种子一共获得 5n 徽章，n 为种子数","kind":"badges_total","params":{"perSeed":5}},
-  {"id":"S09","difficulty":"S","description":"通关 n 个种子，n 为种子数。","kind":"wins_total","params":{"mode":"all"}},
-
-  {"id":"A01","difficulty":"A","description":"赢得一局游戏并获得 >=7 徽章","kind":"badges_single","params":{"count":7,"win":true}},
-  {"id":"A02","difficulty":"A","description":"20min 以内通关一局","kind":"win_time","params":{"seconds":1200}},
-  {"id":"A03","difficulty":"A","description":"拥有 1000 及以上金币","kind":"gold","params":{"gold":1000}},
-  {"id":"A04","difficulty":"A","description":"胜利时拥有 750 及以上金币","kind":"win_gold","params":{"gold":750}},
-  {"id":"A05","difficulty":"A","description":"拥有 25 个遗物","kind":"relics","params":{"count":25}},
-  {"id":"A06","difficulty":"A","description":"通关游戏并且没有删除或变化过任何初始牌。","kind":"starter_cards_intact","params":{}},
-  {"id":"A07","difficulty":"A","description":"以不超过 10 张卡通关","kind":"deck_max","params":{"count":10}},
-  {"id":"A08","difficulty":"A","description":"以至少 50 张卡通关","kind":"deck_min","params":{"count":50}},
-  {"id":"A09","difficulty":"A","description":"在一场 boss 战中花费 >=25 个回合","kind":"boss_turn_ge","params":{"turns":25}},
-  {"id":"A10","difficulty":"A","description":"在一场 boss 战中花费 <=2 个回合","kind":"boss_turn_le","params":{"turns":2}},
-  {"id":"A11","difficulty":"A","description":"所有种子一共获得 4n 徽章，n 为种子数","kind":"badges_total","params":{"perSeed":4}},
-  {"id":"A12","difficulty":"A","description":"通关 ceil(n/2) 个种子，n 为种子数。","kind":"wins_total","params":{"mode":"half"}},
-  {"id":"A13","difficulty":"A","description":"在每一场战斗结束后都抓取卡牌并胜利","kind":"take_card_after_each_fight","params":{}},
-  {"id":"A14","difficulty":"A","description":"不抓取任何金卡并胜利","kind":"no_rare_card_pick","params":{}},
-  {"id":"A15","difficulty":"A","description":"不在任何 restsite 进行升级并胜利","kind":"no_rest_smith","params":{}},
-  {"id":"A16","difficulty":"A","description":"胜利并最终拥有至少 5 张相同的卡（忽略升级）","kind":"duplicate_card","params":{"count":5}},
-
-  {"id":"B01","difficulty":"B","description":"赢得一局游戏并获得 >=5 徽章","kind":"badges_single","params":{"count":5,"win":true}},
-  {"id":"B02","difficulty":"B","description":"30min 以内通关一局","kind":"win_time","params":{"seconds":1800}},
-  {"id":"B03","difficulty":"B","description":"通关游戏时血量与血量上限一致","kind":"full_hp_win","params":{}},
-  {"id":"B04","difficulty":"B","description":"拥有 750 及以上金币","kind":"gold","params":{"gold":750}},
-  {"id":"B05","difficulty":"B","description":"胜利时拥有 500 及以上金币","kind":"win_gold","params":{"gold":500}},
-  {"id":"B06","difficulty":"B","description":"拥有 20 个遗物","kind":"relics","params":{"count":20}},
-  {"id":"B07","difficulty":"B","description":"以不超过 15 张卡通关","kind":"deck_max","params":{"count":15}},
-  {"id":"B08","difficulty":"B","description":"以至少 40 张卡通关","kind":"deck_min","params":{"count":40}},
-  {"id":"B09","difficulty":"B","description":"在一场 boss 战中花费 >=20 个回合","kind":"boss_turn_ge","params":{"turns":20}},
-  {"id":"B10","difficulty":"B","description":"在一场 boss 战中花费 <=3 个回合","kind":"boss_turn_le","params":{"turns":3}},
-  {"id":"B11","difficulty":"B","description":"不受伤害击败至少一个 boss","kind":"one_boss_no_damage","params":{}},
-  {"id":"B12","difficulty":"B","description":"所有种子一共获得 3n 徽章，n 为种子数","kind":"badges_total","params":{"perSeed":3}},
-  {"id":"B13","difficulty":"B","description":"放弃所有 boss 奖励的卡牌并胜利","kind":"skip_boss_cards","params":{}},
-  {"id":"B14","difficulty":"B","description":"胜利并最终拥有至少 4 张相同的卡（忽略升级）","kind":"duplicate_card","params":{"count":4}},
-
-  {"id":"C01","difficulty":"C","description":"赢得一局游戏并获得 >=3 徽章","kind":"badges_single","params":{"count":3,"win":true}},
-  {"id":"C02","difficulty":"C","description":"50min 以内通关一局","kind":"win_time","params":{"seconds":3000}},
-  {"id":"C03","difficulty":"C","description":"拥有 500 及以上金币","kind":"gold","params":{"gold":500}},
-  {"id":"C04","difficulty":"C","description":"胜利时拥有 250 及以上金币","kind":"win_gold","params":{"gold":250}},
-  {"id":"C05","difficulty":"C","description":"拥有 15 个遗物","kind":"relics","params":{"count":15}},
-  {"id":"C06","difficulty":"C","description":"以不超过 20 张卡通关","kind":"deck_max","params":{"count":20}},
-  {"id":"C07","difficulty":"C","description":"以至少 30 张卡通关","kind":"deck_min","params":{"count":30}},
-  {"id":"C08","difficulty":"C","description":"在一场 boss 战中花费 >=15 个回合","kind":"boss_turn_ge","params":{"turns":15}},
-  {"id":"C09","difficulty":"C","description":"所有种子一共获得 2n 徽章，n 为种子数","kind":"badges_total","params":{"perSeed":2}},
-  {"id":"C10","difficulty":"C","description":"通关任意两个种子","kind":"wins_total","params":{"fixed":2}},
-  {"id":"C11","difficulty":"C","description":"进行过至少 10 次升级卡牌","kind":"upgrades","params":{"count":10}},
-  {"id":"C12","difficulty":"C","description":"胜利并最终拥有至少 3 张相同的卡（忽略升级）","kind":"duplicate_card","params":{"count":3}},
-
-  {"id":"D01","difficulty":"D","description":"赢得一局游戏并获得 >=1 徽章","kind":"badges_single","params":{"count":1,"win":true}},
-  {"id":"D02","difficulty":"D","description":"75min 以内通关一局","kind":"win_time","params":{"seconds":4500}},
-  {"id":"D03","difficulty":"D","description":"拥有 250 及以上金币","kind":"gold","params":{"gold":250}},
-  {"id":"D04","difficulty":"D","description":"拥有 10 个遗物","kind":"relics","params":{"count":10}},
-  {"id":"D05","difficulty":"D","description":"进行过至少 5 次升级卡牌","kind":"upgrades","params":{"count":5}}
+  {
+    "id": "S01",
+    "difficulty": "S",
+    "description": "赢得一局游戏并获得 >=9 徽章",
+    "kind": "badges_single",
+    "params": {
+      "count": 9,
+      "win": true
+    }
+  },
+  {
+    "id": "S02",
+    "difficulty": "S",
+    "description": "15min 以内通关一局",
+    "kind": "win_time",
+    "params": {
+      "seconds": 900
+    }
+  },
+  {
+    "id": "S03",
+    "difficulty": "S",
+    "description": "胜利时拥有 1000 及以上金币",
+    "kind": "win_gold",
+    "params": {
+      "gold": 1000
+    }
+  },
+  {
+    "id": "S04",
+    "difficulty": "S",
+    "description": "拥有 30 个遗物",
+    "kind": "relics",
+    "params": {
+      "count": 30
+    }
+  },
+  {
+    "id": "S05",
+    "difficulty": "S",
+    "description": "以不超过 5 张卡通关。",
+    "kind": "deck_max",
+    "params": {
+      "count": 5
+    }
+  },
+  {
+    "id": "S06",
+    "difficulty": "S",
+    "description": "在一场 boss 战中花费 <=1 个回合",
+    "kind": "boss_turn_le",
+    "params": {
+      "turns": 1
+    }
+  },
+  {
+    "id": "S07",
+    "difficulty": "S",
+    "description": "不受伤害击败所有个 boss",
+    "kind": "all_boss_no_damage",
+    "params": {}
+  },
+  {
+    "id": "S08",
+    "difficulty": "S",
+    "description": "所有种子一共获得 5n 徽章，n 为种子数",
+    "kind": "badges_total",
+    "params": {
+      "perSeed": 5
+    }
+  },
+  {
+    "id": "S09",
+    "difficulty": "S",
+    "description": "通关 n 个种子，n 为种子数。",
+    "kind": "wins_total",
+    "params": {
+      "mode": "all"
+    }
+  },
+  {
+    "id": "S10",
+    "difficulty": "S",
+    "description": "赢得一局游戏并进入至少 6 个商店",
+    "kind": "room_count",
+    "params": {
+      "roomType": "shop",
+      "count": 6,
+      "win": true
+    }
+  },
+  {
+    "id": "S11",
+    "difficulty": "S",
+    "description": "赢得一局游戏并击败至少 10 个精英",
+    "kind": "room_count",
+    "params": {
+      "roomType": "elite",
+      "count": 10,
+      "win": true
+    }
+  },
+  {
+    "id": "S12",
+    "difficulty": "S",
+    "description": "赢得一局游戏并经过至少 17 个 unknown 房间",
+    "kind": "room_count",
+    "params": {
+      "roomType": "unknown",
+      "count": 17,
+      "win": true
+    }
+  },
+  {
+    "id": "A01",
+    "difficulty": "A",
+    "description": "赢得一局游戏并获得 >=7 徽章",
+    "kind": "badges_single",
+    "params": {
+      "count": 7,
+      "win": true
+    }
+  },
+  {
+    "id": "A02",
+    "difficulty": "A",
+    "description": "20min 以内通关一局",
+    "kind": "win_time",
+    "params": {
+      "seconds": 1200
+    }
+  },
+  {
+    "id": "A03",
+    "difficulty": "A",
+    "description": "拥有 1000 及以上金币",
+    "kind": "gold",
+    "params": {
+      "gold": 1000
+    }
+  },
+  {
+    "id": "A04",
+    "difficulty": "A",
+    "description": "胜利时拥有 750 及以上金币",
+    "kind": "win_gold",
+    "params": {
+      "gold": 750
+    }
+  },
+  {
+    "id": "A05",
+    "difficulty": "A",
+    "description": "拥有 25 个遗物",
+    "kind": "relics",
+    "params": {
+      "count": 25
+    }
+  },
+  {
+    "id": "A06",
+    "difficulty": "A",
+    "description": "通关游戏并且没有删除或变化过任何初始牌。",
+    "kind": "starter_cards_intact",
+    "params": {}
+  },
+  {
+    "id": "A07",
+    "difficulty": "A",
+    "description": "以不超过 10 张卡通关",
+    "kind": "deck_max",
+    "params": {
+      "count": 10
+    }
+  },
+  {
+    "id": "A08",
+    "difficulty": "A",
+    "description": "以至少 50 张卡通关",
+    "kind": "deck_min",
+    "params": {
+      "count": 50
+    }
+  },
+  {
+    "id": "A09",
+    "difficulty": "A",
+    "description": "在一场 boss 战中花费 >=25 个回合",
+    "kind": "boss_turn_ge",
+    "params": {
+      "turns": 25
+    }
+  },
+  {
+    "id": "A10",
+    "difficulty": "A",
+    "description": "在一场 boss 战中花费 <=2 个回合",
+    "kind": "boss_turn_le",
+    "params": {
+      "turns": 2
+    }
+  },
+  {
+    "id": "A11",
+    "difficulty": "A",
+    "description": "所有种子一共获得 4n 徽章，n 为种子数",
+    "kind": "badges_total",
+    "params": {
+      "perSeed": 4
+    }
+  },
+  {
+    "id": "A12",
+    "difficulty": "A",
+    "description": "通关 ceil(n/2) 个种子，n 为种子数。",
+    "kind": "wins_total",
+    "params": {
+      "mode": "half"
+    }
+  },
+  {
+    "id": "A13",
+    "difficulty": "A",
+    "description": "在每一场战斗结束后都抓取卡牌并胜利",
+    "kind": "take_card_after_each_fight",
+    "params": {}
+  },
+  {
+    "id": "A14",
+    "difficulty": "A",
+    "description": "不抓取任何金卡并胜利",
+    "kind": "no_rare_card_pick",
+    "params": {}
+  },
+  {
+    "id": "A15",
+    "difficulty": "A",
+    "description": "不在任何 restsite 进行升级并胜利",
+    "kind": "no_rest_smith",
+    "params": {}
+  },
+  {
+    "id": "A16",
+    "difficulty": "A",
+    "description": "胜利并最终拥有至少 5 张相同的卡（忽略升级）",
+    "kind": "duplicate_card",
+    "params": {
+      "count": 5
+    }
+  },
+  {
+    "id": "A17",
+    "difficulty": "A",
+    "description": "赢得一局游戏并进入至少 5 个商店",
+    "kind": "room_count",
+    "params": {
+      "roomType": "shop",
+      "count": 5,
+      "win": true
+    }
+  },
+  {
+    "id": "A18",
+    "difficulty": "A",
+    "description": "赢得一局游戏并击败至少 8 个精英",
+    "kind": "room_count",
+    "params": {
+      "roomType": "elite",
+      "count": 8,
+      "win": true
+    }
+  },
+  {
+    "id": "A19",
+    "difficulty": "A",
+    "description": "赢得一局游戏并经过至少 14 个 unknown 房间",
+    "kind": "room_count",
+    "params": {
+      "roomType": "unknown",
+      "count": 14,
+      "win": true
+    }
+  },
+  {
+    "id": "B01",
+    "difficulty": "B",
+    "description": "赢得一局游戏并获得 >=5 徽章",
+    "kind": "badges_single",
+    "params": {
+      "count": 5,
+      "win": true
+    }
+  },
+  {
+    "id": "B02",
+    "difficulty": "B",
+    "description": "30min 以内通关一局",
+    "kind": "win_time",
+    "params": {
+      "seconds": 1800
+    }
+  },
+  {
+    "id": "B03",
+    "difficulty": "B",
+    "description": "通关游戏时血量与血量上限一致",
+    "kind": "full_hp_win",
+    "params": {}
+  },
+  {
+    "id": "B04",
+    "difficulty": "B",
+    "description": "拥有 750 及以上金币",
+    "kind": "gold",
+    "params": {
+      "gold": 750
+    }
+  },
+  {
+    "id": "B05",
+    "difficulty": "B",
+    "description": "胜利时拥有 500 及以上金币",
+    "kind": "win_gold",
+    "params": {
+      "gold": 500
+    }
+  },
+  {
+    "id": "B06",
+    "difficulty": "B",
+    "description": "拥有 20 个遗物",
+    "kind": "relics",
+    "params": {
+      "count": 20
+    }
+  },
+  {
+    "id": "B07",
+    "difficulty": "B",
+    "description": "以不超过 15 张卡通关",
+    "kind": "deck_max",
+    "params": {
+      "count": 15
+    }
+  },
+  {
+    "id": "B08",
+    "difficulty": "B",
+    "description": "以至少 40 张卡通关",
+    "kind": "deck_min",
+    "params": {
+      "count": 40
+    }
+  },
+  {
+    "id": "B09",
+    "difficulty": "B",
+    "description": "在一场 boss 战中花费 >=20 个回合",
+    "kind": "boss_turn_ge",
+    "params": {
+      "turns": 20
+    }
+  },
+  {
+    "id": "B10",
+    "difficulty": "B",
+    "description": "在一场 boss 战中花费 <=3 个回合",
+    "kind": "boss_turn_le",
+    "params": {
+      "turns": 3
+    }
+  },
+  {
+    "id": "B11",
+    "difficulty": "B",
+    "description": "不受伤害击败至少一个 boss",
+    "kind": "one_boss_no_damage",
+    "params": {}
+  },
+  {
+    "id": "B12",
+    "difficulty": "B",
+    "description": "所有种子一共获得 3n 徽章，n 为种子数",
+    "kind": "badges_total",
+    "params": {
+      "perSeed": 3
+    }
+  },
+  {
+    "id": "B13",
+    "difficulty": "B",
+    "description": "放弃所有 boss 奖励的卡牌并胜利",
+    "kind": "skip_boss_cards",
+    "params": {}
+  },
+  {
+    "id": "B14",
+    "difficulty": "B",
+    "description": "胜利并最终拥有至少 4 张相同的卡（忽略升级）",
+    "kind": "duplicate_card",
+    "params": {
+      "count": 4
+    }
+  },
+  {
+    "id": "B15",
+    "difficulty": "B",
+    "description": "赢得一局游戏并进入至少 4 个商店",
+    "kind": "room_count",
+    "params": {
+      "roomType": "shop",
+      "count": 4,
+      "win": true
+    }
+  },
+  {
+    "id": "B16",
+    "difficulty": "B",
+    "description": "赢得一局游戏并击败至少 6 个精英",
+    "kind": "room_count",
+    "params": {
+      "roomType": "elite",
+      "count": 6,
+      "win": true
+    }
+  },
+  {
+    "id": "B17",
+    "difficulty": "B",
+    "description": "赢得一局游戏并经过至少 11 个 unknown 房间",
+    "kind": "room_count",
+    "params": {
+      "roomType": "unknown",
+      "count": 11,
+      "win": true
+    }
+  },
+  {
+    "id": "C01",
+    "difficulty": "C",
+    "description": "赢得一局游戏并获得 >=3 徽章",
+    "kind": "badges_single",
+    "params": {
+      "count": 3,
+      "win": true
+    }
+  },
+  {
+    "id": "C02",
+    "difficulty": "C",
+    "description": "50min 以内通关一局",
+    "kind": "win_time",
+    "params": {
+      "seconds": 3000
+    }
+  },
+  {
+    "id": "C03",
+    "difficulty": "C",
+    "description": "拥有 500 及以上金币",
+    "kind": "gold",
+    "params": {
+      "gold": 500
+    }
+  },
+  {
+    "id": "C04",
+    "difficulty": "C",
+    "description": "胜利时拥有 250 及以上金币",
+    "kind": "win_gold",
+    "params": {
+      "gold": 250
+    }
+  },
+  {
+    "id": "C05",
+    "difficulty": "C",
+    "description": "拥有 15 个遗物",
+    "kind": "relics",
+    "params": {
+      "count": 15
+    }
+  },
+  {
+    "id": "C06",
+    "difficulty": "C",
+    "description": "以不超过 20 张卡通关",
+    "kind": "deck_max",
+    "params": {
+      "count": 20
+    }
+  },
+  {
+    "id": "C07",
+    "difficulty": "C",
+    "description": "以至少 30 张卡通关",
+    "kind": "deck_min",
+    "params": {
+      "count": 30
+    }
+  },
+  {
+    "id": "C08",
+    "difficulty": "C",
+    "description": "在一场 boss 战中花费 >=15 个回合",
+    "kind": "boss_turn_ge",
+    "params": {
+      "turns": 15
+    }
+  },
+  {
+    "id": "C09",
+    "difficulty": "C",
+    "description": "所有种子一共获得 2n 徽章，n 为种子数",
+    "kind": "badges_total",
+    "params": {
+      "perSeed": 2
+    }
+  },
+  {
+    "id": "C10",
+    "difficulty": "C",
+    "description": "通关任意两个种子",
+    "kind": "wins_total",
+    "params": {
+      "fixed": 2
+    }
+  },
+  {
+    "id": "C11",
+    "difficulty": "C",
+    "description": "进行过至少 10 次升级卡牌",
+    "kind": "upgrades",
+    "params": {
+      "count": 10
+    }
+  },
+  {
+    "id": "C12",
+    "difficulty": "C",
+    "description": "胜利并最终拥有至少 3 张相同的卡（忽略升级）",
+    "kind": "duplicate_card",
+    "params": {
+      "count": 3
+    }
+  },
+  {
+    "id": "C13",
+    "difficulty": "C",
+    "description": "赢得一局游戏并进入至少 3 个商店",
+    "kind": "room_count",
+    "params": {
+      "roomType": "shop",
+      "count": 3,
+      "win": true
+    }
+  },
+  {
+    "id": "C14",
+    "difficulty": "C",
+    "description": "赢得一局游戏并击败至少 4 个精英",
+    "kind": "room_count",
+    "params": {
+      "roomType": "elite",
+      "count": 4,
+      "win": true
+    }
+  },
+  {
+    "id": "C15",
+    "difficulty": "C",
+    "description": "赢得一局游戏并经过至少 8 个 unknown 房间",
+    "kind": "room_count",
+    "params": {
+      "roomType": "unknown",
+      "count": 8,
+      "win": true
+    }
+  },
+  {
+    "id": "D01",
+    "difficulty": "D",
+    "description": "赢得一局游戏并获得 >=1 徽章",
+    "kind": "badges_single",
+    "params": {
+      "count": 1,
+      "win": true
+    }
+  },
+  {
+    "id": "D02",
+    "difficulty": "D",
+    "description": "75min 以内通关一局",
+    "kind": "win_time",
+    "params": {
+      "seconds": 4500
+    }
+  },
+  {
+    "id": "D03",
+    "difficulty": "D",
+    "description": "拥有 250 及以上金币",
+    "kind": "gold",
+    "params": {
+      "gold": 250
+    }
+  },
+  {
+    "id": "D04",
+    "difficulty": "D",
+    "description": "拥有 10 个遗物",
+    "kind": "relics",
+    "params": {
+      "count": 10
+    }
+  },
+  {
+    "id": "D05",
+    "difficulty": "D",
+    "description": "进行过至少 5 次升级卡牌",
+    "kind": "upgrades",
+    "params": {
+      "count": 5
+    }
+  },
+  {
+    "id": "D06",
+    "difficulty": "D",
+    "description": "赢得一局游戏并进入至少 2 个商店",
+    "kind": "room_count",
+    "params": {
+      "roomType": "shop",
+      "count": 2,
+      "win": true
+    }
+  },
+  {
+    "id": "D07",
+    "difficulty": "D",
+    "description": "赢得一局游戏并击败至少 2 个精英",
+    "kind": "room_count",
+    "params": {
+      "roomType": "elite",
+      "count": 2,
+      "win": true
+    }
+  },
+  {
+    "id": "D08",
+    "difficulty": "D",
+    "description": "赢得一局游戏并经过至少 5 个 unknown 房间",
+    "kind": "room_count",
+    "params": {
+      "roomType": "unknown",
+      "count": 5,
+      "win": true
+    }
+  }
 ]
