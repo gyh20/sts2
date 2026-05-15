@@ -438,7 +438,7 @@ function serveStatic(req, res, pathname){
   if(!fs.existsSync(file) || fs.statSync(file).isDirectory()) return false;
   const ext = path.extname(file).toLowerCase();
   const types = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.svg':'image/svg+xml' };
-  send(res, 200, fs.readFileSync(file), { 'content-type': types[ext] || 'application/octet-stream' });
+  send(res, 200, fs.readFileSync(file), { 'content-type': types[ext] || 'application/octet-stream', ...(ext === '.html' ? { 'cache-control':'no-store' } : {}) });
   return true;
 }
 
