@@ -1,0 +1,5132 @@
+{
+  "acts": [
+    "ACT.OVERGROWTH",
+    "ACT.HIVE",
+    "ACT.GLORY"
+  ],
+  "ascension": 10,
+  "build_id": "v0.99.1",
+  "game_mode": "standard",
+  "killed_by_encounter": "NONE.NONE",
+  "killed_by_event": "NONE.NONE",
+  "map_point_history": [
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "NEOWS_TORMENT",
+                "title": {
+                  "key": "NEOWS_TORMENT.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "BOOMING_CONCH",
+                "title": {
+                  "key": "BOOMING_CONCH.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "LEAFY_POULTICE",
+                "title": {
+                  "key": "LEAFY_POULTICE.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "cards_transformed": [
+              {
+                "final_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.QUASAR"
+                },
+                "original_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.STRIKE_REGENT"
+                }
+              },
+              {
+                "final_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.CHILD_OF_THE_STARS"
+                },
+                "original_card": {
+                  "floor_added_to_deck": 1,
+                  "id": "CARD.DEFEND_REGENT"
+                }
+              }
+            ],
+            "current_gold": 99,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "LEAFY_POULTICE.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 60,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 10,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LEAFY_POULTICE",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.NEOW",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 2,
+                  "id": "CARD.BULWARK"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GATHER_LIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.COSMIC_INDIFFERENCE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.BULWARK"
+              }
+            ],
+            "current_gold": 108,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.FUZZY_WURM_CRAWLER_WEAK",
+            "monster_ids": [
+              "MONSTER.FUZZY_WURM_CRAWLER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 108,
+            "current_hp": 46,
+            "damage_taken": 14,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "ROOM_FULL_OF_CHEESE.pages.INITIAL.options.SEARCH.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.CHOSEN_CHEESE",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.ROOM_FULL_OF_CHEESE",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 4,
+                  "id": "CARD.PRODUCTION"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.MIND_BLAST"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.VOLLEY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.PRODUCTION"
+              }
+            ],
+            "current_gold": 108,
+            "current_hp": 41,
+            "damage_taken": 5,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "BRAIN_LEECH.pages.INITIAL.options.RIP.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.BRAIN_LEECH",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.KNOCKOUT_BLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CLOAK_OF_STARS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ORBIT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PANACHE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEAT_DOWN"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_REGENT"
+              }
+            ],
+            "current_gold": 33,
+            "current_hp": 41,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 75,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.SKILL_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.FIRE_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.ETERNAL_FEATHER",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.HAPPY_FLOWER",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.MINIATURE_TENT",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 6,
+                  "id": "CARD.GLOW"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.BULWARK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEGONE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.GLOW"
+              }
+            ],
+            "current_gold": 42,
+            "current_hp": 39,
+            "damage_taken": 3,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 66,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.STAR_POTION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SHRINKER_BEETLE_WEAK",
+            "monster_ids": [
+              "MONSTER.SHRINKER_BEETLE"
+            ],
+            "room_type": "monster",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 7,
+                  "id": "CARD.BULWARK"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEGONE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.BULWARK"
+              }
+            ],
+            "current_gold": 56,
+            "current_hp": 40,
+            "damage_taken": 0,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 67,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.NIBBITS_WEAK",
+            "monster_ids": [
+              "MONSTER.NIBBIT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_REGENT"
+              }
+            ],
+            "current_gold": 56,
+            "current_hp": 33,
+            "damage_taken": 7,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SLIPPERY_BRIDGE.pages.INITIAL.options.HOLD_ON_0.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "RandomCard": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "打击"
+                  },
+                  "HpLoss": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 5,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              },
+              {
+                "title": {
+                  "key": "SLIPPERY_BRIDGE.pages.HOLD_ON_0.options.HOLD_ON_1.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "RandomCard": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "打击"
+                  },
+                  "HpLoss": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 5,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              },
+              {
+                "title": {
+                  "key": "SLIPPERY_BRIDGE.pages.INITIAL.options.OVERCOME.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "RandomCard": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "打击"
+                  },
+                  "HpLoss": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 5,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.SLIPPERY_BRIDGE",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.KINGLY_PUNCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 71,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 15,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 68,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.STAR_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.NIBBITS_NORMAL",
+            "monster_ids": [
+              "MONSTER.NIBBIT",
+              "MONSTER.NIBBIT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 6
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 107,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 68,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.HORN_CLEAT",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 146,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 39,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 68,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.ANCHOR",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.PHOTON_CUT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CHARGE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.KNOW_THY_PLACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ORBIT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PROWESS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.JACKPOT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_REGENT"
+              }
+            ],
+            "current_gold": 46,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 100,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 68,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.BEETLE_JUICE",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.FLEX_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.STAR_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.VENERABLE_TEA_SET",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.BOWLER_HAT",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.RINGING_TRIANGLE",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 46,
+            "current_hp": 34,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 68,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.GLOW"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.CLOAK_OF_STARS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.KNOCKOUT_BLOW"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RADIATE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 78,
+            "current_hp": 21,
+            "damage_taken": 14,
+            "gold_gained": 32,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 69,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ATTACK_POTION",
+                "was_picked": true
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.FESTIVE_POPPER",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.BYGONE_EFFIGY_ELITE",
+            "monster_ids": [
+              "MONSTER.BYGONE_EFFIGY"
+            ],
+            "room_type": "elite",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.BLACK_HOLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 87,
+            "current_hp": 22,
+            "damage_taken": 0,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 70,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.DEXTERITY_POTION",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SLIMES_NORMAL",
+            "monster_ids": [
+              "MONSTER.TWIG_SLIME_M",
+              "MONSTER.LEAF_SLIME_M",
+              "MONSTER.LEAF_SLIME_S",
+              "MONSTER.TWIG_SLIME_S"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 87,
+            "current_hp": 22,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 70,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.BULWARK"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 17,
+                  "id": "CARD.BIG_BANG"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.NEUTRON_AEGIS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.TYRANNY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 162,
+            "current_hp": 18,
+            "damage_taken": 5,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 71,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CEREMONIAL_BEAST_BOSS",
+            "monster_ids": [
+              "MONSTER.CEREMONIAL_BEAST"
+            ],
+            "room_type": "boss",
+            "turns_taken": 9
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "PAELS_FLESH",
+                "title": {
+                  "key": "PAELS_FLESH.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "PAELS_GROWTH",
+                "title": {
+                  "key": "PAELS_GROWTH.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "PAELS_LEGION",
+                "title": {
+                  "key": "PAELS_LEGION.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "cards_enchanted": [
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 4,
+                    "id": "ENCHANTMENT.CLONE"
+                  },
+                  "floor_added_to_deck": 17,
+                  "id": "CARD.BIG_BANG"
+                },
+                "enchantment": "ENCHANTMENT.CLONE"
+              }
+            ],
+            "current_gold": 162,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "PAELS_GROWTH.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 42,
+            "max_hp": 71,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PAELS_GROWTH",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.PAEL",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 19,
+                  "id": "CARD.ROYAL_GAMBLE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.PATTER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.COSMIC_INDIFFERENCE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.ROYAL_GAMBLE"
+              }
+            ],
+            "current_gold": 173,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "gold_gained": 11,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 72,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.EXOSKELETONS_WEAK",
+            "monster_ids": [
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON"
+            ],
+            "room_type": "monster",
+            "turns_taken": 7
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.KINGLY_PUNCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.TERRAFORMING"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.CHILD_OF_THE_STARS"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.CHILD_OF_THE_STARS"
+              }
+            ],
+            "current_gold": 187,
+            "current_hp": 55,
+            "damage_taken": 7,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 73,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.KINGS_COURAGE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.ATTACK_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.THIEVING_HOPPER_WEAK",
+            "monster_ids": [
+              "MONSTER.THIEVING_HOPPER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 21,
+                  "id": "CARD.CONQUEROR"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFLECT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.CONQUEROR"
+              }
+            ],
+            "current_gold": 194,
+            "current_hp": 55,
+            "damage_taken": 1,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 74,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.DISTILLED_CHAOS",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.DEXTERITY_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SPINY_TOAD_NORMAL",
+            "monster_ids": [
+              "MONSTER.SPINY_TOAD"
+            ],
+            "room_type": "monster",
+            "turns_taken": 6
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.COSMIC_INDIFFERENCE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.HIDDEN_CACHE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 207,
+            "current_hp": 56,
+            "damage_taken": 0,
+            "gold_gained": 13,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 75,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.TUNNELER_NORMAL",
+            "monster_ids": [
+              "MONSTER.BOWLBUG_SILK",
+              "MONSTER.TUNNELER"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.CHARGE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PATTER"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 234,
+            "current_hp": 32,
+            "damage_taken": 25,
+            "gold_gained": 27,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 76,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ENERGY_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.DISTILLED_CHAOS"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.PETRIFIED_TOAD",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.DECIMILLIPEDE_ELITE",
+            "monster_ids": [
+              "MONSTER.DECIMILLIPEDE_SEGMENT_FRONT",
+              "MONSTER.DECIMILLIPEDE_SEGMENT_MIDDLE",
+              "MONSTER.DECIMILLIPEDE_SEGMENT_BACK"
+            ],
+            "room_type": "elite",
+            "turns_taken": 6
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.BEGONE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SHINING_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.LUNAR_BLAST"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 244,
+            "current_hp": 26,
+            "damage_taken": 7,
+            "gold_gained": 10,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 77,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.EXPLOSIVE_AMPOULE",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.ENERGY_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.EXOSKELETONS_NORMAL",
+            "monster_ids": [
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON",
+              "MONSTER.EXOSKELETON"
+            ],
+            "room_type": "monster",
+            "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 244,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 77,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 276,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 32,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 77,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.WAR_PAINT",
+                "was_picked": true
+              }
+            ],
+            "upgraded_cards": [
+              "CARD.BIG_BANG",
+              "CARD.CONQUEROR"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 276,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 77,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEGONE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFLECT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CONVERGENCE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PALE_BLUE_DOT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.AUTOMATION"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ROLLING_BOULDER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.DEFEND_REGENT"
+              }
+            ],
+            "current_gold": 151,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 125,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 77,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.DEXTERITY_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.ATTACK_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.STURDY_CLAMP",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.CHANDELIER",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.KIFUDA",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 151,
+            "current_hp": 26,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 77,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CHILD_OF_THE_STARS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 184,
+            "current_hp": 27,
+            "damage_taken": 0,
+            "gold_gained": 33,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 78,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.ORICHALCUM",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.ENTOMANCER_ELITE",
+            "monster_ids": [
+              "MONSTER.ENTOMANCER"
+            ],
+            "room_type": "elite",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SHINING_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ROYAL_GAMBLE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.TERRAFORMING"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FURNACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PANIC_BUTTON"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.JACKPOT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.DEFEND_REGENT"
+              }
+            ],
+            "current_gold": 34,
+            "current_hp": 27,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 150,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 78,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ATTACK_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.ENERGY_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.LIQUID_BRONZE",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.BLOOD_VIAL",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.NUNCHAKU",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.PUNCH_DAGGER",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 34,
+            "current_hp": 27,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 78,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 33,
+                  "id": "CARD.THE_SMITH"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.SEVEN_STARS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEAT_INTO_SHAPE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.THE_SMITH"
+              }
+            ],
+            "current_gold": 109,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 75,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 79,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_discarded": [
+              "POTION.EXPLOSIVE_AMPOULE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.THE_INSATIABLE_BOSS",
+            "monster_ids": [
+              "MONSTER.THE_INSATIABLE"
+            ],
+            "room_type": "boss",
+            "turns_taken": 4
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "SNECKO_EYE",
+                "title": {
+                  "key": "SNECKO_EYE.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "ASTROLABE",
+                "title": {
+                  "key": "ASTROLABE.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "BLACK_STAR",
+                "title": {
+                  "key": "BLACK_STAR.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              }
+            ],
+            "current_gold": 109,
+            "current_hp": 68,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "BLACK_STAR.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 40,
+            "max_hp": 79,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.BLACK_STAR",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.DARV",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CRESCENT_SPEAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.SUPERMASSIVE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 116,
+            "current_hp": 66,
+            "damage_taken": 3,
+            "gold_gained": 7,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 78,
+            "max_hp_gained": 1,
+            "max_hp_lost": 2,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.POTION_SHAPED_ROCK",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.WEAK_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.POTION_SHAPED_ROCK"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SCROLLS_OF_BITING_WEAK",
+            "monster_ids": [
+              "MONSTER.SCROLL_OF_BITING",
+              "MONSTER.SCROLL_OF_BITING",
+              "MONSTER.SCROLL_OF_BITING"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 169,
+            "current_hp": 60,
+            "damage_taken": 6,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "THIS_OR_THAT.pages.INITIAL.options.PLAIN.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Curse": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "笨拙"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 53,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 78,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.THIS_OR_THAT",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.WROUGHT_IN_WAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BEGONE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BULWARK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFLECT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FURNACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PROLONG"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.NOSTALGIA"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 169,
+            "current_hp": 60,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 78,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.FORTIFIER",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.DEXTERITY_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.FIRE_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.CENTENNIAL_PUZZLE",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.AMETHYST_AUBERGINE",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.DRAGON_FRUIT",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.CRUSH_UNDER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.CRESCENT_SPEAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 182,
+            "current_hp": 61,
+            "damage_taken": 0,
+            "gold_gained": 13,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 79,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.DEVOTED_SCULPTOR_WEAK",
+            "monster_ids": [
+              "MONSTER.DEVOTED_SCULPTOR"
+            ],
+            "room_type": "monster",
+            "turns_taken": 1
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CRUSH_UNDER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.GLITTERSTREAM"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 209,
+            "current_hp": 62,
+            "damage_taken": 0,
+            "gold_gained": 27,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 80,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.POWER_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.WEAK_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.FROZEN_EGG",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.LANTERN",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.MECHA_KNIGHT_ELITE",
+            "monster_ids": [
+              "MONSTER.MECHA_KNIGHT"
+            ],
+            "room_type": "elite",
+            "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 209,
+            "current_hp": 62,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 245,
+            "current_hp": 62,
+            "damage_taken": 0,
+            "gold_gained": 36,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 80,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.POTION_BELT",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CLOAK_OF_STARS"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RESONANCE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 276,
+            "current_hp": 63,
+            "damage_taken": 0,
+            "gold_gained": 31,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 81,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.POTION_SHAPED_ROCK",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.POTION_OF_BINDING",
+                "was_picked": true
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.PANTOGRAPH",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.WHETSTONE",
+                "was_picked": true
+              }
+            ],
+            "upgraded_cards": [
+              "CARD.FALLING_STAR"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.KNIGHTS_ELITE",
+            "monster_ids": [
+              "MONSTER.FLAIL_KNIGHT",
+              "MONSTER.SPECTRAL_KNIGHT",
+              "MONSTER.MAGI_KNIGHT"
+            ],
+            "room_type": "elite",
+            "turns_taken": 2
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 276,
+            "current_hp": 63,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 81,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.ASTRAL_PULSE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.CELESTIAL_MIGHT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REFINE_BLADE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 305,
+            "current_hp": 64,
+            "damage_taken": 0,
+            "gold_gained": 29,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 82,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.STONE_CRACKER",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.LETTER_OPENER",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SOUL_NEXUS_ELITE",
+            "monster_ids": [
+              "MONSTER.SOUL_NEXUS"
+            ],
+            "room_type": "elite",
+            "turns_taken": 2
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 45,
+                  "id": "CARD.STARDUST"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.QUASAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.TERRAFORMING"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.STARDUST"
+              }
+            ],
+            "current_gold": 314,
+            "current_hp": 65,
+            "damage_taken": 0,
+            "gold_gained": 9,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 83,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.EXPLOSIVE_AMPOULE",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CONSTRUCT_MENAGERIE_NORMAL",
+            "monster_ids": [
+              "MONSTER.PUNCH_CONSTRUCT",
+              "MONSTER.CUBEX_CONSTRUCT",
+              "MONSTER.CUBEX_CONSTRUCT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 2
+          }
+        ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.FURNACE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.SOLAR_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.TYRANNY"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 346,
+            "current_hp": 73,
+            "damage_taken": 0,
+            "gold_gained": 32,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 8,
+            "max_hp": 91,
+            "max_hp_gained": 8,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.LIQUID_BRONZE",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.POTION_SHAPED_ROCK"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.PARRYING_SHIELD",
+                "was_picked": true
+              },
+              {
+                "choice": "RELIC.STRAWBERRY",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.MECHA_KNIGHT_ELITE",
+            "monster_ids": [
+              "MONSTER.MECHA_KNIGHT"
+            ],
+            "room_type": "elite",
+            "turns_taken": 2
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 17,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 25,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 27,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 29,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 32,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 40,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              },
+              {
+                "current_upgrade_level": 1,
+                "enchantment": {
+                  "amount": 4,
+                  "id": "ENCHANTMENT.CLONE"
+                },
+                "floor_added_to_deck": 43,
+                "id": "CARD.BIG_BANG"
+              }
+            ],
+            "current_gold": 346,
+            "current_hp": 73,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 91,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "CLONE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 346,
+            "current_hp": 92,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 19,
+            "max_hp": 92,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.QUEEN_BOSS",
+            "monster_ids": [
+              "MONSTER.TORCH_HEAD_AMALGAM",
+              "MONSTER.QUEEN"
+            ],
+            "room_type": "boss",
+            "turns_taken": 1
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 346,
+            "current_hp": 34,
+            "damage_taken": 59,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 1,
+            "max_hp": 93,
+            "max_hp_gained": 1,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.POWER_POTION",
+              "POTION.KINGS_COURAGE",
+              "POTION.LIQUID_BRONZE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.TEST_SUBJECT_BOSS",
+            "monster_ids": [
+              "MONSTER.TEST_SUBJECT"
+            ],
+            "room_type": "boss",
+            "turns_taken": 8
+          }
+        ]
+      }
+    ]
+  ],
+  "modifiers": [],
+  "platform_type": "steam",
+  "players": [
+    {
+      "character": "CHARACTER.REGENT",
+      "deck": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.DEFEND_REGENT"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 1,
+          "id": "CARD.FALLING_STAR"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.VENERATE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.ASCENDERS_BANE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.QUASAR"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 2,
+          "id": "CARD.BULWARK"
+        },
+        {
+          "floor_added_to_deck": 4,
+          "id": "CARD.PRODUCTION"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 6,
+          "id": "CARD.GLOW"
+        },
+        {
+          "floor_added_to_deck": 7,
+          "id": "CARD.BULWARK"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 17,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "floor_added_to_deck": 19,
+          "id": "CARD.ROYAL_GAMBLE"
+        },
+        {
+          "floor_added_to_deck": 20,
+          "id": "CARD.CHILD_OF_THE_STARS"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 21,
+          "id": "CARD.CONQUEROR"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 25,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 27,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 27,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 29,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 29,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 29,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 29,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 32,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "floor_added_to_deck": 33,
+          "id": "CARD.THE_SMITH"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 40,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 43,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "floor_added_to_deck": 45,
+          "id": "CARD.STARDUST"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        },
+        {
+          "current_upgrade_level": 1,
+          "enchantment": {
+            "amount": 4,
+            "id": "ENCHANTMENT.CLONE"
+          },
+          "floor_added_to_deck": 47,
+          "id": "CARD.BIG_BANG"
+        }
+      ],
+      "id": 1,
+      "max_potion_slot_count": 4,
+      "potions": [
+        {
+          "id": "POTION.POTION_OF_BINDING",
+          "slot_index": 3
+        }
+      ],
+      "relics": [
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.DIVINE_RIGHT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.LEAFY_POULTICE"
+        },
+        {
+          "floor_added_to_deck": 3,
+          "id": "RELIC.CHOSEN_CHEESE"
+        },
+        {
+          "floor_added_to_deck": 10,
+          "id": "RELIC.HORN_CLEAT"
+        },
+        {
+          "floor_added_to_deck": 11,
+          "id": "RELIC.ANCHOR"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "RELIC.FESTIVE_POPPER"
+        },
+        {
+          "floor_added_to_deck": 18,
+          "id": "RELIC.PAELS_GROWTH"
+        },
+        {
+          "floor_added_to_deck": 23,
+          "id": "RELIC.PETRIFIED_TOAD"
+        },
+        {
+          "floor_added_to_deck": 26,
+          "id": "RELIC.WAR_PAINT"
+        },
+        {
+          "floor_added_to_deck": 30,
+          "id": "RELIC.ORICHALCUM"
+        },
+        {
+          "floor_added_to_deck": 34,
+          "id": "RELIC.BLACK_STAR"
+        },
+        {
+          "floor_added_to_deck": 39,
+          "id": "RELIC.FROZEN_EGG"
+        },
+        {
+          "floor_added_to_deck": 39,
+          "id": "RELIC.LANTERN"
+        },
+        {
+          "floor_added_to_deck": 41,
+          "id": "RELIC.POTION_BELT"
+        },
+        {
+          "floor_added_to_deck": 42,
+          "id": "RELIC.PANTOGRAPH"
+        },
+        {
+          "floor_added_to_deck": 42,
+          "id": "RELIC.WHETSTONE"
+        },
+        {
+          "floor_added_to_deck": 44,
+          "id": "RELIC.STONE_CRACKER"
+        },
+        {
+          "floor_added_to_deck": 44,
+          "id": "RELIC.LETTER_OPENER"
+        },
+        {
+          "floor_added_to_deck": 46,
+          "id": "RELIC.PARRYING_SHIELD"
+        },
+        {
+          "floor_added_to_deck": 46,
+          "id": "RELIC.STRAWBERRY"
+        }
+      ]
+    }
+  ],
+  "run_time": 2215,
+  "schema_version": 8,
+  "seed": "9EV31Q5BBZ",
+  "start_time": 1774918316,
+  "was_abandoned": false,
+  "win": true
+}
