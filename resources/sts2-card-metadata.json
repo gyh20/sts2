@@ -1,0 +1,6686 @@
+{
+  "source": {
+    "repo": "https://github.com/vitechliu/sts2_database.git",
+    "commit": "beebd68447b1704dbed8b4fa4dd0522d06768e02",
+    "license_note": "MIT for database project; Slay the Spire 2 game content belongs to Mega Crit Games",
+    "game_versions": {
+      "0.98.2": 577
+    }
+  },
+  "count": 577,
+  "fields": [
+    "key",
+    "name_chs",
+    "name_eng",
+    "category",
+    "rarity",
+    "type",
+    "cost",
+    "targetType",
+    "keywords"
+  ],
+  "cards": [
+    {
+      "key": "Bash",
+      "name_chs": "痛击",
+      "name_eng": "Bash",
+      "category": "Ironclad",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "StrikeIronclad",
+      "name_chs": "打击",
+      "name_eng": "Strike",
+      "category": "Ironclad",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DefendIronclad",
+      "name_chs": "防御",
+      "name_eng": "Defend",
+      "category": "Ironclad",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Anger",
+      "name_chs": "愤怒",
+      "name_eng": "Anger",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BodySlam",
+      "name_chs": "全身撞击",
+      "name_eng": "Body Slam",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Breakthrough",
+      "name_chs": "突破",
+      "name_eng": "Breakthrough",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Cinder",
+      "name_chs": "余烬",
+      "name_eng": "Cinder",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Headbutt",
+      "name_chs": "头槌",
+      "name_eng": "Headbutt",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "IronWave",
+      "name_chs": "铁斩波",
+      "name_eng": "Iron Wave",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MoltenFist",
+      "name_chs": "熔融之拳",
+      "name_eng": "Molten Fist",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "PerfectedStrike",
+      "name_chs": "完美打击",
+      "name_eng": "Perfected Strike",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "PommelStrike",
+      "name_chs": "剑柄打击",
+      "name_eng": "Pommel Strike",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SetupStrike",
+      "name_chs": "预备打击",
+      "name_eng": "Setup Strike",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SwordBoomerang",
+      "name_chs": "飞剑回旋镖",
+      "name_eng": "Sword Boomerang",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Thunderclap",
+      "name_chs": "闪电霹雳",
+      "name_eng": "Thunderclap",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "TwinStrike",
+      "name_chs": "双重打击",
+      "name_eng": "Twin Strike",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Armaments",
+      "name_chs": "武装",
+      "name_eng": "Armaments",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BloodWall",
+      "name_chs": "血墙",
+      "name_eng": "Blood Wall",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Bloodletting",
+      "name_chs": "放血",
+      "name_eng": "Bloodletting",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Havoc",
+      "name_chs": "破灭",
+      "name_eng": "Havoc",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ShrugItOff",
+      "name_chs": "耸肩无视",
+      "name_eng": "Shrug It Off",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Tremble",
+      "name_chs": "战栗",
+      "name_eng": "Tremble",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "TrueGrit",
+      "name_chs": "坚毅",
+      "name_eng": "True Grit",
+      "category": "Ironclad",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "AshenStrike",
+      "name_chs": "灰烬打击",
+      "name_eng": "Ashen Strike",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Bludgeon",
+      "name_chs": "重锤",
+      "name_eng": "Bludgeon",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Bully",
+      "name_chs": "欺凌",
+      "name_eng": "Bully",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Dismantle",
+      "name_chs": "拆卸",
+      "name_eng": "Dismantle",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FightMe",
+      "name_chs": "与我一战！",
+      "name_eng": "Fight Me!",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Grapple",
+      "name_chs": "擒拿",
+      "name_eng": "Grapple",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Hemokinesis",
+      "name_chs": "御血术",
+      "name_eng": "Hemokinesis",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HowlFromBeyond",
+      "name_chs": "彼岸咆哮",
+      "name_eng": "Howl from Beyond",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Pillage",
+      "name_chs": "劫掠",
+      "name_eng": "Pillage",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Rampage",
+      "name_chs": "暴走",
+      "name_eng": "Rampage",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Spite",
+      "name_chs": "怨恨",
+      "name_eng": "Spite",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Stomp",
+      "name_chs": "踩踏",
+      "name_eng": "Stomp",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Unrelenting",
+      "name_chs": "无情猛攻",
+      "name_eng": "Unrelenting",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Uppercut",
+      "name_chs": "上勾拳",
+      "name_eng": "Uppercut",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Whirlwind",
+      "name_chs": "旋风斩",
+      "name_eng": "Whirlwind",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": -2,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "BattleTrance",
+      "name_chs": "战斗专注",
+      "name_eng": "Battle Trance",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BurningPact",
+      "name_chs": "燃烧契约",
+      "name_eng": "Burning Pact",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DemonicShield",
+      "name_chs": "恶魔护盾",
+      "name_eng": "Demonic Shield",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyAlly",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Dominate",
+      "name_chs": "主宰",
+      "name_eng": "Dominate",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "EvilEye",
+      "name_chs": "邪眼",
+      "name_eng": "Evil Eye",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ExpectAFight",
+      "name_chs": "跃跃欲试",
+      "name_eng": "Expect a Fight",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "FlameBarrier",
+      "name_chs": "火焰屏障",
+      "name_eng": "Flame Barrier",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ForgottenRitual",
+      "name_chs": "被遗忘的仪式",
+      "name_eng": "Forgotten Ritual",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "InfernalBlade",
+      "name_chs": "地狱之刃",
+      "name_eng": "Infernal Blade",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Rage",
+      "name_chs": "狂怒",
+      "name_eng": "Rage",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SecondWind",
+      "name_chs": "重振精神",
+      "name_eng": "Second Wind",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Taunt",
+      "name_chs": "挑衅",
+      "name_eng": "Taunt",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DrumOfBattle",
+      "name_chs": "战鼓",
+      "name_eng": "Drum of Battle",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "FeelNoPain",
+      "name_chs": "无惧疼痛",
+      "name_eng": "Feel No Pain",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Inferno",
+      "name_chs": "狱火",
+      "name_eng": "Inferno",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Inflame",
+      "name_chs": "燃烧",
+      "name_eng": "Inflame",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Juggling",
+      "name_chs": "杂耍",
+      "name_eng": "Juggling",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Rupture",
+      "name_chs": "撕裂",
+      "name_eng": "Rupture",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Stampede",
+      "name_chs": "惊逃",
+      "name_eng": "Stampede",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "StoneArmor",
+      "name_chs": "岩石铠甲",
+      "name_eng": "Stone Armor",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Vicious",
+      "name_chs": "凶恶",
+      "name_eng": "Vicious",
+      "category": "Ironclad",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Conflagration",
+      "name_chs": "焚烧",
+      "name_eng": "Conflagration",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Feed",
+      "name_chs": "狂宴",
+      "name_eng": "Feed",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "FiendFire",
+      "name_chs": "恶魔之焰",
+      "name_eng": "Fiend Fire",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Mangle",
+      "name_chs": "凌虐",
+      "name_eng": "Mangle",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "PactsEnd",
+      "name_chs": "契约终结",
+      "name_eng": "Pact's End",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "TearAsunder",
+      "name_chs": "扯碎",
+      "name_eng": "Tear Asunder",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Thrash",
+      "name_chs": "痛殴",
+      "name_eng": "Thrash",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Brand",
+      "name_chs": "烙印",
+      "name_eng": "Brand",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Cascade",
+      "name_chs": "倾泻",
+      "name_eng": "Cascade",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": -2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Colossus",
+      "name_chs": "巨像",
+      "name_eng": "Colossus",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Impervious",
+      "name_chs": "岿然不动",
+      "name_eng": "Impervious",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Offering",
+      "name_chs": "祭品",
+      "name_eng": "Offering",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "OneTwoPunch",
+      "name_chs": "连环拳",
+      "name_eng": "One-Two Punch",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PrimalForce",
+      "name_chs": "原始力量",
+      "name_eng": "Primal Force",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Stoke",
+      "name_chs": "添柴",
+      "name_eng": "Stoke",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Aggression",
+      "name_chs": "好勇斗狠",
+      "name_eng": "Aggression",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Barricade",
+      "name_chs": "壁垒",
+      "name_eng": "Barricade",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CrimsonMantle",
+      "name_chs": "绯红披风",
+      "name_eng": "Crimson Mantle",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Cruelty",
+      "name_chs": "残酷",
+      "name_eng": "Cruelty",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DarkEmbrace",
+      "name_chs": "黑暗之拥",
+      "name_eng": "Dark Embrace",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DemonForm",
+      "name_chs": "恶魔形态",
+      "name_eng": "Demon Form",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Hellraiser",
+      "name_chs": "地狱狂徒",
+      "name_eng": "Hellraiser",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Juggernaut",
+      "name_chs": "势不可当",
+      "name_eng": "Juggernaut",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Pyre",
+      "name_chs": "薪火之源",
+      "name_eng": "Pyre",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Tank",
+      "name_chs": "肉盾",
+      "name_eng": "Tank",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Unmovable",
+      "name_chs": "坚定不移",
+      "name_eng": "Unmovable",
+      "category": "Ironclad",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Break",
+      "name_chs": "破击",
+      "name_eng": "Break",
+      "category": "Ironclad",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Corruption",
+      "name_chs": "腐化",
+      "name_eng": "Corruption",
+      "category": "Ironclad",
+      "rarity": "Ancient",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Neutralize",
+      "name_chs": "中和",
+      "name_eng": "Neutralize",
+      "category": "Silent",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "StrikeSilent",
+      "name_chs": "打击",
+      "name_eng": "Strike",
+      "category": "Silent",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DefendSilent",
+      "name_chs": "防御",
+      "name_eng": "Defend",
+      "category": "Silent",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Survivor",
+      "name_chs": "生存者",
+      "name_eng": "Survivor",
+      "category": "Silent",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DaggerSpray",
+      "name_chs": "匕首雨",
+      "name_eng": "Dagger Spray",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "DaggerThrow",
+      "name_chs": "投掷匕首",
+      "name_eng": "Dagger Throw",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FlickFlack",
+      "name_chs": "翻越撑击",
+      "name_eng": "Flick-Flack",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "LeadingStrike",
+      "name_chs": "先制打击",
+      "name_eng": "Leading Strike",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "PoisonedStab",
+      "name_chs": "带毒刺击",
+      "name_eng": "Poisoned Stab",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Ricochet",
+      "name_chs": "连续反弹",
+      "name_eng": "Ricochet",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "RandomEnemy",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "Slice",
+      "name_chs": "切割",
+      "name_eng": "Slice",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SuckerPunch",
+      "name_chs": "突然一拳",
+      "name_eng": "Sucker Punch",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Acrobatics",
+      "name_chs": "杂技",
+      "name_eng": "Acrobatics",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Anticipate",
+      "name_chs": "预判",
+      "name_eng": "Anticipate",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Backflip",
+      "name_chs": "后空翻",
+      "name_eng": "Backflip",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BladeDance",
+      "name_chs": "刀刃之舞",
+      "name_eng": "Blade Dance",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "CloakAndDagger",
+      "name_chs": "斗篷与匕首",
+      "name_eng": "Cloak and Dagger",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DeadlyPoison",
+      "name_chs": "致命毒药",
+      "name_eng": "Deadly Poison",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Deflect",
+      "name_chs": "偏折",
+      "name_eng": "Deflect",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DodgeAndRoll",
+      "name_chs": "闪躲翻滚",
+      "name_eng": "Dodge and Roll",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PiercingWail",
+      "name_chs": "尖啸",
+      "name_eng": "Piercing Wail",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Prepared",
+      "name_chs": "早有准备",
+      "name_eng": "Prepared",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Snakebite",
+      "name_chs": "蛇咬",
+      "name_eng": "Snakebite",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Untouchable",
+      "name_chs": "触不可及",
+      "name_eng": "Untouchable",
+      "category": "Silent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "Backstab",
+      "name_chs": "背刺",
+      "name_eng": "Backstab",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust",
+        "Innate"
+      ]
+    },
+    {
+      "key": "Dash",
+      "name_chs": "冲刺",
+      "name_eng": "Dash",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Finisher",
+      "name_chs": "终结技",
+      "name_eng": "Finisher",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Flechettes",
+      "name_chs": "飞镖",
+      "name_eng": "Flechettes",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FollowThrough",
+      "name_chs": "跟进",
+      "name_eng": "Follow Through",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "MementoMori",
+      "name_chs": "铭记死亡",
+      "name_eng": "Memento Mori",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Pinpoint",
+      "name_chs": "精密瞄准",
+      "name_eng": "Pinpoint",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Pounce",
+      "name_chs": "猛扑",
+      "name_eng": "Pounce",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "PreciseCut",
+      "name_chs": "精确切击",
+      "name_eng": "Precise Cut",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Predator",
+      "name_chs": "猎杀者",
+      "name_eng": "Predator",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Skewer",
+      "name_chs": "串刺",
+      "name_eng": "Skewer",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": -2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Strangle",
+      "name_chs": "紧勒",
+      "name_eng": "Strangle",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Blur",
+      "name_chs": "残影",
+      "name_eng": "Blur",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BouncingFlask",
+      "name_chs": "弹跳药瓶",
+      "name_eng": "Bouncing Flask",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BubbleBubble",
+      "name_chs": "咕嘟冒泡",
+      "name_eng": "Bubble Bubble",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CalculatedGamble",
+      "name_chs": "计算下注",
+      "name_eng": "Calculated Gamble",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "EscapePlan",
+      "name_chs": "逃脱计划",
+      "name_eng": "Escape Plan",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Expertise",
+      "name_chs": "独门绝技",
+      "name_eng": "Expertise",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Expose",
+      "name_chs": "暴露",
+      "name_eng": "Expose",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Flanking",
+      "name_chs": "夹击",
+      "name_eng": "Flanking",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HandTrick",
+      "name_chs": "手上技法",
+      "name_eng": "Hand Trick",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Haze",
+      "name_chs": "迷雾",
+      "name_eng": "Haze",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "HiddenDaggers",
+      "name_chs": "隐秘匕首",
+      "name_eng": "Hidden Daggers",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "LegSweep",
+      "name_chs": "扫腿",
+      "name_eng": "Leg Sweep",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Mirage",
+      "name_chs": "蜃景",
+      "name_eng": "Mirage",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Reflex",
+      "name_chs": "本能反应",
+      "name_eng": "Reflex",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "Tactician",
+      "name_chs": "战术大师",
+      "name_eng": "Tactician",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "UpMySleeve",
+      "name_chs": "袖里乾坤",
+      "name_eng": "Up My Sleeve",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Accuracy",
+      "name_chs": "精准",
+      "name_eng": "Accuracy",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Footwork",
+      "name_chs": "灵动步法",
+      "name_eng": "Footwork",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "InfiniteBlades",
+      "name_chs": "无尽刀刃",
+      "name_eng": "Infinite Blades",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "NoxiousFumes",
+      "name_chs": "毒雾",
+      "name_eng": "Noxious Fumes",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Outbreak",
+      "name_chs": "毒性爆发",
+      "name_eng": "Outbreak",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PhantomBlades",
+      "name_chs": "幻影之刃",
+      "name_eng": "Phantom Blades",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Speedster",
+      "name_chs": "速行者",
+      "name_eng": "Speedster",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "WellLaidPlans",
+      "name_chs": "计划妥当",
+      "name_eng": "Well-Laid Plans",
+      "category": "Silent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Assassinate",
+      "name_chs": "刺杀",
+      "name_eng": "Assassinate",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Innate",
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "EchoingSlash",
+      "name_chs": "回响斩击",
+      "name_eng": "Echoing Slash",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "GrandFinale",
+      "name_chs": "华丽收场",
+      "name_eng": "Grand Finale",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Murder",
+      "name_chs": "谋杀",
+      "name_eng": "Murder",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "TheHunt",
+      "name_chs": "狩猎",
+      "name_eng": "The Hunt",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Adrenaline",
+      "name_chs": "肾上腺素",
+      "name_eng": "Adrenaline",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BladeOfInk",
+      "name_chs": "墨之刃",
+      "name_eng": "Blade of Ink",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BulletTime",
+      "name_chs": "子弹时间",
+      "name_eng": "Bullet Time",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Burst",
+      "name_chs": "爆发",
+      "name_eng": "Burst",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CorrosiveWave",
+      "name_chs": "腐蚀波",
+      "name_eng": "Corrosive Wave",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "KnifeTrap",
+      "name_chs": "刀刃陷阱",
+      "name_eng": "Knife Trap",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Malaise",
+      "name_chs": "萎靡",
+      "name_eng": "Malaise",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": -2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Nightmare",
+      "name_chs": "夜魇",
+      "name_eng": "Nightmare",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "ShadowStep",
+      "name_chs": "暗影步",
+      "name_eng": "Shadow Step",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Shadowmeld",
+      "name_chs": "融入暗影",
+      "name_eng": "Shadowmeld",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "StormOfSteel",
+      "name_chs": "钢铁风暴",
+      "name_eng": "Storm of Steel",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Abrasive",
+      "name_chs": "磨蚀",
+      "name_eng": "Abrasive",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "Accelerant",
+      "name_chs": "触媒",
+      "name_eng": "Accelerant",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Afterimage",
+      "name_chs": "余像",
+      "name_eng": "Afterimage",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Envenom",
+      "name_chs": "涂毒",
+      "name_eng": "Envenom",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "FanOfKnives",
+      "name_chs": "刀扇",
+      "name_eng": "Fan of Knives",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MasterPlanner",
+      "name_chs": "谋划专家",
+      "name_eng": "Master Planner",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SerpentForm",
+      "name_chs": "群蛇形态",
+      "name_eng": "Serpent Form",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Sneaky",
+      "name_chs": "鬼祟",
+      "name_eng": "Sneaky",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Sly"
+      ]
+    },
+    {
+      "key": "ToolsOfTheTrade",
+      "name_chs": "必备工具",
+      "name_eng": "Tools of the Trade",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Tracking",
+      "name_chs": "跟踪",
+      "name_eng": "Tracking",
+      "category": "Silent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Suppress",
+      "name_chs": "压制",
+      "name_eng": "Suppress",
+      "category": "Silent",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Innate"
+      ]
+    },
+    {
+      "key": "WraithForm",
+      "name_chs": "幽魂形态",
+      "name_eng": "Wraith Form",
+      "category": "Silent",
+      "rarity": "Ancient",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "StrikeDefect",
+      "name_chs": "打击",
+      "name_eng": "Strike",
+      "category": "Defect",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DefendDefect",
+      "name_chs": "防御",
+      "name_eng": "Defend",
+      "category": "Defect",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Dualcast",
+      "name_chs": "双重释放",
+      "name_eng": "Dualcast",
+      "category": "Defect",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Zap",
+      "name_chs": "电击",
+      "name_eng": "Zap",
+      "category": "Defect",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BallLightning",
+      "name_chs": "球状闪电",
+      "name_eng": "Ball Lightning",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Barrage",
+      "name_chs": "弹幕齐射",
+      "name_eng": "Barrage",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BeamCell",
+      "name_chs": "光束射线",
+      "name_eng": "Beam Cell",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Claw",
+      "name_chs": "爪击",
+      "name_eng": "Claw",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "ColdSnap",
+      "name_chs": "寒流",
+      "name_eng": "Cold Snap",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CompileDriver",
+      "name_chs": "编译冲击",
+      "name_eng": "Compile Driver",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FocusedStrike",
+      "name_chs": "集中打击",
+      "name_eng": "Focused Strike",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "GoForTheEyes",
+      "name_chs": "眼部攻击",
+      "name_eng": "Go for the Eyes",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "GunkUp",
+      "name_chs": "污秽攻击",
+      "name_eng": "Gunk Up",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MomentumStrike",
+      "name_chs": "趁势打击",
+      "name_eng": "Momentum Strike",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SweepingBeam",
+      "name_chs": "扫荡射线",
+      "name_eng": "Sweeping Beam",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Uproar",
+      "name_chs": "骚动",
+      "name_eng": "Uproar",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BoostAway",
+      "name_chs": "高速脱离",
+      "name_eng": "Boost Away",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ChargeBattery",
+      "name_chs": "充电",
+      "name_eng": "Charge Battery",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Coolheaded",
+      "name_chs": "冷静头脑",
+      "name_eng": "Coolheaded",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Hologram",
+      "name_chs": "全息影像",
+      "name_eng": "Hologram",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Hotfix",
+      "name_chs": "热修复",
+      "name_eng": "Hotfix",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Leap",
+      "name_chs": "飞跃",
+      "name_eng": "Leap",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "LightningRod",
+      "name_chs": "引雷针",
+      "name_eng": "Lightning Rod",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Turbo",
+      "name_chs": "内核加速",
+      "name_eng": "TURBO",
+      "category": "Defect",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Ftl",
+      "name_chs": "超越光速",
+      "name_eng": "FTL",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Null",
+      "name_chs": "空无",
+      "name_eng": "Null",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Refract",
+      "name_chs": "折射",
+      "name_eng": "Refract",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "RocketPunch",
+      "name_chs": "火箭飞拳",
+      "name_eng": "Rocket Punch",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Scrape",
+      "name_chs": "刮削",
+      "name_eng": "Scrape",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Sunder",
+      "name_chs": "分离",
+      "name_eng": "Sunder",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Synthesis",
+      "name_chs": "人工合成",
+      "name_eng": "Synthesis",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "TeslaCoil",
+      "name_chs": "特斯拉线圈",
+      "name_eng": "Tesla Coil",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BootSequence",
+      "name_chs": "启动流程",
+      "name_eng": "Boot Sequence",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Innate",
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Chaos",
+      "name_chs": "混沌",
+      "name_eng": "Chaos",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Chill",
+      "name_chs": "冰寒",
+      "name_eng": "Chill",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Compact",
+      "name_chs": "压缩",
+      "name_eng": "Compact",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Darkness",
+      "name_chs": "漆黑",
+      "name_eng": "Darkness",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DoubleEnergy",
+      "name_chs": "双倍能量",
+      "name_eng": "Double Energy",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "EnergySurge",
+      "name_chs": "能量涌动",
+      "name_eng": "Energy Surge",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllAllies",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "FightThrough",
+      "name_chs": "强撑",
+      "name_eng": "Fight Through",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Fusion",
+      "name_chs": "聚变",
+      "name_eng": "Fusion",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Glacier",
+      "name_chs": "冰川",
+      "name_eng": "Glacier",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Glasswork",
+      "name_chs": "玻璃工艺",
+      "name_eng": "Glasswork",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Overclock",
+      "name_chs": "超频",
+      "name_eng": "Overclock",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Scavenge",
+      "name_chs": "再利用",
+      "name_eng": "Scavenge",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ShadowShield",
+      "name_chs": "暗影之盾",
+      "name_eng": "Shadow Shield",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Skim",
+      "name_chs": "快速检索",
+      "name_eng": "Skim",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Synchronize",
+      "name_chs": "同步",
+      "name_eng": "Synchronize",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Tempest",
+      "name_chs": "暴风雨",
+      "name_eng": "Tempest",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": -2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "WhiteNoise",
+      "name_chs": "白噪音",
+      "name_eng": "White Noise",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BulkUp",
+      "name_chs": "暴涨",
+      "name_eng": "Bulk Up",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Capacitor",
+      "name_chs": "扩容",
+      "name_eng": "Capacitor",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Feral",
+      "name_chs": "野性",
+      "name_eng": "Feral",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Hailstorm",
+      "name_chs": "冰雹风暴",
+      "name_eng": "Hailstorm",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Iteration",
+      "name_chs": "迭代",
+      "name_eng": "Iteration",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Loop",
+      "name_chs": "循环",
+      "name_eng": "Loop",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Smokestack",
+      "name_chs": "烟囱",
+      "name_eng": "Smokestack",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Storm",
+      "name_chs": "雷暴",
+      "name_eng": "Storm",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Subroutine",
+      "name_chs": "子程序",
+      "name_eng": "Subroutine",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Thunder",
+      "name_chs": "雷霆",
+      "name_eng": "Thunder",
+      "category": "Defect",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "AdaptiveStrike",
+      "name_chs": "适应打击",
+      "name_eng": "Adaptive Strike",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "AllForOne",
+      "name_chs": "万物一心",
+      "name_eng": "All for One",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FlakCannon",
+      "name_chs": "散射炮",
+      "name_eng": "Flak Cannon",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HelixDrill",
+      "name_chs": "螺旋钻击",
+      "name_eng": "Helix Drill",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Hyperbeam",
+      "name_chs": "超能光束",
+      "name_eng": "Hyperbeam",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "IceLance",
+      "name_chs": "冰之长枪",
+      "name_eng": "Ice Lance",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MeteorStrike",
+      "name_chs": "陨石打击",
+      "name_eng": "Meteor Strike",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 5,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Shatter",
+      "name_chs": "打碎",
+      "name_eng": "Shatter",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "GeneticAlgorithm",
+      "name_chs": "遗传算法",
+      "name_eng": "Genetic Algorithm",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Ignition",
+      "name_chs": "引火",
+      "name_eng": "Ignition",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyAlly",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Modded",
+      "name_chs": "模组改造",
+      "name_eng": "Modded",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MultiCast",
+      "name_chs": "多重释放",
+      "name_eng": "Multi-Cast",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": -2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Rainbow",
+      "name_chs": "彩虹",
+      "name_eng": "Rainbow",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Reboot",
+      "name_chs": "重启",
+      "name_eng": "Reboot",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "SignalBoost",
+      "name_chs": "信号增强",
+      "name_eng": "Signal Boost",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Supercritical",
+      "name_chs": "超临界态",
+      "name_eng": "Supercritical",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Voltaic",
+      "name_chs": "电流相生",
+      "name_eng": "Voltaic",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Buffer",
+      "name_chs": "缓冲",
+      "name_eng": "Buffer",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ConsumingShadow",
+      "name_chs": "吞噬暗影",
+      "name_eng": "Consuming Shadow",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Coolant",
+      "name_chs": "冷却剂",
+      "name_eng": "Coolant",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CreativeAi",
+      "name_chs": "创造性AI",
+      "name_eng": "Creative AI",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Defragment",
+      "name_chs": "碎片整理",
+      "name_eng": "Defragment",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "EchoForm",
+      "name_chs": "回响形态",
+      "name_eng": "Echo Form",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "MachineLearning",
+      "name_chs": "机器学习",
+      "name_eng": "Machine Learning",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Spinner",
+      "name_chs": "旋转工艺",
+      "name_eng": "Spinner",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "TrashToTreasure",
+      "name_chs": "化废为宝",
+      "name_eng": "Trash to Treasure",
+      "category": "Defect",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Quadcast",
+      "name_chs": "四重释放",
+      "name_eng": "Quadcast",
+      "category": "Defect",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BiasedCognition",
+      "name_chs": "偏差认知",
+      "name_eng": "Biased Cognition",
+      "category": "Defect",
+      "rarity": "Ancient",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "StrikeNecrobinder",
+      "name_chs": "打击",
+      "name_eng": "Strike",
+      "category": "Necrobinder",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Unleash",
+      "name_chs": "出击",
+      "name_eng": "Unleash",
+      "category": "Necrobinder",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Bodyguard",
+      "name_chs": "护卫",
+      "name_eng": "Bodyguard",
+      "category": "Necrobinder",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DefendNecrobinder",
+      "name_chs": "防御",
+      "name_eng": "Defend",
+      "category": "Necrobinder",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BlightStrike",
+      "name_chs": "荒疫打击",
+      "name_eng": "Blight Strike",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Defile",
+      "name_chs": "玷污",
+      "name_eng": "Defile",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "DrainPower",
+      "name_chs": "能量汲取",
+      "name_eng": "Drain Power",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Fear",
+      "name_chs": "恐惧",
+      "name_eng": "Fear",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "Flatten",
+      "name_chs": "重压",
+      "name_eng": "Flatten",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Graveblast",
+      "name_chs": "坟冢爆射",
+      "name_eng": "Graveblast",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Poke",
+      "name_chs": "戳击",
+      "name_eng": "Poke",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Reap",
+      "name_chs": "收割",
+      "name_eng": "Reap",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Reave",
+      "name_chs": "剥夺",
+      "name_eng": "Reave",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SculptingStrike",
+      "name_chs": "雕琢打击",
+      "name_eng": "Sculpting Strike",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Snap",
+      "name_chs": "抓取",
+      "name_eng": "Snap",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Sow",
+      "name_chs": "播种",
+      "name_eng": "Sow",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Afterlife",
+      "name_chs": "来生",
+      "name_eng": "Afterlife",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Defy",
+      "name_chs": "违逆",
+      "name_eng": "Defy",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "GraveWarden",
+      "name_chs": "守墓人",
+      "name_eng": "Grave Warden",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Invoke",
+      "name_chs": "唤起",
+      "name_eng": "Invoke",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "NegativePulse",
+      "name_chs": "负能量脉冲",
+      "name_eng": "Negative Pulse",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "PullAggro",
+      "name_chs": "吸引仇恨",
+      "name_eng": "Pull Aggro",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Scourge",
+      "name_chs": "鞭打",
+      "name_eng": "Scourge",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Wisp",
+      "name_chs": "鬼火",
+      "name_eng": "Wisp",
+      "category": "Necrobinder",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BoneShards",
+      "name_chs": "碎骨",
+      "name_eng": "Bone Shards",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Bury",
+      "name_chs": "埋葬",
+      "name_eng": "Bury",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 4,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DeathMarch",
+      "name_chs": "死亡行军",
+      "name_eng": "Death March",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Debilitate",
+      "name_chs": "摧残",
+      "name_eng": "Debilitate",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Fetch",
+      "name_chs": "取回",
+      "name_eng": "Fetch",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HighFive",
+      "name_chs": "击掌",
+      "name_eng": "High Five",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "PullFromBelow",
+      "name_chs": "亡魂牵引",
+      "name_eng": "Pull from Below",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Rattle",
+      "name_chs": "猛晃",
+      "name_eng": "Rattle",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "RightHandHand",
+      "name_chs": "得力助手",
+      "name_eng": "Right Hand Hand",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Severance",
+      "name_chs": "切断",
+      "name_eng": "Severance",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SicEm",
+      "name_chs": "紧追不放",
+      "name_eng": "Sic 'Em",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Veilpiercer",
+      "name_chs": "刺破帷幕",
+      "name_eng": "Veilpiercer",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BorrowedTime",
+      "name_chs": "预借时间",
+      "name_eng": "Borrowed Time",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CaptureSpirit",
+      "name_chs": "捕捉灵魂",
+      "name_eng": "Capture Spirit",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Cleanse",
+      "name_chs": "洁净",
+      "name_eng": "Cleanse",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DeathsDoor",
+      "name_chs": "死亡之门",
+      "name_eng": "Death's Door",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Deathbringer",
+      "name_chs": "死亡使者",
+      "name_eng": "Deathbringer",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Delay",
+      "name_chs": "拖延",
+      "name_eng": "Delay",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Dirge",
+      "name_chs": "挽歌",
+      "name_eng": "Dirge",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": -2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Dredge",
+      "name_chs": "清淤",
+      "name_eng": "Dredge",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "EnfeeblingTouch",
+      "name_chs": "弱化之触",
+      "name_eng": "Enfeebling Touch",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "LegionOfBone",
+      "name_chs": "骸骨军团",
+      "name_eng": "Legion of Bone",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AllAllies",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Melancholy",
+      "name_chs": "忧郁",
+      "name_eng": "Melancholy",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "NoEscape",
+      "name_chs": "无处可逃",
+      "name_eng": "No Escape",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Parse",
+      "name_chs": "领会",
+      "name_eng": "Parse",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "Putrefy",
+      "name_chs": "腐败",
+      "name_eng": "Putrefy",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Spur",
+      "name_chs": "增生",
+      "name_eng": "Spur",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Calcify",
+      "name_chs": "钙化",
+      "name_eng": "Calcify",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Countdown",
+      "name_chs": "倒数计时",
+      "name_eng": "Countdown",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DanseMacabre",
+      "name_chs": "死亡之舞",
+      "name_eng": "Danse Macabre",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Friendship",
+      "name_chs": "友谊",
+      "name_eng": "Friendship",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Haunt",
+      "name_chs": "纠缠",
+      "name_eng": "Haunt",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Lethality",
+      "name_chs": "致死性",
+      "name_eng": "Lethality",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "Pagestorm",
+      "name_chs": "书页风暴",
+      "name_eng": "Pagestorm",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Shroud",
+      "name_chs": "厄运之衣",
+      "name_eng": "Shroud",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SleightOfFlesh",
+      "name_chs": "血肉戏法",
+      "name_eng": "Sleight of Flesh",
+      "category": "Necrobinder",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BansheesCry",
+      "name_chs": "女妖之嚎",
+      "name_eng": "Banshee's Cry",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 6,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Eradicate",
+      "name_chs": "根除",
+      "name_eng": "Eradicate",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": -2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Hang",
+      "name_chs": "吊杀",
+      "name_eng": "Hang",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Misery",
+      "name_chs": "苦难",
+      "name_eng": "Misery",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SoulStorm",
+      "name_chs": "灵魂风暴",
+      "name_eng": "Soul Storm",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Squeeze",
+      "name_chs": "榨取",
+      "name_eng": "Squeeze",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "TheScythe",
+      "name_chs": "巨镰",
+      "name_eng": "The Scythe",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "TimesUp",
+      "name_chs": "大限已至",
+      "name_eng": "Time's Up",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Eidolon",
+      "name_chs": "幻景",
+      "name_eng": "Eidolon",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "EndOfDays",
+      "name_chs": "末日降临",
+      "name_eng": "End of Days",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "GlimpseBeyond",
+      "name_chs": "彼岸一瞥",
+      "name_eng": "Glimpse Beyond",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllAllies",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Oblivion",
+      "name_chs": "湮灭",
+      "name_eng": "Oblivion",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Reanimate",
+      "name_chs": "死者苏生",
+      "name_eng": "Reanimate",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Sacrifice",
+      "name_chs": "牺牲",
+      "name_eng": "Sacrifice",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Seance",
+      "name_chs": "降灵",
+      "name_eng": "Seance",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "SharedFate",
+      "name_chs": "命运同担",
+      "name_eng": "Shared Fate",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Transfigure",
+      "name_chs": "重构",
+      "name_eng": "Transfigure",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Undeath",
+      "name_chs": "不死",
+      "name_eng": "Undeath",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CallOfTheVoid",
+      "name_chs": "虚空之唤",
+      "name_eng": "Call of the Void",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Demesne",
+      "name_chs": "领域",
+      "name_eng": "Demesne",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "DevourLife",
+      "name_chs": "吞噬生命",
+      "name_eng": "Devour Life",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "NecroMastery",
+      "name_chs": "亡灵精通",
+      "name_eng": "Necro Mastery",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Neurosurge",
+      "name_chs": "精神过载",
+      "name_eng": "Neurosurge",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ReaperForm",
+      "name_chs": "死神形态",
+      "name_eng": "Reaper Form",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SentryMode",
+      "name_chs": "哨卫模式",
+      "name_eng": "Sentry Mode",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SpiritOfAsh",
+      "name_chs": "灰烬之灵",
+      "name_eng": "Spirit of Ash",
+      "category": "Necrobinder",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Protector",
+      "name_chs": "守护者",
+      "name_eng": "Protector",
+      "category": "Necrobinder",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "ForbiddenGrimoire",
+      "name_chs": "禁忌魔典",
+      "name_eng": "Forbidden Grimoire",
+      "category": "Necrobinder",
+      "rarity": "Ancient",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Eternal"
+      ]
+    },
+    {
+      "key": "FallingStar",
+      "name_chs": "陨星",
+      "name_eng": "Falling Star",
+      "category": "Regent",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "StrikeRegent",
+      "name_chs": "打击",
+      "name_eng": "Strike",
+      "category": "Regent",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "DefendRegent",
+      "name_chs": "防御",
+      "name_eng": "Defend",
+      "category": "Regent",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Venerate",
+      "name_chs": "崇拜",
+      "name_eng": "Venerate",
+      "category": "Regent",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "AstralPulse",
+      "name_chs": "星界脉冲",
+      "name_eng": "Astral Pulse",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Begone",
+      "name_chs": "下去！",
+      "name_eng": "BEGONE!",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CelestialMight",
+      "name_chs": "天穹之力",
+      "name_eng": "Celestial Might",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CollisionCourse",
+      "name_chs": "碰撞轨迹",
+      "name_eng": "Collision Course",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CrescentSpear",
+      "name_chs": "新月长矛",
+      "name_eng": "Crescent Spear",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CrushUnder",
+      "name_chs": "下砸",
+      "name_eng": "Crush Under",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "GuidingStar",
+      "name_chs": "引导之星",
+      "name_eng": "Guiding Star",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "PhotonCut",
+      "name_chs": "光子切割",
+      "name_eng": "Photon Cut",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SolarStrike",
+      "name_chs": "太阳打击",
+      "name_eng": "Solar Strike",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "WroughtInWar",
+      "name_chs": "战火铸就",
+      "name_eng": "Wrought in War",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CloakOfStars",
+      "name_chs": "群星斗篷",
+      "name_eng": "Cloak of Stars",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "CosmicIndifference",
+      "name_chs": "宇宙冷漠",
+      "name_eng": "Cosmic Indifference",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "GatherLight",
+      "name_chs": "收集光辉",
+      "name_eng": "Gather Light",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Glitterstream",
+      "name_chs": "流光溢彩",
+      "name_eng": "Glitterstream",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Glow",
+      "name_chs": "辉光",
+      "name_eng": "Glow",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "HiddenCache",
+      "name_chs": "隐秘藏品",
+      "name_eng": "Hidden Cache",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "KnowThyPlace",
+      "name_chs": "何人僭越",
+      "name_eng": "Know Thy Place",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Patter",
+      "name_chs": "星星点点",
+      "name_eng": "Patter",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "RefineBlade",
+      "name_chs": "淬炼刀刃",
+      "name_eng": "Refine Blade",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SpoilsOfBattle",
+      "name_chs": "战利品",
+      "name_eng": "Spoils of Battle",
+      "category": "Regent",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Devastate",
+      "name_chs": "葬送",
+      "name_eng": "Devastate",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "GammaBlast",
+      "name_chs": "伽马爆破",
+      "name_eng": "Gamma Blast",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Hegemony",
+      "name_chs": "霸权",
+      "name_eng": "Hegemony",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "KinglyKick",
+      "name_chs": "王者之踢",
+      "name_eng": "Kingly Kick",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 4,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "KinglyPunch",
+      "name_chs": "王者之拳",
+      "name_eng": "Kingly Punch",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "KnockoutBlow",
+      "name_chs": "决胜一击",
+      "name_eng": "Knockout Blow",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "LunarBlast",
+      "name_chs": "月面射击",
+      "name_eng": "Lunar Blast",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Radiate",
+      "name_chs": "辐射",
+      "name_eng": "Radiate",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "ShiningStrike",
+      "name_chs": "明耀打击",
+      "name_eng": "Shining Strike",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Stardust",
+      "name_chs": "星尘",
+      "name_eng": "Stardust",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Supermassive",
+      "name_chs": "超质量体",
+      "name_eng": "Supermassive",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Alignment",
+      "name_chs": "星位序列",
+      "name_eng": "Alignment",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Bulwark",
+      "name_chs": "铸墙",
+      "name_eng": "Bulwark",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Charge",
+      "name_chs": "冲锋！！",
+      "name_eng": "CHARGE!!",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Conqueror",
+      "name_chs": "征服者",
+      "name_eng": "Conqueror",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Convergence",
+      "name_chs": "汇流",
+      "name_eng": "Convergence",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Glimmer",
+      "name_chs": "微光",
+      "name_eng": "Glimmer",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Largesse",
+      "name_chs": "慷慨捐助",
+      "name_eng": "Largesse",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyAlly",
+      "keywords": []
+    },
+    {
+      "key": "ManifestAuthority",
+      "name_chs": "君权自授",
+      "name_eng": "Manifest Authority",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Monologue",
+      "name_chs": "独白",
+      "name_eng": "Monologue",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ParticleWall",
+      "name_chs": "粒子墙",
+      "name_eng": "Particle Wall",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Prophesize",
+      "name_chs": "预言",
+      "name_eng": "Prophesize",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Quasar",
+      "name_chs": "类星体",
+      "name_eng": "Quasar",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Reflect",
+      "name_chs": "倒映",
+      "name_eng": "Reflect",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Resonance",
+      "name_chs": "共鸣",
+      "name_eng": "Resonance",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "RoyalGamble",
+      "name_chs": "胜券在王",
+      "name_eng": "Royal Gamble",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "SummonForth",
+      "name_chs": "征召上前",
+      "name_eng": "Summon Forth",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Terraforming",
+      "name_chs": "地形改造",
+      "name_eng": "Terraforming",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BlackHole",
+      "name_chs": "黑洞",
+      "name_eng": "Black Hole",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ChildOfTheStars",
+      "name_chs": "群星之子",
+      "name_eng": "Child of the Stars",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Furnace",
+      "name_chs": "熔炉",
+      "name_eng": "Furnace",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Orbit",
+      "name_chs": "环绕轨道",
+      "name_eng": "Orbit",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PaleBlueDot",
+      "name_chs": "暗淡蓝点",
+      "name_eng": "Pale Blue Dot",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Parry",
+      "name_chs": "招架",
+      "name_eng": "Parry",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PillarOfCreation",
+      "name_chs": "创世之柱",
+      "name_eng": "Pillar of Creation",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SpectrumShift",
+      "name_chs": "光谱偏移",
+      "name_eng": "Spectrum Shift",
+      "category": "Regent",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BeatIntoShape",
+      "name_chs": "锻打成型",
+      "name_eng": "Beat into Shape",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Bombardment",
+      "name_chs": "轰击",
+      "name_eng": "Bombardment",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Comet",
+      "name_chs": "彗星",
+      "name_eng": "Comet",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "CrashLanding",
+      "name_chs": "迫降",
+      "name_eng": "Crash Landing",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "DyingStar",
+      "name_chs": "星灭",
+      "name_eng": "Dying Star",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "HeavenlyDrill",
+      "name_chs": "天际钻头",
+      "name_eng": "Heavenly Drill",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": -2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HeirloomHammer",
+      "name_chs": "传承之锤",
+      "name_eng": "Heirloom Hammer",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MakeItSo",
+      "name_chs": "如此甚好",
+      "name_eng": "Make It So",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SevenStars",
+      "name_chs": "七星",
+      "name_eng": "Seven Stars",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "BigBang",
+      "name_chs": "大爆炸",
+      "name_eng": "Big Bang",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BundleOfJoy",
+      "name_chs": "新生之喜",
+      "name_eng": "Bundle of Joy",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "DecisionsDecisions",
+      "name_chs": "抉择，抉择",
+      "name_eng": "Decisions, Decisions",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "ForegoneConclusion",
+      "name_chs": "既定事项",
+      "name_eng": "Foregone Conclusion",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Guards",
+      "name_chs": "护驾！！！",
+      "name_eng": "GUARDS!!!",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "IAmInvincible",
+      "name_chs": "所向无敌",
+      "name_eng": "I Am Invincible",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "TheSmith",
+      "name_chs": "铸剑者",
+      "name_eng": "The Smith",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Arsenal",
+      "name_chs": "武器库",
+      "name_eng": "Arsenal",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Genesis",
+      "name_chs": "创世纪",
+      "name_eng": "Genesis",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "HammerTime",
+      "name_chs": "锤子时间",
+      "name_eng": "Hammer Time",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MonarchsGaze",
+      "name_chs": "王之凝视",
+      "name_eng": "Monarch's Gaze",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "NeutronAegis",
+      "name_chs": "中子护盾",
+      "name_eng": "Neutron Aegis",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Royalties",
+      "name_chs": "王国资产",
+      "name_eng": "Royalties",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SeekingEdge",
+      "name_chs": "追踪之刃",
+      "name_eng": "Seeking Edge",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "SwordSage",
+      "name_chs": "剑圣",
+      "name_eng": "Sword Sage",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Tyranny",
+      "name_chs": "暴政",
+      "name_eng": "Tyranny",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "VoidForm",
+      "name_chs": "虚空形态",
+      "name_eng": "Void Form",
+      "category": "Regent",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MeteorShower",
+      "name_chs": "流星雨",
+      "name_eng": "Meteor Shower",
+      "category": "Regent",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "TheSealedThrone",
+      "name_chs": "封印王座",
+      "name_eng": "The Sealed Throne",
+      "category": "Regent",
+      "rarity": "Ancient",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "DramaticEntrance",
+      "name_chs": "闪亮登场",
+      "name_eng": "Dramatic Entrance",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Exhaust",
+        "Innate"
+      ]
+    },
+    {
+      "key": "Fisticuffs",
+      "name_chs": "拳斗",
+      "name_eng": "Fisticuffs",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "FlashOfSteel",
+      "name_chs": "亮剑",
+      "name_eng": "Flash of Steel",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "GangUp",
+      "name_chs": "群起攻之",
+      "name_eng": "Gang Up",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MindBlast",
+      "name_chs": "心灵震慑",
+      "name_eng": "Mind Blast",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Innate"
+      ]
+    },
+    {
+      "key": "Omnislice",
+      "name_chs": "万向斩",
+      "name_eng": "Omnislice",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "SeekerStrike",
+      "name_chs": "探寻打击",
+      "name_eng": "Seeker Strike",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "TagTeam",
+      "name_chs": "双打组合",
+      "name_eng": "Tag Team",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "ThrummingHatchet",
+      "name_chs": "无休手斧",
+      "name_eng": "Thrumming Hatchet",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "UltimateStrike",
+      "name_chs": "究极打击",
+      "name_eng": "Ultimate Strike",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Volley",
+      "name_chs": "连射",
+      "name_eng": "Volley",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": -2,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "BelieveInYou",
+      "name_chs": "相信着你",
+      "name_eng": "Believe in You",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyAlly",
+      "keywords": []
+    },
+    {
+      "key": "Catastrophe",
+      "name_chs": "横祸",
+      "name_eng": "Catastrophe",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Coordinate",
+      "name_chs": "协同配合",
+      "name_eng": "Coordinate",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyAlly",
+      "keywords": []
+    },
+    {
+      "key": "DarkShackles",
+      "name_chs": "黑暗镣铐",
+      "name_eng": "Dark Shackles",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Discovery",
+      "name_chs": "发现",
+      "name_eng": "Discovery",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Equilibrium",
+      "name_chs": "均衡",
+      "name_eng": "Equilibrium",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Finesse",
+      "name_chs": "妙计",
+      "name_eng": "Finesse",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "HuddleUp",
+      "name_chs": "抱团",
+      "name_eng": "Huddle Up",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AllAllies",
+      "keywords": []
+    },
+    {
+      "key": "Impatience",
+      "name_chs": "急躁",
+      "name_eng": "Impatience",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Intercept",
+      "name_chs": "拦截",
+      "name_eng": "Intercept",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyAlly",
+      "keywords": []
+    },
+    {
+      "key": "JackOfAllTrades",
+      "name_chs": "花样百出",
+      "name_eng": "Jack of All Trades",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Lift",
+      "name_chs": "托举",
+      "name_eng": "Lift",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyAlly",
+      "keywords": []
+    },
+    {
+      "key": "PanicButton",
+      "name_chs": "应急按钮",
+      "name_eng": "Panic Button",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Production",
+      "name_chs": "生产制造",
+      "name_eng": "Production",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Prolong",
+      "name_chs": "延伸",
+      "name_eng": "Prolong",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Purity",
+      "name_chs": "净化",
+      "name_eng": "Purity",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Retain",
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Restlessness",
+      "name_chs": "心神不宁",
+      "name_eng": "Restlessness",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "Shockwave",
+      "name_chs": "震荡波",
+      "name_eng": "Shockwave",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AllEnemies",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Splash",
+      "name_chs": "飞溅",
+      "name_eng": "Splash",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "TheBomb",
+      "name_chs": "炸弹",
+      "name_eng": "The Bomb",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ThinkingAhead",
+      "name_chs": "深谋远虑",
+      "name_eng": "Thinking Ahead",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "UltimateDefend",
+      "name_chs": "究极防御",
+      "name_eng": "Ultimate Defend",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Automation",
+      "name_chs": "自动化",
+      "name_eng": "Automation",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Fasten",
+      "name_chs": "勒紧",
+      "name_eng": "Fasten",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Panache",
+      "name_chs": "神气制胜",
+      "name_eng": "Panache",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "PrepTime",
+      "name_chs": "准备时间",
+      "name_eng": "Prep Time",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Prowess",
+      "name_chs": "非凡技艺",
+      "name_eng": "Prowess",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Stratagem",
+      "name_chs": "计策",
+      "name_eng": "Stratagem",
+      "category": "Colorless",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Bolas",
+      "name_chs": "流星锤",
+      "name_eng": "Bolas",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "GoldAxe",
+      "name_chs": "金斧",
+      "name_eng": "Gold Axe",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HandOfGreed",
+      "name_chs": "贪婪之手",
+      "name_eng": "Hand of Greed",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Jackpot",
+      "name_chs": "大奖",
+      "name_eng": "Jackpot",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Knockdown",
+      "name_chs": "击倒",
+      "name_eng": "Knockdown",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Rend",
+      "name_chs": "撕碎",
+      "name_eng": "Rend",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Salvo",
+      "name_chs": "箭雨",
+      "name_eng": "Salvo",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Alchemize",
+      "name_chs": "炼制药水",
+      "name_eng": "Alchemize",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Anointed",
+      "name_chs": "天选",
+      "name_eng": "Anointed",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BeatDown",
+      "name_chs": "狠揍",
+      "name_eng": "Beat Down",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "HiddenGem",
+      "name_chs": "未掘宝石",
+      "name_eng": "Hidden Gem",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MasterOfStrategy",
+      "name_chs": "战略大师",
+      "name_eng": "Master of Strategy",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Mimic",
+      "name_chs": "拟态",
+      "name_eng": "Mimic",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "AnyAlly",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Rally",
+      "name_chs": "集结",
+      "name_eng": "Rally",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "AllAllies",
+      "keywords": []
+    },
+    {
+      "key": "Scrawl",
+      "name_chs": "潦草急就",
+      "name_eng": "Scrawl",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "SecretTechnique",
+      "name_chs": "秘密技法",
+      "name_eng": "Secret Technique",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "SecretWeapon",
+      "name_chs": "秘密武器",
+      "name_eng": "Secret Weapon",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "TheGambit",
+      "name_chs": "孤注一掷",
+      "name_eng": "The Gambit",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "BeaconOfHope",
+      "name_chs": "希望灯塔",
+      "name_eng": "Beacon of Hope",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Calamity",
+      "name_chs": "灾祸",
+      "name_eng": "Calamity",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Entropy",
+      "name_chs": "熵",
+      "name_eng": "Entropy",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "EternalArmor",
+      "name_chs": "永恒铠甲",
+      "name_eng": "Eternal Armor",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Mayhem",
+      "name_chs": "乱战",
+      "name_eng": "Mayhem",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Nostalgia",
+      "name_chs": "怀旧",
+      "name_eng": "Nostalgia",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "RollingBoulder",
+      "name_chs": "滚石",
+      "name_eng": "Rolling Boulder",
+      "category": "Colorless",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "AscendersBane",
+      "name_chs": "进阶之灾",
+      "name_eng": "Ascender's Bane",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Eternal",
+        "Unplayable",
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "BadLuck",
+      "name_chs": "霉运",
+      "name_eng": "Bad Luck",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Eternal",
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Clumsy",
+      "name_chs": "笨拙",
+      "name_eng": "Clumsy",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable",
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "CurseOfTheBell",
+      "name_chs": "铃铛的诅咒",
+      "name_eng": "Curse of the Bell",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Eternal",
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Debt",
+      "name_chs": "债务",
+      "name_eng": "Debt",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Decay",
+      "name_chs": "腐朽",
+      "name_eng": "Decay",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Doubt",
+      "name_chs": "疑虑",
+      "name_eng": "Doubt",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Enthralled",
+      "name_chs": "执迷",
+      "name_eng": "Enthralled",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": 2,
+      "targetType": "None",
+      "keywords": [
+        "Eternal"
+      ]
+    },
+    {
+      "key": "Folly",
+      "name_chs": "愚行",
+      "name_eng": "Folly",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable",
+        "Eternal",
+        "Innate"
+      ]
+    },
+    {
+      "key": "Greed",
+      "name_chs": "贪婪",
+      "name_eng": "Greed",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Eternal",
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Guilty",
+      "name_chs": "愧疚",
+      "name_eng": "Guilty",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Injury",
+      "name_chs": "受伤",
+      "name_eng": "Injury",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Normality",
+      "name_chs": "凡庸",
+      "name_eng": "Normality",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "PoorSleep",
+      "name_chs": "睡眠不佳",
+      "name_eng": "Poor Sleep",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable",
+        "Retain"
+      ]
+    },
+    {
+      "key": "Regret",
+      "name_chs": "悔恨",
+      "name_eng": "Regret",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Shame",
+      "name_chs": "羞耻",
+      "name_eng": "Shame",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "SporeMind",
+      "name_chs": "孢子心灵",
+      "name_eng": "Spore Mind",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": 1,
+      "targetType": "None",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Writhe",
+      "name_chs": "苦恼",
+      "name_eng": "Writhe",
+      "category": "Curse",
+      "rarity": "Curse",
+      "type": "Curse",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Innate",
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Beckon",
+      "name_chs": "呼唤",
+      "name_eng": "Beckon",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": 1,
+      "targetType": "None",
+      "keywords": []
+    },
+    {
+      "key": "Burn",
+      "name_chs": "灼伤",
+      "name_eng": "Burn",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Dazed",
+      "name_chs": "晕眩",
+      "name_eng": "Dazed",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Ethereal",
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Debris",
+      "name_chs": "碎屑",
+      "name_eng": "Debris",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": 1,
+      "targetType": "None",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "FranticEscape",
+      "name_chs": "狂乱逃离",
+      "name_eng": "Frantic Escape",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Infection",
+      "name_chs": "感染",
+      "name_eng": "Infection",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Slimed",
+      "name_chs": "黏液",
+      "name_eng": "Slimed",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": 1,
+      "targetType": "None",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Soot",
+      "name_chs": "煤灰",
+      "name_eng": "Soot",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "Toxic",
+      "name_chs": "毒素",
+      "name_eng": "Toxic",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": 1,
+      "targetType": "None",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Void",
+      "name_chs": "虚空",
+      "name_eng": "Void",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable",
+        "Ethereal"
+      ]
+    },
+    {
+      "key": "Wound",
+      "name_chs": "伤口",
+      "name_eng": "Wound",
+      "category": "Status",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "RipAndTear",
+      "name_chs": "狂乱撕扯",
+      "name_eng": "Rip and Tear",
+      "category": "Event",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "RandomEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Maul",
+      "name_chs": "撕咬",
+      "name_eng": "Maul",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "NeowsFury",
+      "name_chs": "涅奥之怒",
+      "name_eng": "Neow's Fury",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Whistle",
+      "name_chs": "吹哨",
+      "name_eng": "Whistle",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Attack",
+      "cost": 3,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Apotheosis",
+      "name_chs": "神化",
+      "name_eng": "Apotheosis",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust",
+        "Innate"
+      ]
+    },
+    {
+      "key": "Apparition",
+      "name_chs": "灵体",
+      "name_eng": "Apparition",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Ethereal",
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "BrightestFlame",
+      "name_chs": "至亮之焰",
+      "name_eng": "Brightest Flame",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Relax",
+      "name_chs": "放松",
+      "name_eng": "Relax",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 3,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Wish",
+      "name_chs": "许愿",
+      "name_eng": "Wish",
+      "category": "Event",
+      "rarity": "Ancient",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "ByrdSwoop",
+      "name_chs": "异鸟扑击",
+      "name_eng": "Byrd Swoop",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Clash",
+      "name_chs": "交锋",
+      "name_eng": "Clash",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Exterminate",
+      "name_chs": "杀灭",
+      "name_eng": "Exterminate",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AllEnemies",
+      "keywords": []
+    },
+    {
+      "key": "Peck",
+      "name_chs": "啄击",
+      "name_eng": "Peck",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Rebound",
+      "name_chs": "弹回",
+      "name_eng": "Rebound",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Squash",
+      "name_chs": "压扁",
+      "name_eng": "Squash",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "Distraction",
+      "name_chs": "声东击西",
+      "name_eng": "Distraction",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "DualWield",
+      "name_chs": "双持",
+      "name_eng": "Dual Wield",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Enlightenment",
+      "name_chs": "开悟",
+      "name_eng": "Enlightenment",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Entrench",
+      "name_chs": "巩固",
+      "name_eng": "Entrench",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "FeedingFrenzy",
+      "name_chs": "疯狂进食",
+      "name_eng": "Feeding Frenzy",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Metamorphosis",
+      "name_chs": "羽化",
+      "name_eng": "Metamorphosis",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Outmaneuver",
+      "name_chs": "抢占先机",
+      "name_eng": "Outmaneuver",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Stack",
+      "name_chs": "堆栈",
+      "name_eng": "Stack",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "ToricToughness",
+      "name_chs": "坚韧之环",
+      "name_eng": "Toric Toughness",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Skill",
+      "cost": 2,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "Caltrops",
+      "name_chs": "铁蒺藜",
+      "name_eng": "Caltrops",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "HelloWorld",
+      "name_chs": "你好世界",
+      "name_eng": "Hello World",
+      "category": "Event",
+      "rarity": "Event",
+      "type": "Power",
+      "cost": 1,
+      "targetType": "Self",
+      "keywords": []
+    },
+    {
+      "key": "MadScience",
+      "name_chs": "疯狂科学",
+      "name_eng": "Mad Science",
+      "category": "Event",
+      "rarity": "Unknown",
+      "type": "Unknown",
+      "cost": 0,
+      "targetType": "Unknown",
+      "keywords": []
+    },
+    {
+      "key": "Disintegration",
+      "name_chs": "瓦解",
+      "name_eng": "Disintegration",
+      "category": "Token",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": []
+    },
+    {
+      "key": "MindRot",
+      "name_chs": "心灵腐化",
+      "name_eng": "Mind Rot",
+      "category": "Token",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": []
+    },
+    {
+      "key": "Sloth",
+      "name_chs": "懒惰",
+      "name_eng": "Sloth",
+      "category": "Token",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": []
+    },
+    {
+      "key": "WasteAway",
+      "name_chs": "衰朽",
+      "name_eng": "Waste Away",
+      "category": "Token",
+      "rarity": "Status",
+      "type": "Status",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": []
+    },
+    {
+      "key": "GiantRock",
+      "name_chs": "巨石",
+      "name_eng": "Giant Rock",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": []
+    },
+    {
+      "key": "MinionDiveBomb",
+      "name_chs": "仆从俯冲",
+      "name_eng": "Minion Dive Bomb",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 1,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "MinionStrike",
+      "name_chs": "仆从打击",
+      "name_eng": "Minion Strike",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Shiv",
+      "name_chs": "小刀",
+      "name_eng": "Shiv",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "SovereignBlade",
+      "name_chs": "君王之剑",
+      "name_eng": "Sovereign Blade",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 2,
+      "targetType": "AnyEnemy",
+      "keywords": [
+        "Retain"
+      ]
+    },
+    {
+      "key": "SweepingGaze",
+      "name_chs": "扫荡凝视",
+      "name_eng": "Sweeping Gaze",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Attack",
+      "cost": 0,
+      "targetType": "RandomEnemy",
+      "keywords": [
+        "Ethereal",
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Fuel",
+      "name_chs": "燃料",
+      "name_eng": "Fuel",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Luminesce",
+      "name_chs": "冷光",
+      "name_eng": "Luminesce",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust",
+        "Retain"
+      ]
+    },
+    {
+      "key": "MinionSacrifice",
+      "name_chs": "仆从捐躯",
+      "name_eng": "Minion Sacrifice",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "Soul",
+      "name_chs": "灵魂",
+      "name_eng": "Soul",
+      "category": "Token",
+      "rarity": "Token",
+      "type": "Skill",
+      "cost": 0,
+      "targetType": "Self",
+      "keywords": [
+        "Exhaust"
+      ]
+    },
+    {
+      "key": "ByrdonisEgg",
+      "name_chs": "多尼斯异鸟蛋",
+      "name_eng": "Byrdonis Egg",
+      "category": "Quest",
+      "rarity": "Quest",
+      "type": "Quest",
+      "cost": -1,
+      "targetType": "None",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "LanternKey",
+      "name_chs": "灯火钥匙",
+      "name_eng": "Lantern Key",
+      "category": "Quest",
+      "rarity": "Quest",
+      "type": "Quest",
+      "cost": -1,
+      "targetType": "Self",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "SpoilsMap",
+      "name_chs": "藏宝图",
+      "name_eng": "Spoils Map",
+      "category": "Quest",
+      "rarity": "Quest",
+      "type": "Quest",
+      "cost": -1,
+      "targetType": "Self",
+      "keywords": [
+        "Unplayable"
+      ]
+    },
+    {
+      "key": "DeprecatedCard",
+      "name_chs": "弃用卡牌",
+      "name_eng": "Deprecated Card",
+      "category": "Deprecated",
+      "rarity": "Deprecated",
+      "type": "",
+      "cost": 0,
+      "targetType": "",
+      "keywords": [
+        "Unplayable"
+      ]
+    }
+  ]
+}

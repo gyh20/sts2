@@ -1,0 +1,578 @@
+save_id,key,name_chs,name_eng,category,rarity,type,cost,target_type,keywords,default_chs,upgraded_chs
+CARD.ALCHEMIZE,Alchemize,炼制药水,Alchemize,Colorless,Rare,Skill,1,Self,Exhaust,"消耗,获得一瓶随机药水。","消耗,获得一瓶随机药水。"
+CARD.ANOINTED,Anointed,天选,Anointed,Colorless,Rare,Skill,1,Self,Exhaust,"消耗,将你抽牌堆中的所有稀有牌放入你的手牌。","消耗,保留,将你抽牌堆中的所有稀有牌放入你的手牌。"
+CARD.BEACON_OF_HOPE,BeaconOfHope,希望灯塔,Beacon of Hope,Colorless,Rare,Power,1,Self,,每当你在你的回合获得格挡时，其他玩家获得相应一半的格挡。,"固有,每当你在你的回合获得格挡时，其他玩家获得相应一半的格挡。"
+CARD.BEAT_DOWN,BeatDown,狠揍,Beat Down,Colorless,Rare,Skill,3,RandomEnemy,,打出你弃牌堆中的3张随机攻击牌。,打出你弃牌堆中的5张随机攻击牌。
+CARD.BOLAS,Bolas,流星锤,Bolas,Colorless,Rare,Attack,0,AnyEnemy,,造成3点伤害。 在你的下个回合开始时，将此卡返回你的手牌。,造成5点伤害。 在你的下个回合开始时，将此卡返回你的手牌。
+CARD.CALAMITY,Calamity,灾祸,Calamity,Colorless,Rare,Power,3,Self,,每当你打出一张攻击牌时，将一张随机攻击牌添加到你的手牌。,每当你打出一张攻击牌时，将一张随机攻击牌添加到你的手牌。
+CARD.ENTROPY,Entropy,熵,Entropy,Colorless,Rare,Power,1,Self,,在你的回合开始时，变化你手牌中的1张牌。,"固有,在你的回合开始时，变化你手牌中的1张牌。"
+CARD.ETERNAL_ARMOR,EternalArmor,永恒铠甲,Eternal Armor,Colorless,Rare,Power,3,Self,,获得7层覆甲。,获得9层覆甲。
+CARD.GOLD_AXE,GoldAxe,金斧,Gold Axe,Colorless,Rare,Attack,1,AnyEnemy,,造成本场战斗中所打出牌数的伤害。,"保留,造成本场战斗中所打出牌数的伤害。"
+CARD.HAND_OF_GREED,HandOfGreed,贪婪之手,Hand of Greed,Colorless,Rare,Attack,2,AnyEnemy,,造成20点伤害。 斩杀时，获得20金币。,造成30点伤害。 斩杀时，获得30金币。
+CARD.HIDDEN_GEM,HiddenGem,未掘宝石,Hidden Gem,Colorless,Rare,Skill,1,Self,,你抽牌堆中的一张随机牌获得2层重放。,你抽牌堆中的一张随机牌获得4层重放。
+CARD.JACKPOT,Jackpot,大奖,Jackpot,Colorless,Rare,Attack,3,AnyEnemy,,造成25点伤害。 将3张随机0能量的牌加入你的手牌。,造成35点伤害。 将3张随机升级过的0能量的牌加入你的手牌。
+CARD.KNOCKDOWN,Knockdown,击倒,Knockdown,Colorless,Rare,Attack,3,AnyEnemy,,造成10点伤害。 该敌人在本回合受到的来自其他玩家的伤害翻倍。,造成18点伤害。 该敌人在本回合受到的来自其他玩家的伤害翻三倍。
+CARD.MASTER_OF_STRATEGY,MasterOfStrategy,战略大师,Master of Strategy,Colorless,Rare,Skill,0,Self,Exhaust,"消耗,抽3张牌。","消耗,抽5张牌。"
+CARD.MAYHEM,Mayhem,乱战,Mayhem,Colorless,Rare,Power,2,Self,,在你的回合开始时，打出你抽牌堆顶部的牌。,在你的回合开始时，打出你抽牌堆顶部的牌。
+CARD.MIMIC,Mimic,拟态,Mimic,Colorless,Rare,Skill,1,AnyAlly,Exhaust,"消耗,获得等同于另一位玩家格挡值的格挡。",获得等同于另一位玩家格挡值的格挡。
+CARD.NOSTALGIA,Nostalgia,怀旧,Nostalgia,Colorless,Rare,Power,1,Self,,将你每回合打出第一张攻击或技能牌，置于你的抽牌堆顶端。,将你每回合打出第一张攻击或技能牌，置于你的抽牌堆顶端。
+CARD.RALLY,Rally,集结,Rally,Colorless,Rare,Skill,2,AllAllies,,所有玩家获得12点格挡。,所有玩家获得22点格挡。
+CARD.REND,Rend,撕碎,Rend,Colorless,Rare,Attack,2,AnyEnemy,,造成15点伤害。 该名敌人身上每有一种负面效果，就额外造成5点伤害。,造成21点伤害。 该名敌人身上每有一种负面效果，就额外造成11点伤害。
+CARD.ROLLING_BOULDER,RollingBoulder,滚石,Rolling Boulder,Colorless,Rare,Power,3,Self,,在你的回合开始时，对所有敌人造成5点伤害，然后将该伤害增加5点。,在你的回合开始时，对所有敌人造成10点伤害，然后将该伤害增加5点。
+CARD.SALVO,Salvo,箭雨,Salvo,Colorless,Rare,Attack,1,AnyEnemy,,造成12点伤害。 在本回合保留你的手牌。,造成20点伤害。 在本回合保留你的手牌。
+CARD.SCRAWL,Scrawl,潦草急就,Scrawl,Colorless,Rare,Skill,1,Self,Exhaust,"消耗,抽牌直到抽满手牌。","消耗,保留,抽牌直到抽满手牌。"
+CARD.SECRET_TECHNIQUE,SecretTechnique,秘密技法,Secret Technique,Colorless,Rare,Skill,0,Self,Exhaust,"消耗,从抽牌堆中选择一张技能牌放入你的手牌。",从抽牌堆中选择一张技能牌放入你的手牌。
+CARD.SECRET_WEAPON,SecretWeapon,秘密武器,Secret Weapon,Colorless,Rare,Skill,0,Self,Exhaust,"消耗,从抽牌堆中选择一张攻击牌放入你的手牌。",从抽牌堆中选择一张攻击牌放入你的手牌。
+CARD.THE_GAMBIT,TheGambit,孤注一掷,The Gambit,Colorless,Rare,Skill,0,Self,,获得50点格挡。 如果你在本场战斗中受到未被格挡的伤害，则立刻死亡。,获得100点格挡。 如果你在本场战斗中受到未被格挡的伤害，则立刻死亡。
+CARD.AUTOMATION,Automation,自动化,Automation,Colorless,Uncommon,Power,1,Self,,你每抽10张牌，获得1能量。,你每抽10张牌，获得1能量。
+CARD.BELIEVE_IN_YOU,BelieveInYou,相信着你,Believe in You,Colorless,Uncommon,Skill,0,AnyAlly,,另一名玩家获得3能量。,另一名玩家获得5能量。
+CARD.CATASTROPHE,Catastrophe,横祸,Catastrophe,Colorless,Uncommon,Skill,2,Self,,从你的抽牌堆中随机打出2张牌。,从你的抽牌堆中随机打出4张牌。
+CARD.COORDINATE,Coordinate,协同配合,Coordinate,Colorless,Uncommon,Skill,1,AnyAlly,,在本回合给予其他玩家5点力量。,在本回合给予其他玩家8点力量。
+CARD.DARK_SHACKLES,DarkShackles,黑暗镣铐,Dark Shackles,Colorless,Uncommon,Skill,0,AnyEnemy,Exhaust,"消耗,使一名敌人在本回合失去9点力量。","消耗,使一名敌人在本回合失去21点力量。"
+CARD.DISCOVERY,Discovery,发现,Discovery,Colorless,Uncommon,Skill,1,Self,Exhaust,"消耗,从3张随机牌中选择1张加入你的手牌。这张牌在本回合的耗能为0能量。",从3张随机牌中选择1张加入你的手牌。这张牌在本回合的耗能为0能量。
+CARD.DRAMATIC_ENTRANCE,DramaticEntrance,闪亮登场,Dramatic Entrance,Colorless,Uncommon,Attack,0,AllEnemies,Exhaust|Innate,"消耗,固有,对所有敌人造成11点伤害。","消耗,固有,对所有敌人造成19点伤害。"
+CARD.EQUILIBRIUM,Equilibrium,均衡,Equilibrium,Colorless,Uncommon,Skill,2,Self,,获得13点格挡。 在本回合保留你的手牌。,获得19点格挡。 在本回合保留你的手牌。
+CARD.FASTEN,Fasten,勒紧,Fasten,Colorless,Uncommon,Power,1,Self,,从“防御”牌中额外获得5点格挡。,从“防御”牌中额外获得9点格挡。
+CARD.FINESSE,Finesse,妙计,Finesse,Colorless,Uncommon,Skill,0,Self,,获得4点格挡。 抽1张牌。,获得10点格挡。 抽1张牌。
+CARD.FISTICUFFS,Fisticuffs,拳斗,Fisticuffs,Colorless,Uncommon,Attack,1,AnyEnemy,,造成7点伤害。 获得等量于所造成伤害的格挡。,造成11点伤害。 获得等量于所造成伤害的格挡。
+CARD.FLASH_OF_STEEL,FlashOfSteel,亮剑,Flash of Steel,Colorless,Uncommon,Attack,0,AnyEnemy,,造成5点伤害。 抽1张牌。,造成11点伤害。 抽1张牌。
+CARD.GANG_UP,GangUp,群起攻之,Gang Up,Colorless,Uncommon,Attack,1,AnyEnemy,,造成5点伤害。 本回合其他玩家攻击该敌人时，该牌就造成5点伤害。,造成5点伤害。 本回合其他玩家攻击该敌人时，该牌就造成9点伤害。
+CARD.HUDDLE_UP,HuddleUp,抱团,Huddle Up,Colorless,Uncommon,Skill,1,AllAllies,,所有玩家抽2张牌。,所有玩家抽4张牌。
+CARD.IMPATIENCE,Impatience,急躁,Impatience,Colorless,Uncommon,Skill,0,Self,,如果你的手牌中没有攻击牌，抽2张牌。,如果你的手牌中没有攻击牌，抽4张牌。
+CARD.INTERCEPT,Intercept,拦截,Intercept,Colorless,Uncommon,Skill,1,AnyAlly,,获得9点格挡。 将本回合所有要对另一名玩家发起的攻击转移到你的身上。,获得17点格挡。 将本回合所有要对另一名玩家发起的攻击转移到你的身上。
+CARD.JACK_OF_ALL_TRADES,JackOfAllTrades,花样百出,Jack of All Trades,Colorless,Uncommon,Skill,0,Self,Exhaust,"消耗,将1张随机无色牌加入你的手牌。","消耗,将3张随机无色牌加入你的手牌。"
+CARD.LIFT,Lift,托举,Lift,Colorless,Uncommon,Skill,1,AnyAlly,,给另一名玩家11点格挡。,给另一名玩家21点格挡。
+CARD.MIND_BLAST,MindBlast,心灵震慑,Mind Blast,Colorless,Uncommon,Attack,1,AnyEnemy,Innate,"固有,造成你抽牌堆中剩余牌数的伤害。","固有,造成你抽牌堆中剩余牌数的伤害。"
+CARD.OMNISLICE,Omnislice,万向斩,Omnislice,Colorless,Uncommon,Attack,0,AnyEnemy,,造成8点伤害。 对所有其他敌人造成等量的伤害。,造成14点伤害。 对所有其他敌人造成等量的伤害。
+CARD.PANACHE,Panache,神气制胜,Panache,Colorless,Uncommon,Power,0,Self,,每当你在一回合内打出五张牌时，对所有敌人造成10点伤害。,每当你在一回合内打出五张牌时，对所有敌人造成18点伤害。
+CARD.PANIC_BUTTON,PanicButton,应急按钮,Panic Button,Colorless,Uncommon,Skill,0,Self,Exhaust,"消耗,获得30点格挡。 你在接下来的2回合内无法再从卡牌中获得格挡。","消耗,获得50点格挡。 你在接下来的2回合内无法再从卡牌中获得格挡。"
+CARD.PREP_TIME,PrepTime,准备时间,Prep Time,Colorless,Uncommon,Power,1,Self,,在你的回合开始时，获得4点活力。,在你的回合开始时，获得6点活力。
+CARD.PRODUCTION,Production,生产制造,Production,Colorless,Uncommon,Skill,0,Self,Exhaust,"消耗,获得2能量。",获得2能量。
+CARD.PROLONG,Prolong,延伸,Prolong,Colorless,Uncommon,Skill,0,Self,Exhaust,"消耗,在下个回合获得等量于你当前格挡值的格挡。",在下个回合获得等量于你当前格挡值的格挡。
+CARD.PROWESS,Prowess,非凡技艺,Prowess,Colorless,Uncommon,Power,1,Self,,获得1点力量。 获得1点敏捷。,获得2点力量。 获得2点敏捷。
+CARD.PURITY,Purity,净化,Purity,Colorless,Uncommon,Skill,0,Self,Retain|Exhaust,"保留,消耗,从手牌中选择最多3张牌消耗。","保留,消耗,从手牌中选择最多7张牌消耗。"
+CARD.RESTLESSNESS,Restlessness,心神不宁,Restlessness,Colorless,Uncommon,Skill,0,Self,Retain,"保留,如果你的手牌为空，则抽2张牌并获得2能量。","保留,如果你的手牌为空，则抽4张牌并获得4能量。"
+CARD.SEEKER_STRIKE,SeekerStrike,探寻打击,Seeker Strike,Colorless,Uncommon,Attack,1,AnyEnemy,,造成6点伤害。 从抽牌堆的随机3张牌中选择一张加入你的手牌。,造成12点伤害。 从抽牌堆的随机3张牌中选择一张加入你的手牌。
+CARD.SHOCKWAVE,Shockwave,震荡波,Shockwave,Colorless,Uncommon,Skill,2,AllEnemies,Exhaust,"消耗,给予所有敌人3层虚弱和易伤。","消耗,给予所有敌人5层虚弱和易伤。"
+CARD.SPLASH,Splash,飞溅,Splash,Colorless,Uncommon,Skill,1,Self,,从3张其他角色的攻击牌中选择1张加入你的手牌。这张牌在本回合免费打出。,从3张其他角色的升级过的攻击牌中选择1张加入你的手牌。这张牌在本回合免费打出。
+CARD.STRATAGEM,Stratagem,计策,Stratagem,Colorless,Uncommon,Power,1,Self,,每当你的抽牌堆打乱洗牌时，选择一张牌放入你的手牌。,每当你的抽牌堆打乱洗牌时，选择一张牌放入你的手牌。
+CARD.TAG_TEAM,TagTeam,双打组合,Tag Team,Colorless,Uncommon,Attack,2,AnyEnemy,,造成11点伤害。 其他玩家的下一张攻击牌将在该名敌人身上额外生效一次。,造成19点伤害。 其他玩家的下一张攻击牌将在该名敌人身上额外生效一次。
+CARD.THE_BOMB,TheBomb,炸弹,The Bomb,Colorless,Uncommon,Skill,2,Self,,在3回合结束后，对所有敌人造成40点伤害。,在3回合结束后，对所有敌人造成60点伤害。
+CARD.THINKING_AHEAD,ThinkingAhead,深谋远虑,Thinking Ahead,Colorless,Uncommon,Skill,0,Self,Exhaust,"消耗,抽2张牌。 将手牌中的一张牌放到你的抽牌堆的顶端。",抽2张牌。 将手牌中的一张牌放到你的抽牌堆的顶端。
+CARD.THRUMMING_HATCHET,ThrummingHatchet,无休手斧,Thrumming Hatchet,Colorless,Uncommon,Attack,1,AnyEnemy,,造成11点伤害。 在你的下个回合开始时，将此卡返回你的手牌。,造成17点伤害。 在你的下个回合开始时，将此卡返回你的手牌。
+CARD.ULTIMATE_DEFEND,UltimateDefend,究极防御,Ultimate Defend,Colorless,Uncommon,Skill,1,Self,,获得11点格挡。,获得19点格挡。
+CARD.ULTIMATE_STRIKE,UltimateStrike,究极打击,Ultimate Strike,Colorless,Uncommon,Attack,1,AnyEnemy,,造成14点伤害。,造成26点伤害。
+CARD.VOLLEY,Volley,连射,Volley,Colorless,Uncommon,Attack,-2,RandomEnemy,,随机对敌人造成10点伤害X次。,随机对敌人造成18点伤害X次。
+CARD.ASCENDERS_BANE,AscendersBane,进阶之灾,Ascender's Bane,Curse,Curse,Curse,-1,None,Eternal|Unplayable|Ethereal,"永恒,不能被打出,虚无","永恒,不能被打出,虚无"
+CARD.BAD_LUCK,BadLuck,霉运,Bad Luck,Curse,Curse,Curse,-1,None,Eternal|Unplayable,"永恒,不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则失去13点生命。","永恒,不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则失去13点生命。"
+CARD.CLUMSY,Clumsy,笨拙,Clumsy,Curse,Curse,Curse,-1,None,Unplayable|Ethereal,"不能被打出,虚无","不能被打出,虚无"
+CARD.CURSE_OF_THE_BELL,CurseOfTheBell,铃铛的诅咒,Curse of the Bell,Curse,Curse,Curse,-1,None,Eternal|Unplayable,"永恒,不能被打出","永恒,不能被打出"
+CARD.DEBT,Debt,债务,Debt,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则失去10金币。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则失去10金币。"
+CARD.DECAY,Decay,腐朽,Decay,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中,你受到2点伤害。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中,你受到2点伤害。"
+CARD.DOUBT,Doubt,疑虑,Doubt,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，获得1层虚弱。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，获得1层虚弱。"
+CARD.ENTHRALLED,Enthralled,执迷,Enthralled,Curse,Curse,Curse,2,None,Eternal,"永恒,如果这张牌在你的手牌中，你必须优先打出这张牌。","永恒,如果这张牌在你的手牌中，你必须优先打出这张牌。"
+CARD.FOLLY,Folly,愚行,Folly,Curse,Curse,Curse,-1,None,Unplayable|Eternal|Innate,"不能被打出,永恒,固有","不能被打出,永恒,固有"
+CARD.GREED,Greed,贪婪,Greed,Curse,Curse,Curse,-1,None,Eternal|Unplayable,"永恒,不能被打出","永恒,不能被打出"
+CARD.GUILTY,Guilty,愧疚,Guilty,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在5场战斗后从你的牌组中移除。","不能被打出,在5场战斗后从你的牌组中移除。"
+CARD.INJURY,Injury,受伤,Injury,Curse,Curse,Curse,-1,None,Unplayable,不能被打出,不能被打出
+CARD.NORMALITY,Normality,凡庸,Normality,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,你在本回合不能打出超过3张牌。","不能被打出,你在本回合不能打出超过3张牌。"
+CARD.POOR_SLEEP,PoorSleep,睡眠不佳,Poor Sleep,Curse,Curse,Curse,-1,None,Unplayable|Retain,"不能被打出,保留","不能被打出,保留"
+CARD.REGRET,Regret,悔恨,Regret,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，失去相当于手牌数量的生命。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，失去相当于手牌数量的生命。"
+CARD.SHAME,Shame,羞耻,Shame,Curse,Curse,Curse,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则获得1层脆弱。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则获得1层脆弱。"
+CARD.SPORE_MIND,SporeMind,孢子心灵,Spore Mind,Curse,Curse,Curse,1,None,Exhaust,消耗,消耗
+CARD.WRITHE,Writhe,苦恼,Writhe,Curse,Curse,Curse,-1,None,Innate|Unplayable,"固有,不能被打出","固有,不能被打出"
+CARD.BIASED_COGNITION,BiasedCognition,偏差认知,Biased Cognition,Defect,Ancient,Power,1,Self,,获得4点集中。 在你的回合开始时，失去1点集中。,获得5点集中。 在你的回合开始时，失去1点集中。
+CARD.QUADCAST,Quadcast,四重释放,Quadcast,Defect,Ancient,Skill,1,Self,,激发你最右侧的充能球4次。,激发你最右侧的充能球4次。
+CARD.DEFEND_DEFECT,DefendDefect,防御,Defend,Defect,Basic,Skill,1,Self,,获得5点格挡。,获得11点格挡。
+CARD.DUALCAST,Dualcast,双重释放,Dualcast,Defect,Basic,Skill,1,Self,,激发你最右侧的充能球两次。,激发你最右侧的充能球两次。
+CARD.STRIKE_DEFECT,StrikeDefect,打击,Strike,Defect,Basic,Attack,1,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.ZAP,Zap,电击,Zap,Defect,Basic,Skill,1,Self,,生成1个闪电充能球。,生成1个闪电充能球。
+CARD.BALL_LIGHTNING,BallLightning,球状闪电,Ball Lightning,Defect,Common,Attack,1,AnyEnemy,,造成7点伤害。 生成1个闪电充能球。,造成13点伤害。 生成1个闪电充能球。
+CARD.BARRAGE,Barrage,弹幕齐射,Barrage,Defect,Common,Attack,1,AnyEnemy,,当前每有一个充能球，造成5点伤害。,当前每有一个充能球，造成9点伤害。
+CARD.BEAM_CELL,BeamCell,光束射线,Beam Cell,Defect,Common,Attack,0,AnyEnemy,,造成3点伤害。 给予1层易伤。,造成5点伤害。 给予2层易伤。
+CARD.BOOST_AWAY,BoostAway,高速脱离,Boost Away,Defect,Common,Skill,0,Self,,获得6点格挡。 将一张眩晕添加到你的弃牌堆中。,获得12点格挡。 将一张眩晕添加到你的弃牌堆中。
+CARD.CHARGE_BATTERY,ChargeBattery,充电,Charge Battery,Defect,Common,Skill,1,Self,,获得7点格挡。 在下个回合获得1能量。,获得13点格挡。 在下个回合获得1能量。
+CARD.CLAW,Claw,爪击,Claw,Defect,Common,Attack,0,AnyEnemy,,造成3点伤害。 本场战斗中所有爪击卡牌的伤害增加2点。,造成5点伤害。 本场战斗中所有爪击卡牌的伤害增加4点。
+CARD.COLD_SNAP,ColdSnap,寒流,Cold Snap,Defect,Common,Attack,1,AnyEnemy,,造成6点伤害。 生成1个冰霜充能球。,造成12点伤害。 生成1个冰霜充能球。
+CARD.COMPILE_DRIVER,CompileDriver,编译冲击,Compile Driver,Defect,Common,Attack,1,AnyEnemy,,造成7点伤害。 你每有一种不同的充能球，就抽一张牌。,造成13点伤害。 你每有一种不同的充能球，就抽一张牌。
+CARD.COOLHEADED,Coolheaded,冷静头脑,Coolheaded,Defect,Common,Skill,1,Self,,生成1个冰霜充能球。 抽1张牌。,生成1个冰霜充能球。 抽3张牌。
+CARD.FOCUSED_STRIKE,FocusedStrike,集中打击,Focused Strike,Defect,Common,Attack,1,AnyEnemy,,造成9点伤害。 在本回合获得1点集中。,造成13点伤害。 在本回合获得2点集中。
+CARD.GO_FOR_THE_EYES,GoForTheEyes,眼部攻击,Go for the Eyes,Defect,Common,Attack,0,AnyEnemy,,造成3点伤害。 如果敌人的意图是攻击，则给予1层虚弱。,造成5点伤害。 如果敌人的意图是攻击，则给予2层虚弱。
+CARD.GUNK_UP,GunkUp,污秽攻击,Gunk Up,Defect,Common,Attack,1,AnyEnemy,,造成4点伤害3次。 在你的弃牌堆中加入一张黏液。,造成6点伤害3次。 在你的弃牌堆中加入一张黏液。
+CARD.HOLOGRAM,Hologram,全息影像,Hologram,Defect,Common,Skill,1,Self,Exhaust,"消耗,获得3点格挡。 将弃牌堆中的一张牌放入你的手牌。",获得7点格挡。 将弃牌堆中的一张牌放入你的手牌。
+CARD.HOTFIX,Hotfix,热修复,Hotfix,Defect,Common,Skill,0,Self,,在本回合获得2点集中。,在本回合获得3点集中。
+CARD.LEAP,Leap,飞跃,Leap,Defect,Common,Skill,1,Self,,获得9点格挡。,获得15点格挡。
+CARD.LIGHTNING_ROD,LightningRod,引雷针,Lightning Rod,Defect,Common,Skill,1,Self,,"获得4点格挡。 在下2个回合开始时,生成1个闪电充能球。","获得10点格挡。 在下2个回合开始时,生成1个闪电充能球。"
+CARD.MOMENTUM_STRIKE,MomentumStrike,趁势打击,Momentum Strike,Defect,Common,Attack,1,AnyEnemy,,造成10点伤害。 这张牌的耗能降为0能量。,造成16点伤害。 这张牌的耗能降为0能量。
+CARD.SWEEPING_BEAM,SweepingBeam,扫荡射线,Sweeping Beam,Defect,Common,Attack,1,AllEnemies,,对所有敌人造成6点伤害。 抽1张牌。,对所有敌人造成12点伤害。 抽1张牌。
+CARD.TURBO,Turbo,内核加速,TURBO,Defect,Common,Skill,0,Self,,获得2能量。 将一张虚空加入你的弃牌堆。,获得4能量。 将一张虚空加入你的弃牌堆。
+CARD.UPROAR,Uproar,骚动,Uproar,Defect,Common,Attack,2,AnyEnemy,,造成5点伤害两次。 随机打出你的抽牌堆中的1张攻击牌。,造成9点伤害两次。 随机打出你的抽牌堆中的1张攻击牌。
+CARD.ADAPTIVE_STRIKE,AdaptiveStrike,适应打击,Adaptive Strike,Defect,Rare,Attack,2,AnyEnemy,,造成18点伤害。 将这张牌的一张0能量复制品添加到你的弃牌堆。,造成28点伤害。 将这张牌的一张0能量复制品添加到你的弃牌堆。
+CARD.ALL_FOR_ONE,AllForOne,万物一心,All for One,Defect,Rare,Attack,2,AnyEnemy,,造成10点伤害。 将你弃牌堆中的所有0能量牌放入你的手牌。,造成18点伤害。 将你弃牌堆中的所有0能量牌放入你的手牌。
+CARD.BUFFER,Buffer,缓冲,Buffer,Defect,Rare,Power,2,Self,,阻止下1次你受到的生命值损伤。,阻止下2次你受到的生命值损伤。
+CARD.CONSUMING_SHADOW,ConsumingShadow,吞噬暗影,Consuming Shadow,Defect,Rare,Power,2,Self,,生成2个黑暗充能球。 在你的回合结束时，激发你最左侧的充能球。,生成4个黑暗充能球。 在你的回合结束时，激发你最左侧的充能球。
+CARD.COOLANT,Coolant,冷却剂,Coolant,Defect,Rare,Power,1,Self,,在你的回合开始时，你每有一种不同的充能球，就获得2点格挡。,在你的回合开始时，你每有一种不同的充能球，就获得3点格挡。
+CARD.CREATIVE_AI,CreativeAi,创造性AI,Creative AI,Defect,Rare,Power,3,Self,,在你的回合开始时，将一张随机能力牌加入你的手牌。,在你的回合开始时，将一张随机能力牌加入你的手牌。
+CARD.DEFRAGMENT,Defragment,碎片整理,Defragment,Defect,Rare,Power,1,Self,,获得1点集中。,获得2点集中。
+CARD.ECHO_FORM,EchoForm,回响形态,Echo Form,Defect,Rare,Power,3,Self,Ethereal,"虚无,你每回合打出的第一张牌会被打出两次。",你每回合打出的第一张牌会被打出两次。
+CARD.FLAK_CANNON,FlakCannon,散射炮,Flak Cannon,Defect,Rare,Attack,2,RandomEnemy,,消耗你所有的状态牌。 每有一张被消耗的牌，就随机对敌人造成8点伤害。,消耗你所有的状态牌。 每有一张被消耗的牌，就随机对敌人造成14点伤害。
+CARD.GENETIC_ALGORITHM,GeneticAlgorithm,遗传算法,Genetic Algorithm,Defect,Rare,Skill,1,Self,Exhaust,"消耗,获得1点格挡。 每打出一次，这张牌在本局游戏中的格挡值永久增加3点。","消耗,获得1点格挡。 每打出一次，这张牌在本局游戏中的格挡值永久增加5点。"
+CARD.HELIX_DRILL,HelixDrill,螺旋钻击,Helix Drill,Defect,Rare,Attack,0,AnyEnemy,,在本回合中，每个被使用的能量，都会使此牌造成3点伤害一次。,在本回合中，每个被使用的能量，都会使此牌造成7点伤害一次。
+CARD.HYPERBEAM,Hyperbeam,超能光束,Hyperbeam,Defect,Rare,Attack,2,AllEnemies,,对所有敌人造成26点伤害。 失去3点集中。,对所有敌人造成42点伤害。 失去3点集中。
+CARD.ICE_LANCE,IceLance,冰之长枪,Ice Lance,Defect,Rare,Attack,3,AnyEnemy,,造成19点伤害。 生成3个冰霜充能球。,造成29点伤害。 生成3个冰霜充能球。
+CARD.IGNITION,Ignition,引火,Ignition,Defect,Rare,Skill,1,AnyAlly,Exhaust,"消耗,使另一名玩家生成等离子充能球。",使另一名玩家生成等离子充能球。
+CARD.MACHINE_LEARNING,MachineLearning,机器学习,Machine Learning,Defect,Rare,Power,1,Self,,在你的回合开始时，额外抽1张牌。,"固有,在你的回合开始时，额外抽1张牌。"
+CARD.METEOR_STRIKE,MeteorStrike,陨石打击,Meteor Strike,Defect,Rare,Attack,5,AnyEnemy,,造成24点伤害。 生成3个等离子充能球。,造成36点伤害。 生成3个等离子充能球。
+CARD.MODDED,Modded,模组改造,Modded,Defect,Rare,Skill,0,Self,,获得1个充能球栏位。 抽1张牌。这张牌的耗能加1。,获得1个充能球栏位。 抽3张牌。这张牌的耗能加1。
+CARD.MULTI_CAST,MultiCast,多重释放,Multi-Cast,Defect,Rare,Skill,-2,Self,,激发你最右侧的充能球X次。,激发你最右侧的充能球X+1次。
+CARD.RAINBOW,Rainbow,彩虹,Rainbow,Defect,Rare,Skill,2,Self,Exhaust,"消耗,生成1个闪电充能球。 生成1个冰霜充能球。 生成1个黑暗充能球。",生成1个闪电充能球。 生成1个冰霜充能球。 生成1个黑暗充能球。
+CARD.REBOOT,Reboot,重启,Reboot,Defect,Rare,Skill,0,Self,Exhaust,"消耗,将你的所有未消耗的卡牌重新洗牌放入抽牌堆。 抽4张牌。","消耗,将你的所有未消耗的卡牌重新洗牌放入抽牌堆。 抽8张牌。"
+CARD.SHATTER,Shatter,打碎,Shatter,Defect,Rare,Attack,1,AllEnemies,,对所有敌人造成11点伤害。 激发所有充能球。,对所有敌人造成19点伤害。 激发所有充能球。
+CARD.SIGNAL_BOOST,SignalBoost,信号增强,Signal Boost,Defect,Rare,Skill,1,Self,Exhaust,"消耗,你的下一张能力牌会额外打出一次。","消耗,你的下一张能力牌会额外打出一次。"
+CARD.SPINNER,Spinner,旋转工艺,Spinner,Defect,Rare,Power,1,Self,,在你的回合开始时，生成1个玻璃充能球。,生成1个玻璃充能球。 在你的回合开始时，生成1个玻璃充能球。
+CARD.SUPERCRITICAL,Supercritical,超临界态,Supercritical,Defect,Rare,Skill,0,Self,Exhaust,"消耗,获得4能量。","消耗,获得8能量。"
+CARD.TRASH_TO_TREASURE,TrashToTreasure,化废为宝,Trash to Treasure,Defect,Rare,Power,1,Self,,每当你生成状态牌的时候，随机生成一个充能球。,"固有,每当你生成状态牌的时候，随机生成一个充能球。"
+CARD.VOLTAIC,Voltaic,电流相生,Voltaic,Defect,Rare,Skill,2,Self,Exhaust,"消耗,生成等量于你在这场战斗中生成过的闪电充能球数量的闪电充能球。",生成等量于你在这场战斗中生成过的闪电充能球数量的闪电充能球。
+CARD.BOOT_SEQUENCE,BootSequence,启动流程,Boot Sequence,Defect,Uncommon,Skill,0,Self,Innate|Exhaust,"固有,消耗,获得10点格挡。","固有,消耗,获得16点格挡。"
+CARD.BULK_UP,BulkUp,暴涨,Bulk Up,Defect,Uncommon,Power,2,Self,,失去1个充能球栏位。 获得2点力量。 获得2点敏捷。,失去1个充能球栏位。 获得3点力量。 获得3点敏捷。
+CARD.CAPACITOR,Capacitor,扩容,Capacitor,Defect,Uncommon,Power,1,Self,,获得2个充能球栏位。,获得4个充能球栏位。
+CARD.CHAOS,Chaos,混沌,Chaos,Defect,Uncommon,Skill,1,Self,,生成1个随机充能球。,生成3个随机充能球。
+CARD.CHILL,Chill,冰寒,Chill,Defect,Uncommon,Skill,0,Self,Exhaust,"消耗,当前每有一名敌人，就生成1个冰霜充能球。",当前每有一名敌人，就生成1个冰霜充能球。
+CARD.COMPACT,Compact,压缩,Compact,Defect,Uncommon,Skill,1,Self,,获得6点格挡。 将你手牌中的全部状态牌变化为燃料。,获得8点格挡。 将你手牌中的全部状态牌变化为燃料+。
+CARD.DARKNESS,Darkness,漆黑,Darkness,Defect,Uncommon,Skill,1,Self,,生成1黑暗充能球。 触发所有黑暗充能球的被动。,生成1黑暗充能球。 触发所有黑暗充能球的被动两次。
+CARD.DOUBLE_ENERGY,DoubleEnergy,双倍能量,Double Energy,Defect,Uncommon,Skill,1,Self,Exhaust,"消耗,将你的能量翻倍。","消耗,将你的能量翻倍。"
+CARD.ENERGY_SURGE,EnergySurge,能量涌动,Energy Surge,Defect,Uncommon,Skill,1,AllAllies,Exhaust,"消耗,所有玩家获得2能量。","消耗,所有玩家获得4能量。"
+CARD.FERAL,Feral,野性,Feral,Defect,Uncommon,Power,2,Self,,,
+CARD.FIGHT_THROUGH,FightThrough,强撑,Fight Through,Defect,Uncommon,Skill,1,Self,,获得13点格挡。 将2张伤口加入你的弃牌堆。,获得21点格挡。 将2张伤口加入你的弃牌堆。
+CARD.FTL,Ftl,超越光速,FTL,Defect,Uncommon,Attack,0,AnyEnemy,,造成5点伤害。 如果你在这回合打出的牌数小于3张，抽1张牌。,造成7点伤害。 如果你在这回合打出的牌数小于5张，抽1张牌。
+CARD.FUSION,Fusion,聚变,Fusion,Defect,Uncommon,Skill,2,Self,,生成1个等离子充能球。,生成1个等离子充能球。
+CARD.GLACIER,Glacier,冰川,Glacier,Defect,Uncommon,Skill,2,Self,,获得6点格挡。 生成2个冰霜充能球。,获得12点格挡。 生成2个冰霜充能球。
+CARD.GLASSWORK,Glasswork,玻璃工艺,Glasswork,Defect,Uncommon,Skill,1,Self,,获得5点格挡。 生成1个玻璃充能球。,获得11点格挡。 生成1个玻璃充能球。
+CARD.HAILSTORM,Hailstorm,冰雹风暴,Hailstorm,Defect,Uncommon,Power,1,Self,,在你的回合结束时，如果你有冰霜充能球，则对所有敌人造成6点伤害。,在你的回合结束时，如果你有冰霜充能球，则对所有敌人造成8点伤害。
+CARD.ITERATION,Iteration,迭代,Iteration,Defect,Uncommon,Power,1,Self,,每回合你第一次抽到状态牌时，抽2张牌。,每回合你第一次抽到状态牌时，抽3张牌。
+CARD.LOOP,Loop,循环,Loop,Defect,Uncommon,Power,1,Self,,在你的回合开始时，触发你最右侧的一个充能球的被动能力。,在你的回合开始时，触发你最右侧的一个充能球的被动能力2次。
+CARD.NULL,Null,空无,Null,Defect,Uncommon,Attack,2,AnyEnemy,,造成10点伤害。 给予2层虚弱。 生成1个黑暗充能球。,造成16点伤害。 给予3层虚弱。 生成1个黑暗充能球。
+CARD.OVERCLOCK,Overclock,超频,Overclock,Defect,Uncommon,Skill,0,Self,,抽2张牌。 将一张灼伤加入你的弃牌堆。,抽4张牌。 将一张灼伤加入你的弃牌堆。
+CARD.REFRACT,Refract,折射,Refract,Defect,Uncommon,Attack,3,AnyEnemy,,造成9点伤害两次。 生成2个玻璃充能球。,造成15点伤害两次。 生成2个玻璃充能球。
+CARD.ROCKET_PUNCH,RocketPunch,火箭飞拳,Rocket Punch,Defect,Uncommon,Attack,2,AnyEnemy,,造成13点伤害。 抽1张牌。 当有一张状态被生成时，将此牌的耗能在本回合降为0能量。,造成15点伤害。 抽3张牌。 当有一张状态被生成时，将此牌的耗能在本回合降为0能量。
+CARD.SCAVENGE,Scavenge,再利用,Scavenge,Defect,Uncommon,Skill,1,Self,,消耗一张牌。 在下个回合获得2能量。,消耗一张牌。 在下个回合获得4能量。
+CARD.SCRAPE,Scrape,刮削,Scrape,Defect,Uncommon,Attack,1,AnyEnemy,,造成7点伤害。 抽4张牌。 丢弃抽到的牌中耗能不为0能量的牌。,造成13点伤害。 抽6张牌。 丢弃抽到的牌中耗能不为0能量的牌。
+CARD.SHADOW_SHIELD,ShadowShield,暗影之盾,Shadow Shield,Defect,Uncommon,Skill,2,Self,,获得11点格挡。 生成1个黑暗充能球。,获得19点格挡。 生成1个黑暗充能球。
+CARD.SKIM,Skim,快速检索,Skim,Defect,Uncommon,Skill,1,Self,,抽3张牌。,抽5张牌。
+CARD.SMOKESTACK,Smokestack,烟囱,Smokestack,Defect,Uncommon,Power,1,Self,,每当你生成一张状态牌时，对所有敌人造成5点伤害。,每当你生成一张状态牌时，对所有敌人造成7点伤害。
+CARD.STORM,Storm,雷暴,Storm,Defect,Uncommon,Power,1,Self,,每当你打出一张能力牌时，生成1个闪电充能球。,每当你打出一张能力牌时，生成2个闪电充能球。
+CARD.SUBROUTINE,Subroutine,子程序,Subroutine,Defect,Uncommon,Power,1,Self,,当你打出一张能力牌时，获得能量。,当你打出一张能力牌时，获得能量。
+CARD.SUNDER,Sunder,分离,Sunder,Defect,Uncommon,Attack,3,AnyEnemy,,造成24点伤害。 如果这张牌击杀了敌人，则获得3能量。,造成40点伤害。 如果这张牌击杀了敌人，则获得3能量。
+CARD.SYNCHRONIZE,Synchronize,同步,Synchronize,Defect,Uncommon,Skill,1,Self,Exhaust,"消耗,你每有一种不同的充能球，就在本回合获得2点集中。",你每有一种不同的充能球，就在本回合获得2点集中。
+CARD.SYNTHESIS,Synthesis,人工合成,Synthesis,Defect,Uncommon,Attack,2,AnyEnemy,,造成12点伤害。 你打出的下一张能力牌耗能变为0能量。,造成24点伤害。 你打出的下一张能力牌耗能变为0能量。
+CARD.TEMPEST,Tempest,暴风雨,Tempest,Defect,Uncommon,Skill,-2,Self,,生成X个闪电充能球。,生成X+1个闪电充能球。
+CARD.TESLA_COIL,TeslaCoil,特斯拉线圈,Tesla Coil,Defect,Uncommon,Attack,0,AnyEnemy,,造成3点伤害。 对该敌人触发你的所有闪电充能球的被动。,造成9点伤害。 对该敌人触发你的所有闪电充能球的被动。
+CARD.THUNDER,Thunder,雷霆,Thunder,Defect,Uncommon,Power,1,Self,,每当你激发闪电充能球时，对被命中的敌人造成6点伤害。,每当你激发闪电充能球时，对被命中的敌人造成8点伤害。
+CARD.WHITE_NOISE,WhiteNoise,白噪音,White Noise,Defect,Uncommon,Skill,1,Self,Exhaust,"消耗,将一张随机能力牌加入你的手牌。这张牌在本回合内免费打出。","消耗,将一张随机能力牌加入你的手牌。这张牌在本回合内免费打出。"
+CARD.DEPRECATED_CARD,DeprecatedCard,弃用卡牌,Deprecated Card,Deprecated,Deprecated,,0,,Unplayable,"不能被打出,这张卡牌已经从游戏中移除。","不能被打出,这张卡牌已经从游戏中移除。"
+CARD.APOTHEOSIS,Apotheosis,神化,Apotheosis,Event,Ancient,Skill,2,Self,Exhaust|Innate,"消耗,固有,升级你的全部卡牌。","消耗,固有,升级你的全部卡牌。"
+CARD.APPARITION,Apparition,灵体,Apparition,Event,Ancient,Skill,1,Self,Ethereal|Exhaust,"虚无,消耗,获得1层无实体。","消耗,获得1层无实体。"
+CARD.BRIGHTEST_FLAME,BrightestFlame,至亮之焰,Brightest Flame,Event,Ancient,Skill,0,Self,,获得2能量。 抽2张牌。 失去1点最大生命。,获得4能量。 抽4张牌。 失去1点最大生命。
+CARD.MAUL,Maul,撕咬,Maul,Event,Ancient,Attack,1,AnyEnemy,,造成5点伤害两次。 在这场战斗中，将所有“撕咬”牌的伤害增加1。,造成7点伤害两次。 在这场战斗中，将所有“撕咬”牌的伤害增加3。
+CARD.NEOWS_FURY,NeowsFury,涅奥之怒,Neow's Fury,Event,Ancient,Attack,1,AnyEnemy,Exhaust,"消耗,造成10点伤害。 将你弃牌堆中的2张随机牌放入你的手牌。","消耗,造成18点伤害。 将你弃牌堆中的2张随机牌放入你的手牌。"
+CARD.RELAX,Relax,放松,Relax,Event,Ancient,Skill,3,Self,Exhaust,"消耗,获得15点格挡。 下个回合，抽2张牌并获得2能量。","消耗,获得19点格挡。 下个回合，抽4张牌并获得4能量。"
+CARD.WHISTLE,Whistle,吹哨,Whistle,Event,Ancient,Attack,3,AnyEnemy,Exhaust,"消耗,造成33点伤害。 眩晕该敌人","消耗,造成55点伤害。 眩晕该敌人"
+CARD.WISH,Wish,许愿,Wish,Event,Ancient,Skill,0,Self,Exhaust,"消耗,将你抽牌堆中的一张牌放入你的手牌。","消耗,保留,将你抽牌堆中的一张牌放入你的手牌。"
+CARD.BYRD_SWOOP,ByrdSwoop,异鸟扑击,Byrd Swoop,Event,Event,Attack,0,AnyEnemy,,造成14点伤害。,造成22点伤害。
+CARD.CALTROPS,Caltrops,铁蒺藜,Caltrops,Event,Event,Power,1,Self,,每当你被攻击时，对攻击者造成3点伤害。,每当你被攻击时，对攻击者造成5点伤害。
+CARD.CLASH,Clash,交锋,Clash,Event,Event,Attack,0,AnyEnemy,,只有在手牌中每一张牌都是攻击牌时才能被打出。 造成14点伤害。,只有在手牌中每一张牌都是攻击牌时才能被打出。 造成22点伤害。
+CARD.DISTRACTION,Distraction,声东击西,Distraction,Event,Event,Skill,1,Self,Exhaust,"消耗,将一张随机技能牌添加到你的手牌中。这张牌在本回合内可以免费打出。","消耗,将一张随机技能牌添加到你的手牌中。这张牌在本回合内可以免费打出。"
+CARD.DUAL_WIELD,DualWield,双持,Dual Wield,Event,Event,Skill,1,Self,,选择一张攻击牌或能力牌。将一张此牌的复制品加入你的手牌。,选择一张攻击牌或能力牌。将3张此牌的复制品加入你的手牌。
+CARD.ENLIGHTENMENT,Enlightenment,开悟,Enlightenment,Event,Event,Skill,0,Self,Exhaust,"消耗,在这个回合，你当前手牌中所有牌的耗能降低至1。","消耗,在这场战斗，你当前手牌中所有牌的耗能降低至1。"
+CARD.ENTRENCH,Entrench,巩固,Entrench,Event,Event,Skill,2,Self,,将你当前的格挡翻倍。,将你当前的格挡翻倍。
+CARD.EXTERMINATE,Exterminate,杀灭,Exterminate,Event,Event,Attack,1,AllEnemies,,对所有敌人造成3点伤害4次。,对所有敌人造成5点伤害4次。
+CARD.FEEDING_FRENZY,FeedingFrenzy,疯狂进食,Feeding Frenzy,Event,Event,Skill,0,Self,,在本回合内获得5点力量。,在本回合内获得7点力量。
+CARD.HELLO_WORLD,HelloWorld,你好世界,Hello World,Event,Event,Power,1,Self,,在你的回合开始时，将一张随机普通牌加入你的手牌。,"固有,在你的回合开始时，将一张随机普通牌加入你的手牌。"
+CARD.METAMORPHOSIS,Metamorphosis,羽化,Metamorphosis,Event,Event,Skill,2,Self,Exhaust,"消耗,在你的抽牌堆中加入3张随机攻击牌。它们在本场战斗中可以被免费打出。","消耗,在你的抽牌堆中加入7张随机攻击牌。它们在本场战斗中可以被免费打出。"
+CARD.OUTMANEUVER,Outmaneuver,抢占先机,Outmaneuver,Event,Event,Skill,1,Self,,在下个回合获得2能量。,在下个回合获得4能量。
+CARD.PECK,Peck,啄击,Peck,Event,Event,Attack,1,AnyEnemy,,造成2点伤害3次。,造成2点伤害5次。
+CARD.REBOUND,Rebound,弹回,Rebound,Event,Event,Attack,1,AnyEnemy,,造成9点伤害。 将你在本回合打出的下一张牌放置到你的抽牌堆顶部。,造成15点伤害。 将你在本回合打出的下一张牌放置到你的抽牌堆顶部。
+CARD.SQUASH,Squash,压扁,Squash,Event,Event,Attack,1,AnyEnemy,,造成10点伤害。 给予2层易伤。,造成14点伤害。 给予3层易伤。
+CARD.STACK,Stack,堆栈,Stack,Event,Event,Skill,1,Self,,获得等量于与你当前弃牌堆中牌数的格挡值。,获得等量于与你当前弃牌堆中牌数+6的格挡值。
+CARD.TORIC_TOUGHNESS,ToricToughness,坚韧之环,Toric Toughness,Event,Event,Skill,2,Self,,获得5点格挡。 在接下来的2个回合开始时，获得5点格挡。,获得9点格挡。 在接下来的2个回合开始时，获得9点格挡。
+CARD.RIP_AND_TEAR,RipAndTear,狂乱撕扯,Rip and Tear,Event,Uncommon,Attack,1,RandomEnemy,,随机对敌人造成7点伤害两次。,随机对敌人造成11点伤害两次。
+CARD.MAD_SCIENCE,MadScience,疯狂科学,Mad Science,Event,Unknown,Unknown,0,Unknown,,todo,
+CARD.BREAK,Break,破击,Break,Ironclad,Ancient,Attack,2,AnyEnemy,,造成20点伤害。 给予5层易伤。,造成30点伤害。 给予7层易伤。
+CARD.CORRUPTION,Corruption,腐化,Corruption,Ironclad,Ancient,Power,3,Self,,技能牌消耗变为0能量。 每当你打出一张技能牌时，将其消耗。,技能牌消耗变为0能量。 每当你打出一张技能牌时，将其消耗。
+CARD.BASH,Bash,痛击,Bash,Ironclad,Basic,Attack,2,AnyEnemy,,造成8点伤害。 给予2层易伤。,造成12点伤害。 给予3层易伤。
+CARD.DEFEND_IRONCLAD,DefendIronclad,防御,Defend,Ironclad,Basic,Skill,1,Self,,获得5点格挡。,获得11点格挡。
+CARD.STRIKE_IRONCLAD,StrikeIronclad,打击,Strike,Ironclad,Basic,Attack,1,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.ANGER,Anger,愤怒,Anger,Ironclad,Common,Attack,0,AnyEnemy,,造成6点伤害。 将一张此牌的复制品加入你的弃牌堆。,造成10点伤害。 将一张此牌的复制品加入你的弃牌堆。
+CARD.ARMAMENTS,Armaments,武装,Armaments,Ironclad,Common,Skill,1,Self,,获得5点格挡。 升级你手牌中的一张牌。,获得5点格挡。 升级你手牌中的所有牌。
+CARD.BLOODLETTING,Bloodletting,放血,Bloodletting,Ironclad,Common,Skill,0,Self,,失去3点生命。 获得2能量。,失去3点生命。 获得4能量。
+CARD.BLOOD_WALL,BloodWall,血墙,Blood Wall,Ironclad,Common,Skill,2,Self,,失去2点生命。 获得16点格挡。,失去2点生命。 获得24点格挡。
+CARD.BODY_SLAM,BodySlam,全身撞击,Body Slam,Ironclad,Common,Attack,1,AnyEnemy,,造成你当前格挡值的伤害。,造成你当前格挡值的伤害。
+CARD.BREAKTHROUGH,Breakthrough,突破,Breakthrough,Ironclad,Common,Attack,1,AllEnemies,,失去1点生命。 对所有敌人造成9点伤害。,失去1点生命。 对所有敌人造成17点伤害。
+CARD.CINDER,Cinder,余烬,Cinder,Ironclad,Common,Attack,2,AnyEnemy,,造成17点伤害。 消耗你的抽牌堆顶部的牌。,造成27点伤害。 消耗你的抽牌堆顶部的牌。
+CARD.HAVOC,Havoc,破灭,Havoc,Ironclad,Common,Skill,1,Self,,打出抽牌堆顶部的牌并将其消耗。,打出抽牌堆顶部的牌并将其消耗。
+CARD.HEADBUTT,Headbutt,头槌,Headbutt,Ironclad,Common,Attack,1,AnyEnemy,,造成9点伤害。 将你弃牌堆中的一张牌放到抽牌堆顶部。,造成15点伤害。 将你弃牌堆中的一张牌放到抽牌堆顶部。
+CARD.IRON_WAVE,IronWave,铁斩波,Iron Wave,Ironclad,Common,Attack,1,AnyEnemy,,获得5点格挡。 造成5点伤害。,获得9点格挡。 造成9点伤害。
+CARD.MOLTEN_FIST,MoltenFist,熔融之拳,Molten Fist,Ironclad,Common,Attack,1,AnyEnemy,Exhaust,"消耗,造成10点伤害。 将该敌人身上的易伤层数翻倍。","消耗,造成18点伤害。 将该敌人身上的易伤层数翻倍。"
+CARD.PERFECTED_STRIKE,PerfectedStrike,完美打击,Perfected Strike,Ironclad,Common,Attack,2,AnyEnemy,,造成6点伤害。 你每有一张名字中含有“打击”的牌，伤害+2。,造成6点伤害。 你每有一张名字中含有“打击”的牌，伤害+4。
+CARD.POMMEL_STRIKE,PommelStrike,剑柄打击,Pommel Strike,Ironclad,Common,Attack,1,AnyEnemy,,造成9点伤害。 抽1张牌。,造成11点伤害。 抽3张牌。
+CARD.SETUP_STRIKE,SetupStrike,预备打击,Setup Strike,Ironclad,Common,Attack,1,AnyEnemy,,造成7点伤害。 在本回合内获得2点力量。,造成11点伤害。 在本回合内获得3点力量。
+CARD.SHRUG_IT_OFF,ShrugItOff,耸肩无视,Shrug It Off,Ironclad,Common,Skill,1,Self,,获得8点格挡。 抽1张牌。,获得14点格挡。 抽1张牌。
+CARD.SWORD_BOOMERANG,SwordBoomerang,飞剑回旋镖,Sword Boomerang,Ironclad,Common,Attack,1,RandomEnemy,,随机对敌人造成3点伤害3次。,随机对敌人造成3点伤害5次。
+CARD.THUNDERCLAP,Thunderclap,闪电霹雳,Thunderclap,Ironclad,Common,Attack,1,AllEnemies,,对所有敌人造成4点伤害，给予1层易伤。,对所有敌人造成10点伤害，给予1层易伤。
+CARD.TREMBLE,Tremble,战栗,Tremble,Ironclad,Common,Skill,1,AnyEnemy,,给予2层易伤。,给予3层易伤。
+CARD.TRUE_GRIT,TrueGrit,坚毅,True Grit,Ironclad,Common,Skill,1,Self,,获得7点格挡。 随机消耗1张牌。,获得11点格挡。 消耗1张牌。
+CARD.TWIN_STRIKE,TwinStrike,双重打击,Twin Strike,Ironclad,Common,Attack,1,AnyEnemy,,造成5点伤害两次。,造成9点伤害两次。
+CARD.AGGRESSION,Aggression,好勇斗狠,Aggression,Ironclad,Rare,Power,1,Self,,在你的回合开始时，将你弃牌堆的一张随机攻击牌放入你的手牌并将其升级。,"固有,在你的回合开始时，将你弃牌堆的一张随机攻击牌放入你的手牌并将其升级。"
+CARD.BARRICADE,Barricade,壁垒,Barricade,Ironclad,Rare,Power,3,Self,,格挡不再在你的回合开始时消失。,格挡不再在你的回合开始时消失。
+CARD.BRAND,Brand,烙印,Brand,Ironclad,Rare,Skill,0,Self,,失去1点生命。 消耗1张牌。 获得1点力量。,失去1点生命。 消耗1张牌。 获得2点力量。
+CARD.CASCADE,Cascade,倾泻,Cascade,Ironclad,Rare,Skill,-2,Self,,打出你抽牌堆顶部的X张牌。,打出你抽牌堆顶部的X+1张牌。
+CARD.COLOSSUS,Colossus,巨像,Colossus,Ironclad,Rare,Skill,1,Self,,获得5点格挡。 在本回合中，有易伤状态的敌人对你造成的伤害降低50%。,获得11点格挡。 在本回合中，有易伤状态的敌人对你造成的伤害降低50%。
+CARD.CONFLAGRATION,Conflagration,焚烧,Conflagration,Ironclad,Rare,Attack,1,AllEnemies,,对所有敌人造成8点伤害。 你在本回合中每打出过一张其他攻击牌，这张牌的伤害就提升2点。,对所有敌人造成10点伤害。 你在本回合中每打出过一张其他攻击牌，这张牌的伤害就提升4点。
+CARD.CRIMSON_MANTLE,CrimsonMantle,绯红披风,Crimson Mantle,Ironclad,Rare,Power,1,Self,,在你的回合开始时，失去1点生命并获得8点格挡。,在你的回合开始时，失去1点生命并获得10点格挡。
+CARD.CRUELTY,Cruelty,残酷,Cruelty,Ironclad,Rare,Power,1,Self,,有易伤状态的敌人额外受到25%的伤害。,有易伤状态的敌人额外受到50%的伤害。
+CARD.DARK_EMBRACE,DarkEmbrace,黑暗之拥,Dark Embrace,Ironclad,Rare,Power,2,Self,,每当有一张牌被消耗时， 抽1张牌。,每当有一张牌被消耗时， 抽1张牌。
+CARD.DEMON_FORM,DemonForm,恶魔形态,Demon Form,Ironclad,Rare,Power,3,Self,,在你的回合开始时，获得2点力量。,在你的回合开始时，获得3点力量。
+CARD.FEED,Feed,狂宴,Feed,Ironclad,Rare,Attack,1,AnyEnemy,Exhaust,"消耗,造成10点伤害。 斩杀时，永久获得3点最大生命值。","消耗,造成14点伤害。 斩杀时，永久获得5点最大生命值。"
+CARD.FIEND_FIRE,FiendFire,恶魔之焰,Fiend Fire,Ironclad,Rare,Attack,2,AnyEnemy,Exhaust,"消耗,消耗所有手牌。 每张被消耗的牌造成7点伤害。","消耗,消耗所有手牌。 每张被消耗的牌造成13点伤害。"
+CARD.HELLRAISER,Hellraiser,地狱狂徒,Hellraiser,Ironclad,Rare,Power,2,Self,,每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。,每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。
+CARD.IMPERVIOUS,Impervious,岿然不动,Impervious,Ironclad,Rare,Skill,2,Self,Exhaust,"消耗,获得30点格挡。","消耗,获得50点格挡。"
+CARD.JUGGERNAUT,Juggernaut,势不可当,Juggernaut,Ironclad,Rare,Power,2,Self,,每当你获得格挡时，对随机敌人造成5点伤害。,每当你获得格挡时，对随机敌人造成7点伤害。
+CARD.MANGLE,Mangle,凌虐,Mangle,Ironclad,Rare,Attack,3,AnyEnemy,,造成15点伤害。 敌人在本回合失去10点力量。,造成25点伤害。 敌人在本回合失去20点力量。
+CARD.OFFERING,Offering,祭品,Offering,Ironclad,Rare,Skill,0,Self,Exhaust,"消耗,失去6点生命。 获得2能量。 抽3张牌。","消耗,失去6点生命。 获得2能量。 抽7张牌。"
+CARD.ONE_TWO_PUNCH,OneTwoPunch,连环拳,One-Two Punch,Ironclad,Rare,Skill,1,Self,,在这个回合，你打出的下1张攻击牌会被额外打出一次。,在这个回合，你打出的下3张攻击牌会被额外打出一次。
+CARD.PACTS_END,PactsEnd,契约终结,Pact's End,Ironclad,Rare,Attack,0,AllEnemies,,只有在你的消耗牌堆拥有大于等于3张牌的时候才能被打出。 对所有敌人造成17点伤害。,只有在你的消耗牌堆拥有大于等于3张牌的时候才能被打出。 对所有敌人造成29点伤害。
+CARD.PRIMAL_FORCE,PrimalForce,原始力量,Primal Force,Ironclad,Rare,Skill,0,Self,,将手牌中的所有攻击牌变化为巨石。,将手牌中的所有攻击牌变化为巨石+。
+CARD.PYRE,Pyre,薪火之源,Pyre,Ironclad,Rare,Power,2,Self,,在回合开始时，获得1能量。,在回合开始时，获得3能量。
+CARD.STOKE,Stoke,添柴,Stoke,Ironclad,Rare,Skill,1,Self,Exhaust,"消耗,消耗所有手牌。 然后抽相同数量张牌。","消耗,消耗所有手牌。 然后抽相同数量张牌。"
+CARD.TANK,Tank,肉盾,Tank,Ironclad,Rare,Power,1,Self,,承受双倍来自敌人的伤害。 敌人的伤害对盟友减半。,承受双倍来自敌人的伤害。 敌人的伤害对盟友减半。
+CARD.TEAR_ASUNDER,TearAsunder,扯碎,Tear Asunder,Ironclad,Rare,Attack,2,AnyEnemy,,造成5点伤害。 在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。,造成9点伤害。 在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害。
+CARD.THRASH,Thrash,痛殴,Thrash,Ironclad,Rare,Attack,1,AnyEnemy,,造成4点伤害两次。 消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。,造成8点伤害两次。 消耗你的手牌中随机一张攻击牌，并将它的伤害添加给这张牌。
+CARD.UNMOVABLE,Unmovable,坚定不移,Unmovable,Ironclad,Rare,Power,2,Self,,翻倍你每回合第一次从卡牌中获得的格挡。,翻倍你每回合第一次从卡牌中获得的格挡。
+CARD.ASHEN_STRIKE,AshenStrike,灰烬打击,Ashen Strike,Ironclad,Uncommon,Attack,1,AnyEnemy,,造成6点伤害。 你的消耗牌堆中每有一张牌，伤害增加3。,造成6点伤害。 你的消耗牌堆中每有一张牌，伤害增加5。
+CARD.BATTLE_TRANCE,BattleTrance,战斗专注,Battle Trance,Ironclad,Uncommon,Skill,0,Self,,抽3张牌。 你在本回合内不能再抽任何牌。,抽5张牌。 你在本回合内不能再抽任何牌。
+CARD.BLUDGEON,Bludgeon,重锤,Bludgeon,Ironclad,Uncommon,Attack,3,AnyEnemy,,造成32点伤害。,造成52点伤害。
+CARD.BULLY,Bully,欺凌,Bully,Ironclad,Uncommon,Attack,0,AnyEnemy,,造成4点伤害。 该敌人身上每有一层易伤就额外造成2点伤害。,造成4点伤害。 该敌人身上每有一层易伤就额外造成4点伤害。
+CARD.BURNING_PACT,BurningPact,燃烧契约,Burning Pact,Ironclad,Uncommon,Skill,1,Self,,消耗1张牌。 抽2张牌。,消耗1张牌。 抽4张牌。
+CARD.DEMONIC_SHIELD,DemonicShield,恶魔护盾,Demonic Shield,Ironclad,Uncommon,Skill,0,AnyAlly,Exhaust,"消耗,失去1点生命。 给予另一位玩家你当前格挡值的格挡。",失去1点生命。 给予另一位玩家你当前格挡值的格挡。
+CARD.DISMANTLE,Dismantle,拆卸,Dismantle,Ironclad,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 如果该敌人有易伤状态，则攻击两次。,造成12点伤害。 如果该敌人有易伤状态，则攻击两次。
+CARD.DOMINATE,Dominate,主宰,Dominate,Ironclad,Uncommon,Skill,1,AnyEnemy,Exhaust,"消耗,敌人身上每有一层易伤，就获得1点力量。",敌人身上每有一层易伤，就获得1点力量。
+CARD.DRUM_OF_BATTLE,DrumOfBattle,战鼓,Drum of Battle,Ironclad,Uncommon,Power,0,Self,,抽2张牌。 在你的回合开始时，消耗你的抽牌堆顶部的牌。,抽4张牌。 在你的回合开始时，消耗你的抽牌堆顶部的牌。
+CARD.EVIL_EYE,EvilEye,邪眼,Evil Eye,Ironclad,Uncommon,Skill,1,Self,,获得8点格挡。 如果你在本回合获得消耗过卡牌，则额外获得8点格挡。,获得14点格挡。 如果你在本回合获得消耗过卡牌，则额外获得14点格挡。
+CARD.EXPECT_A_FIGHT,ExpectAFight,跃跃欲试,Expect a Fight,Ironclad,Uncommon,Skill,2,Self,,你的手牌中每有一张攻击牌，就会获得能量。,你的手牌中每有一张攻击牌，就会获得能量。
+CARD.FEEL_NO_PAIN,FeelNoPain,无惧疼痛,Feel No Pain,Ironclad,Uncommon,Power,1,Self,,每当有一张牌被消耗时，获得3点格挡。,每当有一张牌被消耗时，获得4点格挡。
+CARD.FIGHT_ME,FightMe,与我一战！,Fight Me!,Ironclad,Uncommon,Attack,2,AnyEnemy,,造成5点伤害两次。 获得2点力量。 该敌人获得1点力量。,造成7点伤害两次。 获得3点力量。 该敌人获得1点力量。
+CARD.FLAME_BARRIER,FlameBarrier,火焰屏障,Flame Barrier,Ironclad,Uncommon,Skill,2,Self,,获得12点格挡。 你在这个回合每受到一次攻击，都会对攻击者造成4点伤害。,获得20点格挡。 你在这个回合每受到一次攻击，都会对攻击者造成8点伤害。
+CARD.FORGOTTEN_RITUAL,ForgottenRitual,被遗忘的仪式,Forgotten Ritual,Ironclad,Uncommon,Skill,1,Self,,如果你在本回合消耗过卡牌，则获得3能量。,如果你在本回合消耗过卡牌，则获得5能量。
+CARD.GRAPPLE,Grapple,擒拿,Grapple,Ironclad,Uncommon,Attack,1,AnyEnemy,,造成7点伤害。 当你在本回合获得格挡时，对该敌人造成5点伤害。,造成11点伤害。 当你在本回合获得格挡时，对该敌人造成7点伤害。
+CARD.HEMOKINESIS,Hemokinesis,御血术,Hemokinesis,Ironclad,Uncommon,Attack,1,AnyEnemy,,失去2点生命。 造成14点伤害。,失去2点生命。 造成24点伤害。
+CARD.HOWL_FROM_BEYOND,HowlFromBeyond,彼岸咆哮,Howl from Beyond,Ironclad,Uncommon,Attack,3,AllEnemies,,对所有敌人造成16点伤害。 在你的回合开始时，从消耗牌堆将此牌打出。,对所有敌人造成26点伤害。 在你的回合开始时，从消耗牌堆将此牌打出。
+CARD.INFERNAL_BLADE,InfernalBlade,地狱之刃,Infernal Blade,Ironclad,Uncommon,Skill,1,Self,Exhaust,"消耗,将一张随机攻击牌加入你的手牌。这张牌在本回合内可以免费打出。","消耗,将一张随机攻击牌加入你的手牌。这张牌在本回合内可以免费打出。"
+CARD.INFERNO,Inferno,狱火,Inferno,Ironclad,Uncommon,Power,1,Self,,在你的回合开始时，失去1点生命。 每当你在你的回合内失去生命时，对所有敌人造成6点伤害。,在你的回合开始时，失去1点生命。 每当你在你的回合内失去生命时，对所有敌人造成9点伤害。
+CARD.INFLAME,Inflame,燃烧,Inflame,Ironclad,Uncommon,Power,1,Self,,获得2点力量。,获得3点力量。
+CARD.JUGGLING,Juggling,杂耍,Juggling,Ironclad,Uncommon,Power,1,Self,,将你在每回合打出的第三张攻击牌的复制品加入你的手牌。,"固有,将你在每回合打出的第三张攻击牌的复制品加入你的手牌。"
+CARD.PILLAGE,Pillage,劫掠,Pillage,Ironclad,Uncommon,Attack,1,AnyEnemy,,造成6点伤害。 抽牌直到你抽到一张非攻击牌。,造成12点伤害。 抽牌直到你抽到一张非攻击牌。
+CARD.RAGE,Rage,狂怒,Rage,Ironclad,Uncommon,Skill,0,Self,,打出此牌后，你在这个回合内每打出一张攻击牌，获得3点格挡。,打出此牌后，你在这个回合内每打出一张攻击牌，获得5点格挡。
+CARD.RAMPAGE,Rampage,暴走,Rampage,Ironclad,Uncommon,Attack,1,AnyEnemy,,造成9点伤害。 将这张牌在本场战斗中的伤害增加5。,造成9点伤害。 将这张牌在本场战斗中的伤害增加13。
+CARD.RUPTURE,Rupture,撕裂,Rupture,Ironclad,Uncommon,Power,1,Self,,"每当你在你的回合失去生命值时,获得1点力量。","每当你在你的回合失去生命值时,获得2点力量。"
+CARD.SECOND_WIND,SecondWind,重振精神,Second Wind,Ironclad,Uncommon,Skill,1,Self,,消耗手牌中所有非攻击牌，每张获得5点格挡。,消耗手牌中所有非攻击牌，每张获得9点格挡。
+CARD.SPITE,Spite,怨恨,Spite,Ironclad,Uncommon,Attack,0,AnyEnemy,,造成6点伤害。 如果你在本回合失去过生命值，则抽1张牌。,造成12点伤害。 如果你在本回合失去过生命值，则抽1张牌。
+CARD.STAMPEDE,Stampede,惊逃,Stampede,Ironclad,Uncommon,Power,2,Self,,在你的回合结束时，随机打出你手牌中的1张攻击牌攻击随机敌人。,在你的回合结束时，随机打出你手牌中的1张攻击牌攻击随机敌人。
+CARD.STOMP,Stomp,踩踏,Stomp,Ironclad,Uncommon,Attack,3,AllEnemies,,对所有敌人造成12点伤害。 你在本回合中每打出过一张攻击牌，其耗能减少1能量。,对所有敌人造成18点伤害。 你在本回合中每打出过一张攻击牌，其耗能减少1能量。
+CARD.STONE_ARMOR,StoneArmor,岩石铠甲,Stone Armor,Ironclad,Uncommon,Power,1,Self,,获得4层覆甲。,获得6层覆甲。
+CARD.TAUNT,Taunt,挑衅,Taunt,Ironclad,Uncommon,Skill,1,AnyEnemy,,获得7点格挡。 给予1层易伤。,获得9点格挡。 给予2层易伤。
+CARD.UNRELENTING,Unrelenting,无情猛攻,Unrelenting,Ironclad,Uncommon,Attack,2,AnyEnemy,,造成12点伤害。 你打出的下一张攻击牌耗能变为0能量。,造成24点伤害。 你打出的下一张攻击牌耗能变为0能量。
+CARD.UPPERCUT,Uppercut,上勾拳,Uppercut,Ironclad,Uncommon,Attack,2,AnyEnemy,,造成13点伤害。 给予1层虚弱。 给予1层易伤。,造成13点伤害。 给予2层虚弱。 给予2层易伤。
+CARD.VICIOUS,Vicious,凶恶,Vicious,Ironclad,Uncommon,Power,1,Self,,每当你给予易伤时，抽1张牌。,每当你给予易伤时，抽3张牌。
+CARD.WHIRLWIND,Whirlwind,旋风斩,Whirlwind,Ironclad,Uncommon,Attack,-2,AllEnemies,,对所有敌人造成5点伤害X次。,对所有敌人造成11点伤害X次。
+CARD.FORBIDDEN_GRIMOIRE,ForbiddenGrimoire,禁忌魔典,Forbidden Grimoire,Necrobinder,Ancient,Power,2,Self,Eternal,"永恒,在战斗结束时，你可以从你的牌组中选一张牌移除。","永恒,在战斗结束时，你可以从你的牌组中选一张牌移除。"
+CARD.PROTECTOR,Protector,守护者,Protector,Necrobinder,Ancient,Attack,1,AnyEnemy,,奥斯提造成10点伤害。 额外造成等量于奥斯提最大生命值的伤害。,奥斯提造成20点伤害。 额外造成等量于奥斯提最大生命值的伤害。
+CARD.BODYGUARD,Bodyguard,护卫,Bodyguard,Necrobinder,Basic,Skill,1,Self,,召唤5。,召唤9。
+CARD.DEFEND_NECROBINDER,DefendNecrobinder,防御,Defend,Necrobinder,Basic,Skill,1,Self,,获得5点格挡。,获得11点格挡。
+CARD.STRIKE_NECROBINDER,StrikeNecrobinder,打击,Strike,Necrobinder,Basic,Attack,1,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.UNLEASH,Unleash,出击,Unleash,Necrobinder,Basic,Attack,1,AnyEnemy,,奥斯提造成6点伤害。 这张牌额外造成等量于奥斯提当前生命值的伤害。,奥斯提造成12点伤害。 这张牌额外造成等量于奥斯提当前生命值的伤害。
+CARD.AFTERLIFE,Afterlife,来生,Afterlife,Necrobinder,Common,Skill,1,Self,Exhaust,"消耗,召唤6。","消耗,召唤12。"
+CARD.BLIGHT_STRIKE,BlightStrike,荒疫打击,Blight Strike,Necrobinder,Common,Attack,1,AnyEnemy,,造成8点伤害。 给予等量于所造成伤害的灾厄。,造成12点伤害。 给予等量于所造成伤害的灾厄。
+CARD.DEFILE,Defile,玷污,Defile,Necrobinder,Common,Attack,1,AnyEnemy,Ethereal,"虚无,造成13点伤害。","虚无,造成21点伤害。"
+CARD.DEFY,Defy,违逆,Defy,Necrobinder,Common,Skill,1,AnyEnemy,Ethereal,"虚无,获得6点格挡。 给予1层虚弱。","虚无,获得8点格挡。 给予2层虚弱。"
+CARD.DRAIN_POWER,DrainPower,能量汲取,Drain Power,Necrobinder,Common,Attack,1,AnyEnemy,,造成10点伤害。 随机升级你弃牌堆中的2张牌。,造成14点伤害。 随机升级你弃牌堆中的4张牌。
+CARD.FEAR,Fear,恐惧,Fear,Necrobinder,Common,Attack,1,AnyEnemy,Ethereal,"虚无,造成7点伤害。 给予1层易伤。","虚无,造成9点伤害。 给予2层易伤。"
+CARD.FLATTEN,Flatten,重压,Flatten,Necrobinder,Common,Attack,2,AnyEnemy,,奥斯提造成12点伤害。 如果奥斯提本回合攻击过，则这张牌的费用变为0能量。,奥斯提造成20点伤害。 如果奥斯提本回合攻击过，则这张牌的费用变为0能量。
+CARD.GRAVEBLAST,Graveblast,坟冢爆射,Graveblast,Necrobinder,Common,Attack,1,AnyEnemy,Exhaust,"消耗,造成4点伤害。 将弃牌堆中的一张牌放入你的手牌。",造成8点伤害。 将弃牌堆中的一张牌放入你的手牌。
+CARD.GRAVE_WARDEN,GraveWarden,守墓人,Grave Warden,Necrobinder,Common,Skill,1,Self,,获得8点格挡。 将一张灵魂放入你的抽牌堆中。,获得12点格挡。 将一张灵魂+放入你的抽牌堆中。
+CARD.INVOKE,Invoke,唤起,Invoke,Necrobinder,Common,Skill,1,Self,,在下个回合召唤2并获得2能量。,在下个回合召唤4并获得4能量。
+CARD.NEGATIVE_PULSE,NegativePulse,负能量脉冲,Negative Pulse,Necrobinder,Common,Skill,1,AllEnemies,,获得5点格挡。 给予所有敌人7层灾厄。,获得7点格挡。 给予所有敌人11层灾厄。
+CARD.POKE,Poke,戳击,Poke,Necrobinder,Common,Attack,0,AnyEnemy,,奥斯提造成6点伤害。,奥斯提造成12点伤害。
+CARD.PULL_AGGRO,PullAggro,吸引仇恨,Pull Aggro,Necrobinder,Common,Skill,2,Self,,召唤4。 获得7点格挡。,召唤6。 获得11点格挡。
+CARD.REAP,Reap,收割,Reap,Necrobinder,Common,Attack,3,AnyEnemy,Retain,"保留,造成27点伤害。","保留,造成39点伤害。"
+CARD.REAVE,Reave,剥夺,Reave,Necrobinder,Common,Attack,1,AnyEnemy,,造成9点伤害。 将一张灵魂加入你的抽牌堆。,造成13点伤害。 将一张灵魂+加入你的抽牌堆。
+CARD.SCOURGE,Scourge,鞭打,Scourge,Necrobinder,Common,Skill,1,AnyEnemy,,给予13层灾厄。 抽1张牌。,给予16层灾厄。 抽3张牌。
+CARD.SCULPTING_STRIKE,SculptingStrike,雕琢打击,Sculpting Strike,Necrobinder,Common,Attack,1,AnyEnemy,,造成8点伤害。 将虚无添加至一张手牌。,造成14点伤害。 将虚无添加至一张手牌。
+CARD.SNAP,Snap,抓取,Snap,Necrobinder,Common,Attack,1,AnyEnemy,,奥斯提造成7点伤害。 给手牌中的一张牌添加保留。,奥斯提造成13点伤害。 给手牌中的一张牌添加保留。
+CARD.SOW,Sow,播种,Sow,Necrobinder,Common,Attack,1,AllEnemies,Retain,"保留,对所有敌人造成8点伤害。","保留,对所有敌人造成14点伤害。"
+CARD.WISP,Wisp,鬼火,Wisp,Necrobinder,Common,Skill,0,Self,Exhaust,"消耗,获得1能量。","消耗,保留,获得1能量。"
+CARD.BANSHEES_CRY,BansheesCry,女妖之嚎,Banshee's Cry,Necrobinder,Rare,Attack,6,AllEnemies,,对所有敌人造成33点伤害。 本场战斗中每打出过一张虚无牌，此牌费用就减少2能量。,对所有敌人造成45点伤害。 本场战斗中每打出过一张虚无牌，此牌费用就减少2能量。
+CARD.CALL_OF_THE_VOID,CallOfTheVoid,虚空之唤,Call of the Void,Necrobinder,Rare,Power,1,Self,,在你的回合开始时，将1张随机牌添加到你的手牌中。添加的牌会获得虚无。,"固有,在你的回合开始时，将1张随机牌添加到你的手牌中。添加的牌会获得虚无。"
+CARD.DEMESNE,Demesne,领域,Demesne,Necrobinder,Rare,Power,3,Self,Ethereal,"虚无,在你的回合开始时，获得1能量并额外多抽1张牌。","虚无,在你的回合开始时，获得1能量并额外多抽1张牌。"
+CARD.DEVOUR_LIFE,DevourLife,吞噬生命,Devour Life,Necrobinder,Rare,Power,1,Self,,每当你打出一张灵魂时，召唤1。,每当你打出一张灵魂时，召唤2。
+CARD.EIDOLON,Eidolon,幻景,Eidolon,Necrobinder,Rare,Skill,2,Self,,消耗所有手牌。 如果有至少9张牌通过这个方法被消耗了，则获得1层无实体。,消耗所有手牌。 如果有至少9张牌通过这个方法被消耗了，则获得1层无实体。
+CARD.END_OF_DAYS,EndOfDays,末日降临,End of Days,Necrobinder,Rare,Skill,3,AllEnemies,,给予所有敌人29层灾厄。 杀死所有灾厄大于等于自身生命值的敌人。,给予所有敌人37层灾厄。 杀死所有灾厄大于等于自身生命值的敌人。
+CARD.ERADICATE,Eradicate,根除,Eradicate,Necrobinder,Rare,Attack,-2,AnyEnemy,Retain,"保留,造成11点伤害X次。","保留,造成17点伤害X次。"
+CARD.GLIMPSE_BEYOND,GlimpseBeyond,彼岸一瞥,Glimpse Beyond,Necrobinder,Rare,Skill,1,AllAllies,Exhaust,"消耗,在所有玩家的抽牌堆中加入3张灵魂。","消耗,在所有玩家的抽牌堆中加入5张灵魂。"
+CARD.HANG,Hang,吊杀,Hang,Necrobinder,Rare,Attack,1,AnyEnemy,,造成10点伤害。 让所有“吊杀”牌对这名敌人造成的伤害翻倍。,造成16点伤害。 让所有“吊杀”牌对这名敌人造成的伤害翻倍。
+CARD.MISERY,Misery,苦难,Misery,Necrobinder,Rare,Attack,0,AnyEnemy,,造成7点伤害。 给予其他敌人该名敌人身上的所有负面效果。,"保留,造成11点伤害。 给予其他敌人该名敌人身上的所有负面效果。"
+CARD.NECRO_MASTERY,NecroMastery,亡灵精通,Necro Mastery,Necrobinder,Rare,Power,2,Self,,召唤5。 每当奥斯提失去生命值时， 所有敌人失去等量生命值。,召唤11。 每当奥斯提失去生命值时， 所有敌人失去等量生命值。
+CARD.NEUROSURGE,Neurosurge,精神过载,Neurosurge,Necrobinder,Rare,Power,0,Self,,获得3能量。 抽2张牌。 在你的回合开始时，给予自身3层灾厄。,获得5能量。 抽2张牌。 在你的回合开始时，给予自身3层灾厄。
+CARD.OBLIVION,Oblivion,湮灭,Oblivion,Necrobinder,Rare,Skill,0,AnyEnemy,,你在本回合内每打出一张牌，就给予该敌人3层灾厄。,你在本回合内每打出一张牌，就给予该敌人4层灾厄。
+CARD.REANIMATE,Reanimate,死者苏生,Reanimate,Necrobinder,Rare,Skill,3,Self,Exhaust,"消耗,召唤20。","消耗,召唤30。"
+CARD.REAPER_FORM,ReaperForm,死神形态,Reaper Form,Necrobinder,Rare,Power,3,Self,,每当你的攻击造成伤害时，同时给予等量的灾厄。,"保留,每当你的攻击造成伤害时，同时给予等量的灾厄。"
+CARD.SACRIFICE,Sacrifice,牺牲,Sacrifice,Necrobinder,Rare,Skill,1,Self,Retain,"保留,如果奥斯提存活，则他死去，然后你获得等量于其双倍最大生命值的格挡。","保留,如果奥斯提存活，则他死去，然后你获得等量于其双倍最大生命值的格挡。"
+CARD.SEANCE,Seance,降灵,Seance,Necrobinder,Rare,Skill,0,Self,Ethereal,"虚无,将你抽牌堆中的一张牌变化为灵魂。","虚无,将你抽牌堆中的一张牌变化为灵魂+。"
+CARD.SENTRY_MODE,SentryMode,哨卫模式,Sentry Mode,Necrobinder,Rare,Power,2,Self,,在你的回合开始时，将1张扫荡凝视加入你的手牌。,在你的回合开始时，将1张扫荡凝视加入你的手牌。
+CARD.SHARED_FATE,SharedFate,命运同担,Shared Fate,Necrobinder,Rare,Skill,0,AnyEnemy,Exhaust,"消耗,失去2点力量。 敌人失去2点力量。","消耗,失去2点力量。 敌人失去4点力量。"
+CARD.SOUL_STORM,SoulStorm,灵魂风暴,Soul Storm,Necrobinder,Rare,Attack,1,AnyEnemy,,造成9点伤害。 你的消耗牌堆中每有一张灵魂，伤害增加2。,造成9点伤害。 你的消耗牌堆中每有一张灵魂，伤害增加4。
+CARD.SPIRIT_OF_ASH,SpiritOfAsh,灰烬之灵,Spirit of Ash,Necrobinder,Rare,Power,1,Self,,每当你打出一张虚无牌时，获得4点格挡。,每当你打出一张虚无牌时，获得6点格挡。
+CARD.SQUEEZE,Squeeze,榨取,Squeeze,Necrobinder,Rare,Attack,3,AnyEnemy,,奥斯提造成25点伤害。 你每有一张奥斯提的攻击牌，这张牌就额外造成5点伤害。,奥斯提造成35点伤害。 你每有一张奥斯提的攻击牌，这张牌就额外造成7点伤害。
+CARD.THE_SCYTHE,TheScythe,巨镰,The Scythe,Necrobinder,Rare,Attack,2,AnyEnemy,Exhaust,"消耗,造成13点伤害。 这张牌在本局游戏中的伤害永久性增加3。","消耗,造成13点伤害。 这张牌在本局游戏中的伤害永久性增加5。"
+CARD.TIMES_UP,TimesUp,大限已至,Time's Up,Necrobinder,Rare,Attack,2,AnyEnemy,Exhaust,"消耗,造成等量于该敌人身上的灾厄层数的伤害。","消耗,保留,造成等量于该敌人身上的灾厄层数的伤害。"
+CARD.TRANSFIGURE,Transfigure,重构,Transfigure,Necrobinder,Rare,Skill,1,Self,Exhaust,"消耗,给一张手牌添加重放。 其费用增加11能量。",给一张手牌添加重放。 其费用增加11能量。
+CARD.UNDEATH,Undeath,不死,Undeath,Necrobinder,Rare,Skill,0,Self,,获得7点格挡。 在弃牌堆放入一张此牌的复制品。,获得11点格挡。 在弃牌堆放入一张此牌的复制品。
+CARD.BONE_SHARDS,BoneShards,碎骨,Bone Shards,Necrobinder,Uncommon,Attack,1,AllEnemies,,如果奥斯提存活，则他对所有敌人造成9点伤害并且你获得9点格挡。 然后奥斯提死去。,如果奥斯提存活，则他对所有敌人造成15点伤害并且你获得15点格挡。 然后奥斯提死去。
+CARD.BORROWED_TIME,BorrowedTime,预借时间,Borrowed Time,Necrobinder,Uncommon,Skill,0,Self,,给予自身3层灾厄。 获得1能量。,给予自身3层灾厄。 获得3能量。
+CARD.BURY,Bury,埋葬,Bury,Necrobinder,Uncommon,Attack,4,AnyEnemy,,造成52点伤害。,造成74点伤害。
+CARD.CALCIFY,Calcify,钙化,Calcify,Necrobinder,Uncommon,Power,1,Self,,奥斯提的攻击额外造成4点伤害。,奥斯提的攻击额外造成6点伤害。
+CARD.CAPTURE_SPIRIT,CaptureSpirit,捕捉灵魂,Capture Spirit,Necrobinder,Uncommon,Skill,1,AnyEnemy,,敌人失去3点生命。 将3张灵魂加入你的抽牌堆。,敌人失去5点生命。 将5张灵魂加入你的抽牌堆。
+CARD.CLEANSE,Cleanse,洁净,Cleanse,Necrobinder,Uncommon,Skill,1,Self,,召唤3。 从你的抽牌堆中选一张牌消耗。,召唤7。 从你的抽牌堆中选一张牌消耗。
+CARD.COUNTDOWN,Countdown,倒数计时,Countdown,Necrobinder,Uncommon,Power,1,Self,,在你的回合开始时，给予随机敌人6点灾厄。,在你的回合开始时，给予随机敌人9点灾厄。
+CARD.DANSE_MACABRE,DanseMacabre,死亡之舞,Danse Macabre,Necrobinder,Uncommon,Power,1,Self,,每当你打出一张耗能大于等于2能量的牌时，获得3点格挡。,每当你打出一张耗能大于等于2能量的牌时，获得4点格挡。
+CARD.DEATHBRINGER,Deathbringer,死亡使者,Deathbringer,Necrobinder,Uncommon,Skill,2,AllEnemies,,给予所有敌人21层灾厄和1层虚弱。,给予所有敌人26层灾厄和1层虚弱。
+CARD.DEATH_MARCH,DeathMarch,死亡行军,Death March,Necrobinder,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 你在回合进行中每抽到一张牌，都会使其额外造成3点伤害。,造成10点伤害。 你在回合进行中每抽到一张牌，都会使其额外造成5点伤害。
+CARD.DEATHS_DOOR,DeathsDoor,死亡之门,Death's Door,Necrobinder,Uncommon,Skill,1,Self,,获得6点格挡。 如果你在本回合中曾给予过灾厄，则额外获得2次格挡。,获得8点格挡。 如果你在本回合中曾给予过灾厄，则额外获得2次格挡。
+CARD.DEBILITATE,Debilitate,摧残,Debilitate,Necrobinder,Uncommon,Attack,1,AnyEnemy,,造成7点伤害。 在接下来的3回合内，该敌人身上的易伤与虚弱效率翻倍。,造成11点伤害。 在接下来的4回合内，该敌人身上的易伤与虚弱效率翻倍。
+CARD.DELAY,Delay,拖延,Delay,Necrobinder,Uncommon,Skill,2,Self,,获得11点格挡。 在下个回合， 获得1能量。,获得15点格挡。 在下个回合， 获得3能量。
+CARD.DIRGE,Dirge,挽歌,Dirge,Necrobinder,Uncommon,Skill,-2,Self,,召唤3X次。 将X张灵魂添加到你的抽牌堆中。,召唤5X次。 将X张灵魂+添加到你的抽牌堆中。
+CARD.DREDGE,Dredge,清淤,Dredge,Necrobinder,Uncommon,Skill,1,Self,Exhaust,"消耗,将3张牌从弃牌堆加入你的手牌。","消耗,保留,将3张牌从弃牌堆加入你的手牌。"
+CARD.ENFEEBLING_TOUCH,EnfeeblingTouch,弱化之触,Enfeebling Touch,Necrobinder,Uncommon,Skill,1,AnyEnemy,Ethereal,"虚无,让一名敌人在本回合内失去8点力量。","虚无,让一名敌人在本回合内失去14点力量。"
+CARD.FETCH,Fetch,取回,Fetch,Necrobinder,Uncommon,Attack,0,AnyEnemy,,奥斯提造成3点伤害。 如果这是这张牌第一次在本回合被打出，则抽1张牌。,奥斯提造成9点伤害。 如果这是这张牌第一次在本回合被打出，则抽1张牌。
+CARD.FRIENDSHIP,Friendship,友谊,Friendship,Necrobinder,Uncommon,Power,1,Self,,失去2点力量。 在每个回合开始时获得1能量。,失去1点力量。 在每个回合开始时获得1能量。
+CARD.HAUNT,Haunt,纠缠,Haunt,Necrobinder,Uncommon,Power,1,Self,,每当你打出一张灵魂时，随机一名敌人失去6点生命。,每当你打出一张灵魂时，随机一名敌人失去10点生命。
+CARD.HIGH_FIVE,HighFive,击掌,High Five,Necrobinder,Uncommon,Attack,2,AllEnemies,,奥斯提造成11点伤害 并且给予所有敌人 2层易伤。,奥斯提造成15点伤害 并且给予所有敌人 3层易伤。
+CARD.LEGION_OF_BONE,LegionOfBone,骸骨军团,Legion of Bone,Necrobinder,Uncommon,Skill,2,AllAllies,Exhaust,"消耗,所有玩家召唤6。","消耗,所有玩家召唤10。"
+CARD.LETHALITY,Lethality,致死性,Lethality,Necrobinder,Uncommon,Power,1,Self,Ethereal,"虚无,每回合的第一张攻击牌会造成50%额外伤害。","虚无,每回合的第一张攻击牌会造成75%额外伤害。"
+CARD.MELANCHOLY,Melancholy,忧郁,Melancholy,Necrobinder,Uncommon,Skill,3,Self,,获得13点格挡。 每当有任何生物死亡时，这张牌的耗能减少1能量。,获得21点格挡。 每当有任何生物死亡时，这张牌的耗能减少1能量。
+CARD.NO_ESCAPE,NoEscape,无处可逃,No Escape,Necrobinder,Uncommon,Skill,1,AnyEnemy,,给予10层灾厄，敌人身上每有10层灾厄，则额外给予这名敌人5层灾厄。,给予20层灾厄，敌人身上每有10层灾厄，则额外给予这名敌人5层灾厄。
+CARD.PAGESTORM,Pagestorm,书页风暴,Pagestorm,Necrobinder,Uncommon,Power,1,Self,,"每当你抽到一张虚无牌时,抽1张牌。","每当你抽到一张虚无牌时,抽1张牌。"
+CARD.PARSE,Parse,领会,Parse,Necrobinder,Uncommon,Skill,1,Self,Ethereal,"虚无,抽3张牌。","虚无,抽5张牌。"
+CARD.PULL_FROM_BELOW,PullFromBelow,亡魂牵引,Pull from Below,Necrobinder,Uncommon,Attack,1,AnyEnemy,,本场战斗中每打出过一张虚无牌，此牌就造成5点伤害一次。,本场战斗中每打出过一张虚无牌，此牌就造成9点伤害一次。
+CARD.PUTREFY,Putrefy,腐败,Putrefy,Necrobinder,Uncommon,Skill,1,AnyEnemy,Exhaust,"消耗,给予2层虚弱。 给予2层易伤。","消耗,给予3层虚弱。 给予3层易伤。"
+CARD.RATTLE,Rattle,猛晃,Rattle,Necrobinder,Uncommon,Attack,1,AnyEnemy,,奥斯提造成7点伤害。 他在本回合每攻击过一次，此牌就额外造成一次伤害。,奥斯提造成11点伤害。 他在本回合每攻击过一次，此牌就额外造成一次伤害。
+CARD.RIGHT_HAND_HAND,RightHandHand,得力助手,Right Hand Hand,Necrobinder,Uncommon,Attack,0,AnyEnemy,,奥斯提造成4点伤害。 每当你打出耗能为2能量或以上的牌，将此牌从弃牌堆放回你的手牌。,奥斯提造成8点伤害。 每当你打出耗能为2能量或以上的牌，将此牌从弃牌堆放回你的手牌。
+CARD.SEVERANCE,Severance,切断,Severance,Necrobinder,Uncommon,Attack,2,AnyEnemy,,造成13点伤害。 将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。,造成23点伤害。 将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中。
+CARD.SHROUD,Shroud,厄运之衣,Shroud,Necrobinder,Uncommon,Power,1,Self,,每当你给予灾厄时，获得2点格挡。,每当你给予灾厄时，获得4点格挡。
+CARD.SIC_EM,SicEm,紧追不放,Sic 'Em,Necrobinder,Uncommon,Attack,1,AnyEnemy,,奥斯提造成5点伤害。 在本回合内，每当奥斯提攻击这名敌人时，召唤2。,奥斯提造成7点伤害。 在本回合内，每当奥斯提攻击这名敌人时，召唤3。
+CARD.SLEIGHT_OF_FLESH,SleightOfFlesh,血肉戏法,Sleight of Flesh,Necrobinder,Uncommon,Power,2,Self,,每当你给予一个敌人负面状态时，使其受到9点伤害。,每当你给予一个敌人负面状态时，使其受到13点伤害。
+CARD.SPUR,Spur,增生,Spur,Necrobinder,Uncommon,Skill,1,Self,Retain,"保留,召唤3。 奥斯提回复5点生命。","保留,召唤7。 奥斯提回复9点生命。"
+CARD.VEILPIERCER,Veilpiercer,刺破帷幕,Veilpiercer,Necrobinder,Uncommon,Attack,1,AnyEnemy,,造成10点伤害。 你打出的下一张虚无牌耗能变为0能量。,造成16点伤害。 你打出的下一张虚无牌耗能变为0能量。
+CARD.BYRDONIS_EGG,ByrdonisEgg,多尼斯异鸟蛋,Byrdonis Egg,Quest,Quest,Quest,-1,None,Unplayable,"不能被打出,能在休息处被孵化。","不能被打出,能在休息处被孵化。"
+CARD.LANTERN_KEY,LanternKey,灯火钥匙,Lantern Key,Quest,Quest,Quest,-1,Self,Unplayable,"不能被打出,在下一阶段解锁一个特殊事件。","不能被打出,在下一阶段解锁一个特殊事件。"
+CARD.SPOILS_MAP,SpoilsMap,藏宝图,Spoils Map,Quest,Quest,Quest,-1,Self,Unplayable,"不能被打出,在下一阶段的地图上，标记一个有600额外金币的地点。","不能被打出,在下一阶段的地图上，标记一个有600额外金币的地点。"
+CARD.METEOR_SHOWER,MeteorShower,流星雨,Meteor Shower,Regent,Ancient,Attack,0,AllEnemies,,对所有敌人造成14点伤害。 给予所有敌人2层虚弱和易伤。,对所有敌人造成28点伤害。 给予所有敌人2层虚弱和易伤。
+CARD.THE_SEALED_THRONE,TheSealedThrone,封印王座,The Sealed Throne,Regent,Ancient,Power,1,Self,,你每打出一张牌，获得☆。,"固有,你每打出一张牌，获得☆。"
+CARD.DEFEND_REGENT,DefendRegent,防御,Defend,Regent,Basic,Skill,1,Self,,获得5点格挡。,获得11点格挡。
+CARD.FALLING_STAR,FallingStar,陨星,Falling Star,Regent,Basic,Attack,0,AnyEnemy,,造成7点伤害。 给予1层虚弱。 给予1层易伤。,造成15点伤害。 给予1层虚弱。 给予1层易伤。
+CARD.STRIKE_REGENT,StrikeRegent,打击,Strike,Regent,Basic,Attack,1,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.VENERATE,Venerate,崇拜,Venerate,Regent,Basic,Skill,1,Self,,获得2☆。,获得4☆。
+CARD.ASTRAL_PULSE,AstralPulse,星界脉冲,Astral Pulse,Regent,Common,Attack,0,AllEnemies,,对所有敌人造成14点伤害。,对所有敌人造成22点伤害。
+CARD.BEGONE,Begone,下去！,BEGONE!,Regent,Common,Attack,1,AnyEnemy,,造成4点伤害。 选择你手牌中的一张牌，将其变化为仆从俯冲。,造成6点伤害。 选择你手牌中的一张牌，将其变化为仆从俯冲+。
+CARD.CELESTIAL_MIGHT,CelestialMight,天穹之力,Celestial Might,Regent,Common,Attack,2,AnyEnemy,,造成6点伤害3次。,造成10点伤害3次。
+CARD.CLOAK_OF_STARS,CloakOfStars,群星斗篷,Cloak of Stars,Regent,Common,Skill,0,Self,,获得7点格挡。,获得13点格挡。
+CARD.COLLISION_COURSE,CollisionCourse,碰撞轨迹,Collision Course,Regent,Common,Attack,0,AnyEnemy,,造成9点伤害。 将一张碎屑添加至你的手牌。,造成15点伤害。 将一张碎屑添加至你的手牌。
+CARD.COSMIC_INDIFFERENCE,CosmicIndifference,宇宙冷漠,Cosmic Indifference,Regent,Common,Skill,1,Self,,获得6点格挡。 将弃牌堆中的一张牌放到你的抽牌堆的顶部。,获得12点格挡。 将弃牌堆中的一张牌放到你的抽牌堆的顶部。
+CARD.CRESCENT_SPEAR,CrescentSpear,新月长矛,Crescent Spear,Regent,Common,Attack,1,AnyEnemy,,造成6点伤害。 你每有一张拥有☆耗能的卡牌，这张牌就额外造成2点伤害。,造成6点伤害。 你每有一张拥有☆耗能的卡牌，这张牌就额外造成4点伤害。
+CARD.CRUSH_UNDER,CrushUnder,下砸,Crush Under,Regent,Common,Attack,1,AllEnemies,,对所有敌人造成7点伤害。所有敌人在本回合失去1点力量。,对所有敌人造成9点伤害。所有敌人在本回合失去3点力量。
+CARD.GATHER_LIGHT,GatherLight,收集光辉,Gather Light,Regent,Common,Skill,1,Self,,获得7点格挡。 获得1☆。,获得13点格挡。 获得1☆。
+CARD.GLITTERSTREAM,Glitterstream,流光溢彩,Glitterstream,Regent,Common,Skill,2,Self,,获得11点格挡。 在下一回合获得4点格挡。,获得15点格挡。 在下一回合获得8点格挡。
+CARD.GLOW,Glow,辉光,Glow,Regent,Common,Skill,1,Self,,获得1☆。 抽2张牌。,获得3☆。 抽2张牌。
+CARD.GUIDING_STAR,GuidingStar,引导之星,Guiding Star,Regent,Common,Attack,1,AnyEnemy,,造成12点伤害。 在下一回合抽2张牌。,造成14点伤害。 在下一回合抽4张牌。
+CARD.HIDDEN_CACHE,HiddenCache,隐秘藏品,Hidden Cache,Regent,Common,Skill,1,Self,,获得1☆。 在下个回合获得3。,获得1☆。 在下个回合获得4。
+CARD.KNOW_THY_PLACE,KnowThyPlace,何人僭越,Know Thy Place,Regent,Common,Skill,0,AnyEnemy,Exhaust,"消耗,给予1层虚弱。 给予1层易伤。",给予1层虚弱。 给予1层易伤。
+CARD.PATTER,Patter,星星点点,Patter,Regent,Common,Skill,1,Self,,获得8点格挡。 获得2点活力。,获得12点格挡。 获得3点活力。
+CARD.PHOTON_CUT,PhotonCut,光子切割,Photon Cut,Regent,Common,Attack,1,AnyEnemy,,造成10点伤害。 抽1张牌。 将手牌中的一张牌放到抽牌堆顶部。,造成16点伤害。 抽3张牌。 将手牌中的一张牌放到抽牌堆顶部。
+CARD.REFINE_BLADE,RefineBlade,淬炼刀刃,Refine Blade,Regent,Common,Skill,1,Self,,铸造6。 在下个回合获得1能量。,铸造14。 在下个回合获得1能量。
+CARD.SOLAR_STRIKE,SolarStrike,太阳打击,Solar Strike,Regent,Common,Attack,1,AnyEnemy,,造成8点伤害。 获得1☆。,造成10点伤害。 获得3☆。
+CARD.SPOILS_OF_BATTLE,SpoilsOfBattle,战利品,Spoils of Battle,Regent,Common,Skill,1,Self,,铸造10。,铸造20。
+CARD.WROUGHT_IN_WAR,WroughtInWar,战火铸就,Wrought in War,Regent,Common,Attack,1,AnyEnemy,,造成7点伤害。 铸造5。,造成11点伤害。 铸造9。
+CARD.ARSENAL,Arsenal,武器库,Arsenal,Regent,Rare,Power,1,Self,,你每打出一张无色牌，都获得1点力量。,你每打出一张无色牌，都获得2点力量。
+CARD.BEAT_INTO_SHAPE,BeatIntoShape,锻打成型,Beat into Shape,Regent,Rare,Attack,1,AnyEnemy,,造成5点伤害。 铸造5。 本回合此前你击中过该敌人几次，就额外铸造5。,造成9点伤害。 铸造9。 本回合此前你击中过该敌人几次，就额外铸造9。
+CARD.BIG_BANG,BigBang,大爆炸,Big Bang,Regent,Rare,Skill,0,Self,Exhaust,"消耗,抽1张牌。 获得1能量。 获得1☆。 铸造5。","消耗,固有,抽1张牌。 获得1能量。 获得1☆。 铸造5。"
+CARD.BOMBARDMENT,Bombardment,轰击,Bombardment,Regent,Rare,Attack,3,AnyEnemy,Exhaust,"消耗,造成18点伤害。 在你的回合开始时，从消耗牌堆打出这张牌。","消耗,造成30点伤害。 在你的回合开始时，从消耗牌堆打出这张牌。"
+CARD.BUNDLE_OF_JOY,BundleOfJoy,新生之喜,Bundle of Joy,Regent,Rare,Skill,2,Self,Exhaust,"消耗,将3张随机无色牌添加到你的手牌。","消耗,将5张随机无色牌添加到你的手牌。"
+CARD.COMET,Comet,彗星,Comet,Regent,Rare,Attack,0,AnyEnemy,,造成33点伤害。 给予3层虚弱。 给予3层易伤。,造成55点伤害。 给予3层虚弱。 给予3层易伤。
+CARD.CRASH_LANDING,CrashLanding,迫降,Crash Landing,Regent,Rare,Attack,1,AllEnemies,,对所有敌人造成21点伤害。 用碎屑填满你的手牌。,对所有敌人造成31点伤害。 用碎屑填满你的手牌。
+CARD.DECISIONS_DECISIONS,DecisionsDecisions,抉择，抉择,"Decisions, Decisions",Regent,Rare,Skill,0,Self,Exhaust,"消耗,抽3张牌。 选择你手牌中的一张技能牌，并将其打出3次。","消耗,抽7张牌。 选择你手牌中的一张技能牌，并将其打出3次。"
+CARD.DYING_STAR,DyingStar,星灭,Dying Star,Regent,Rare,Attack,1,AllEnemies,Ethereal,"虚无,对所有敌人造成9点伤害。所有敌人在本回合中失去9点力量。","虚无,对所有敌人造成13点伤害。所有敌人在本回合中失去13点力量。"
+CARD.FOREGONE_CONCLUSION,ForegoneConclusion,既定事项,Foregone Conclusion,Regent,Rare,Skill,1,Self,,在下个回合，从你的抽牌堆中选择2张牌放入你的手牌。,在下个回合，从你的抽牌堆中选择4张牌放入你的手牌。
+CARD.GENESIS,Genesis,创世纪,Genesis,Regent,Rare,Power,2,Self,,在你的回合开始时，获得2。,在你的回合开始时，获得4。
+CARD.GUARDS,Guards,护驾！！！,GUARDS!!!,Regent,Rare,Skill,2,Self,Exhaust,"消耗,将你手牌中的任意张牌变化为仆从捐躯。","消耗,将你手牌中的任意张牌变化为仆从捐躯+。"
+CARD.HAMMER_TIME,HammerTime,锤子时间,Hammer Time,Regent,Rare,Power,2,Self,,每当你铸造时，所有盟友也都铸造相同的数值。,每当你铸造时，所有盟友也都铸造相同的数值。
+CARD.HEAVENLY_DRILL,HeavenlyDrill,天际钻头,Heavenly Drill,Regent,Rare,Attack,-2,AnyEnemy,,造成8点伤害X次。 如果X的最终数值为4能量或以上，则将X的数值翻倍。,造成12点伤害X次。 如果X的最终数值为4能量或以上，则将X的数值翻倍。
+CARD.HEIRLOOM_HAMMER,HeirloomHammer,传承之锤,Heirloom Hammer,Regent,Rare,Attack,2,AnyEnemy,,造成17点伤害。 选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。,造成27点伤害。 选择你手牌中的一张无色牌。将这张牌的一张复制品放入你的手牌。
+CARD.I_AM_INVINCIBLE,IAmInvincible,所向无敌,I Am Invincible,Regent,Rare,Skill,1,Self,,获得9点格挡。 在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。,获得15点格挡。 在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出。
+CARD.MAKE_IT_SO,MakeItSo,如此甚好,Make It So,Regent,Rare,Attack,0,AnyEnemy,,造成6点伤害。 你每在一回合内打出3张技能牌，就将这张牌放入你的手牌。,造成12点伤害。 你每在一回合内打出3张技能牌，就将这张牌放入你的手牌。
+CARD.MONARCHS_GAZE,MonarchsGaze,王之凝视,Monarch's Gaze,Regent,Rare,Power,3,Self,,每当你攻击敌人的时候，这名敌人在本回合失去1点力量。,每当你攻击敌人的时候，这名敌人在本回合失去1点力量。
+CARD.NEUTRON_AEGIS,NeutronAegis,中子护盾,Neutron Aegis,Regent,Rare,Power,1,Self,,获得8层覆甲。,获得11层覆甲。
+CARD.ROYALTIES,Royalties,王国资产,Royalties,Regent,Rare,Power,1,Self,,在战斗结束时，获得30金币。,在战斗结束时，获得40金币。
+CARD.SEEKING_EDGE,SeekingEdge,追踪之刃,Seeking Edge,Regent,Rare,Power,1,Self,,铸造7。 君王之剑现在会对所有敌人造成伤害。,铸造15。 君王之剑现在会对所有敌人造成伤害。
+CARD.SEVEN_STARS,SevenStars,七星,Seven Stars,Regent,Rare,Attack,2,AllEnemies,,对所有敌人造成7点伤害7次。,对所有敌人造成7点伤害7次。
+CARD.SWORD_SAGE,SwordSage,剑圣,Sword Sage,Regent,Rare,Power,2,Self,,君王之剑的耗能加1。君王之剑现在会额外命中一次。,君王之剑的耗能加1。君王之剑现在会额外命中一次。
+CARD.THE_SMITH,TheSmith,铸剑者,The Smith,Regent,Rare,Skill,1,Self,,铸造30。,铸造50。
+CARD.TYRANNY,Tyranny,暴政,Tyranny,Regent,Rare,Power,1,Self,,在你的回合开始时，抽一张牌，并从你的手牌中消耗1张牌。,"固有,在你的回合开始时，抽一张牌，并从你的手牌中消耗1张牌。"
+CARD.VOID_FORM,VoidForm,虚空形态,Void Form,Regent,Rare,Power,3,Self,,结束你的回合。 你可以免费打出每回合的前2张牌。,结束你的回合。 你可以免费打出每回合的前3张牌。
+CARD.ALIGNMENT,Alignment,星位序列,Alignment,Regent,Uncommon,Skill,0,Self,,获得2能量。,获得4能量。
+CARD.BLACK_HOLE,BlackHole,黑洞,Black Hole,Regent,Uncommon,Power,1,Self,,"每当你使用或获得☆时,对所有敌人造成3点伤害。","每当你使用或获得☆时,对所有敌人造成4点伤害。"
+CARD.BULWARK,Bulwark,铸墙,Bulwark,Regent,Uncommon,Skill,2,Self,,获得13点格挡。 铸造10。,获得19点格挡。 铸造16。
+CARD.CHARGE,Charge,冲锋！！,CHARGE!!,Regent,Uncommon,Skill,1,Self,,选择你抽牌堆中的2张牌，将其变化为 仆从打击。,选择你抽牌堆中的2张牌，将其变化为 仆从打击+。
+CARD.CHILD_OF_THE_STARS,ChildOfTheStars,群星之子,Child of the Stars,Regent,Uncommon,Power,1,Self,,每当你花费☆时，每花费一点☆，获得2点格挡。,每当你花费☆时，每花费一点☆，获得4点格挡。
+CARD.CONQUEROR,Conqueror,征服者,Conqueror,Regent,Uncommon,Skill,1,AnyEnemy,,铸造3。 君王之剑在本回合对敌人造成双倍伤害。,铸造7。 君王之剑在本回合对敌人造成双倍伤害。
+CARD.CONVERGENCE,Convergence,汇流,Convergence,Regent,Uncommon,Skill,1,Self,,在本回合保留你的手牌。 在下个回合， 获得1能量与1☆。,在本回合保留你的手牌。 在下个回合， 获得1能量与3☆。
+CARD.DEVASTATE,Devastate,葬送,Devastate,Regent,Uncommon,Attack,1,AnyEnemy,,造成30点伤害。,造成50点伤害。
+CARD.FURNACE,Furnace,熔炉,Furnace,Regent,Uncommon,Power,1,Self,,在你的回合开始时，铸造4。,在你的回合开始时，铸造8。
+CARD.GAMMA_BLAST,GammaBlast,伽马爆破,Gamma Blast,Regent,Uncommon,Attack,0,AnyEnemy,,造成13点伤害。 给予2层虚弱。 给予2层易伤。,造成23点伤害。 给予2层虚弱。 给予2层易伤。
+CARD.GLIMMER,Glimmer,微光,Glimmer,Regent,Uncommon,Skill,1,Self,,抽3张牌。 将你手牌中的1张牌放到抽牌堆顶部。,抽5张牌。 将你手牌中的1张牌放到抽牌堆顶部。
+CARD.HEGEMONY,Hegemony,霸权,Hegemony,Regent,Uncommon,Attack,2,AnyEnemy,,造成15点伤害。 在下个回合获得2能量。,造成21点伤害。 在下个回合获得4能量。
+CARD.KINGLY_KICK,KinglyKick,王者之踢,Kingly Kick,Regent,Uncommon,Attack,4,AnyEnemy,,造成24点伤害。 每当你抽到这张牌时，这张牌的耗能减少1。,造成36点伤害。 每当你抽到这张牌时，这张牌的耗能减少1。
+CARD.KINGLY_PUNCH,KinglyPunch,王者之拳,Kingly Punch,Regent,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 每当你抽到这张牌时，在这场战斗中其伤害增加3。,造成8点伤害。 每当你抽到这张牌时，在这场战斗中其伤害增加7。
+CARD.KNOCKOUT_BLOW,KnockoutBlow,决胜一击,Knockout Blow,Regent,Uncommon,Attack,3,AnyEnemy,,造成30点伤害。 如果此牌击杀了敌人，获得5☆。,造成46点伤害。 如果此牌击杀了敌人，获得5☆。
+CARD.LARGESSE,Largesse,慷慨捐助,Largesse,Regent,Uncommon,Skill,0,AnyAlly,,将一张随机的无色牌添加至一位其他玩家的手牌中。,将一张随机的升级过的无色牌添加至一位其他玩家的手牌中。
+CARD.LUNAR_BLAST,LunarBlast,月面射击,Lunar Blast,Regent,Uncommon,Attack,0,AnyEnemy,,本回合中每打出过一张技能牌，此牌额外造成4点伤害一次。,本回合中每打出过一张技能牌，此牌额外造成6点伤害一次。
+CARD.MANIFEST_AUTHORITY,ManifestAuthority,君权自授,Manifest Authority,Regent,Uncommon,Skill,1,Self,,获得7点格挡。 将一张随机无色牌加入你的手牌。,获得9点格挡。 将一张随机升级过的无色牌加入你的手牌。
+CARD.MONOLOGUE,Monologue,独白,Monologue,Regent,Uncommon,Skill,0,Self,,每当你在本回合打出卡牌时，在本回合获得1点力量。,"保留,每当你在本回合打出卡牌时，在本回合获得1点力量。"
+CARD.ORBIT,Orbit,环绕轨道,Orbit,Regent,Uncommon,Power,2,Self,,你每花费4能量， 就获得1能量。,你每花费4能量， 就获得1能量。
+CARD.PALE_BLUE_DOT,PaleBlueDot,暗淡蓝点,Pale Blue Dot,Regent,Uncommon,Power,1,Self,,如果你在一回合内打出了大于等于5张牌，在下个回合开始时抽1张牌。,如果你在一回合内打出了大于等于5张牌，在下个回合开始时抽3张牌。
+CARD.PARRY,Parry,招架,Parry,Regent,Uncommon,Power,1,Self,,每当你打出君王之剑时，获得6点格挡。,每当你打出君王之剑时，获得9点格挡。
+CARD.PARTICLE_WALL,ParticleWall,粒子墙,Particle Wall,Regent,Uncommon,Skill,0,Self,,获得9点格挡。 将此牌返回你的手牌。,获得15点格挡。 将此牌返回你的手牌。
+CARD.PILLAR_OF_CREATION,PillarOfCreation,创世之柱,Pillar of Creation,Regent,Uncommon,Power,1,Self,,"每当你生成一张卡牌,就获得3点格挡。","每当你生成一张卡牌,就获得5点格挡。"
+CARD.PROPHESIZE,Prophesize,预言,Prophesize,Regent,Uncommon,Skill,2,Self,,抽6张牌。,抽12张牌。
+CARD.QUASAR,Quasar,类星体,Quasar,Regent,Uncommon,Skill,0,Self,,从3张随机无色牌中选择1张加入你的手牌。,从3张随机升级过的无色牌中选择1张加入你的手牌。
+CARD.RADIATE,Radiate,辐射,Radiate,Regent,Uncommon,Attack,0,AllEnemies,,你在本回合每获得一点1☆，则此牌就所有敌人造成3点伤害一次。,你在本回合每获得一点1☆，则此牌就所有敌人造成5点伤害一次。
+CARD.REFLECT,Reflect,倒映,Reflect,Regent,Uncommon,Skill,1,Self,,获得17点格挡。 在本回合将你格挡掉的攻击伤害反弹给攻击者。,获得25点格挡。 在本回合将你格挡掉的攻击伤害反弹给攻击者。
+CARD.RESONANCE,Resonance,共鸣,Resonance,Regent,Uncommon,Skill,1,AllEnemies,,获得1点力量。所有敌人失去1点力量。,获得2点力量。所有敌人失去1点力量。
+CARD.ROYAL_GAMBLE,RoyalGamble,胜券在王,Royal Gamble,Regent,Uncommon,Skill,0,Self,Exhaust,"消耗,获得9☆☆。","消耗,保留,获得9☆☆。"
+CARD.SHINING_STRIKE,ShiningStrike,明耀打击,Shining Strike,Regent,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 获得2☆。 将这张牌放置于你的抽牌堆顶部。,造成14点伤害。 获得2☆。 将这张牌放置于你的抽牌堆顶部。
+CARD.SPECTRUM_SHIFT,SpectrumShift,光谱偏移,Spectrum Shift,Regent,Uncommon,Power,2,Self,,在你的回合开始时，将1张随机无色牌添加到你的手牌中。,在你的回合开始时，将1张随机无色牌添加到你的手牌中。
+CARD.STARDUST,Stardust,星尘,Stardust,Regent,Uncommon,Attack,0,RandomEnemy,,随机对敌人造成5点伤害X次。,随机对敌人造成9点伤害X次。
+CARD.SUMMON_FORTH,SummonForth,征召上前,Summon Forth,Regent,Uncommon,Skill,1,Self,,铸造8。 不论何处，将君王之剑放入你的手牌。,铸造14。 不论何处，将君王之剑放入你的手牌。
+CARD.SUPERMASSIVE,Supermassive,超质量体,Supermassive,Regent,Uncommon,Attack,1,AnyEnemy,,造成5点伤害。 你在本场战斗中每生成过一张牌，这张牌就额外造成3点伤害。,造成5点伤害。 你在本场战斗中每生成过一张牌，这张牌就额外造成5点伤害。
+CARD.TERRAFORMING,Terraforming,地形改造,Terraforming,Regent,Uncommon,Skill,1,Self,,获得6点活力。,获得8点活力。
+CARD.SUPPRESS,Suppress,压制,Suppress,Silent,Ancient,Attack,0,AnyEnemy,Innate,"固有,造成11点伤害。 给予3层虚弱。","固有,造成23点伤害。 给予5层虚弱。"
+CARD.WRAITH_FORM,WraithForm,幽魂形态,Wraith Form,Silent,Ancient,Power,3,Self,,获得2无实体。 在你的回合开始时，失去1点敏捷。,获得3无实体。 在你的回合开始时，失去1点敏捷。
+CARD.DEFEND_SILENT,DefendSilent,防御,Defend,Silent,Basic,Skill,1,Self,,获得5点格挡。,获得11点格挡。
+CARD.NEUTRALIZE,Neutralize,中和,Neutralize,Silent,Basic,Attack,0,AnyEnemy,,造成3点伤害。 给予1层虚弱。,造成5点伤害。 给予2层虚弱。
+CARD.STRIKE_SILENT,StrikeSilent,打击,Strike,Silent,Basic,Attack,1,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.SURVIVOR,Survivor,生存者,Survivor,Silent,Basic,Skill,1,Self,,获得8点格挡。 丢弃1张牌。,获得14点格挡。 丢弃1张牌。
+CARD.ACROBATICS,Acrobatics,杂技,Acrobatics,Silent,Common,Skill,1,Self,,抽3张牌。 丢弃1张牌。,抽5张牌。 丢弃1张牌。
+CARD.ANTICIPATE,Anticipate,预判,Anticipate,Silent,Common,Skill,0,Self,,在本回合获得3点敏捷。,在本回合获得5点敏捷。
+CARD.BACKFLIP,Backflip,后空翻,Backflip,Silent,Common,Skill,1,Self,,获得5点格挡。 抽2张牌。,获得11点格挡。 抽2张牌。
+CARD.BLADE_DANCE,BladeDance,刀刃之舞,Blade Dance,Silent,Common,Skill,1,Self,Exhaust,"消耗,添加3张小刀到你的手牌。","消耗,添加5张小刀到你的手牌。"
+CARD.CLOAK_AND_DAGGER,CloakAndDagger,斗篷与匕首,Cloak and Dagger,Silent,Common,Skill,1,Self,,获得6点格挡。 将1张小刀添加到你的手牌。,获得6点格挡。 将3张小刀添加到你的手牌。
+CARD.DAGGER_SPRAY,DaggerSpray,匕首雨,Dagger Spray,Silent,Common,Attack,1,AllEnemies,,对所有敌人造成4点伤害两次。,对所有敌人造成8点伤害两次。
+CARD.DAGGER_THROW,DaggerThrow,投掷匕首,Dagger Throw,Silent,Common,Attack,1,AnyEnemy,,造成9点伤害。 抽1张牌。 丢弃一张牌。,造成15点伤害。 抽1张牌。 丢弃一张牌。
+CARD.DEADLY_POISON,DeadlyPoison,致命毒药,Deadly Poison,Silent,Common,Skill,1,AnyEnemy,,给予5层中毒。,给予7层中毒。
+CARD.DEFLECT,Deflect,偏折,Deflect,Silent,Common,Skill,0,Self,,获得4点格挡。,获得10点格挡。
+CARD.DODGE_AND_ROLL,DodgeAndRoll,闪躲翻滚,Dodge and Roll,Silent,Common,Skill,1,Self,,获得4点格挡。 在下个回合，获得4点格挡。,获得8点格挡。 在下个回合，获得8点格挡。
+CARD.FLICK_FLACK,FlickFlack,翻越撑击,Flick-Flack,Silent,Common,Attack,1,AllEnemies,Sly,"奇巧,对所有敌人造成7点伤害。","奇巧,对所有敌人造成11点伤害。"
+CARD.LEADING_STRIKE,LeadingStrike,先制打击,Leading Strike,Silent,Common,Attack,1,AnyEnemy,,造成7点伤害。 将1张小刀加入你的手牌。,造成13点伤害。 将1张小刀加入你的手牌。
+CARD.PIERCING_WAIL,PiercingWail,尖啸,Piercing Wail,Silent,Common,Skill,1,AllEnemies,Exhaust,"消耗,所有敌人在本回合失去6点力量。","消耗,所有敌人在本回合失去10点力量。"
+CARD.POISONED_STAB,PoisonedStab,带毒刺击,Poisoned Stab,Silent,Common,Attack,1,AnyEnemy,,造成6点伤害。 给予3层中毒。,造成10点伤害。 给予4层中毒。
+CARD.PREPARED,Prepared,早有准备,Prepared,Silent,Common,Skill,0,Self,,抽1张牌。 丢弃1张牌。,抽3张牌。 丢弃3张牌。
+CARD.RICOCHET,Ricochet,连续反弹,Ricochet,Silent,Common,Attack,2,RandomEnemy,Sly,"奇巧,随机对敌人造成3点伤害4次。","奇巧,随机对敌人造成3点伤害6次。"
+CARD.SLICE,Slice,切割,Slice,Silent,Common,Attack,0,AnyEnemy,,造成6点伤害。,造成12点伤害。
+CARD.SNAKEBITE,Snakebite,蛇咬,Snakebite,Silent,Common,Skill,2,AnyEnemy,Retain,"保留,给予7层中毒。","保留,给予10层中毒。"
+CARD.SUCKER_PUNCH,SuckerPunch,突然一拳,Sucker Punch,Silent,Common,Attack,1,AnyEnemy,,造成8点伤害。 给予1层虚弱。,造成12点伤害。 给予2层虚弱。
+CARD.UNTOUCHABLE,Untouchable,触不可及,Untouchable,Silent,Common,Skill,2,Self,Sly,"奇巧,获得9点格挡。","奇巧,获得15点格挡。"
+CARD.ABRASIVE,Abrasive,磨蚀,Abrasive,Silent,Rare,Power,3,Self,Sly,"奇巧,获得1点敏捷。 获得4点荆棘。","奇巧,获得1点敏捷。 获得6点荆棘。"
+CARD.ACCELERANT,Accelerant,触媒,Accelerant,Silent,Rare,Power,1,Self,,中毒会额外触发1次。,中毒会额外触发3次。
+CARD.ADRENALINE,Adrenaline,肾上腺素,Adrenaline,Silent,Rare,Skill,0,Self,Exhaust,"消耗,获得1能量。 抽2张牌。","消耗,获得3能量。 抽2张牌。"
+CARD.AFTERIMAGE,Afterimage,余像,Afterimage,Silent,Rare,Power,1,Self,,你每打出一张牌，都获得1点格挡。,"固有,你每打出一张牌，都获得1点格挡。"
+CARD.ASSASSINATE,Assassinate,刺杀,Assassinate,Silent,Rare,Attack,0,AnyEnemy,Innate|Exhaust,"固有,消耗,造成10点伤害。 给予1层易伤。","固有,消耗,造成16点伤害。 给予2层易伤。"
+CARD.BLADE_OF_INK,BladeOfInk,墨之刃,Blade of Ink,Silent,Rare,Skill,1,Self,,每当你在本回合打出一张攻击牌时，本回合获得2点力量。,每当你在本回合打出一张攻击牌时，本回合获得3点力量。
+CARD.BULLET_TIME,BulletTime,子弹时间,Bullet Time,Silent,Rare,Skill,3,Self,,你在本回合内不能再抽牌。你手牌中的所有牌在本回合免费打出。,你在本回合内不能再抽牌。你手牌中的所有牌在本回合免费打出。
+CARD.BURST,Burst,爆发,Burst,Silent,Rare,Skill,1,Self,,在这个回合，你打出的下张技能牌会被额外打出一次。,在这个回合，你打出的下2张技能牌会被额外打出一次。
+CARD.CORROSIVE_WAVE,CorrosiveWave,腐蚀波,Corrosive Wave,Silent,Rare,Skill,1,Self,,打出此牌后，你在本回合每抽到一张牌，就给予所有敌人3层中毒。,打出此牌后，你在本回合每抽到一张牌，就给予所有敌人5层中毒。
+CARD.ECHOING_SLASH,EchoingSlash,回响斩击,Echoing Slash,Silent,Rare,Attack,1,AllEnemies,,对所有敌人造成10点伤害。 每有一名敌人被击杀，就重复此效果。,对所有敌人造成16点伤害。 每有一名敌人被击杀，就重复此效果。
+CARD.ENVENOM,Envenom,涂毒,Envenom,Silent,Rare,Power,2,Self,,每有一次攻击造成未被格挡的伤害，就给予1层中毒。,每有一次攻击造成未被格挡的伤害，就给予2层中毒。
+CARD.FAN_OF_KNIVES,FanOfKnives,刀扇,Fan of Knives,Silent,Rare,Power,2,Self,,小刀现在会攻击所有敌人。 将4张小刀添加到你的手牌。,小刀现在会攻击所有敌人。 将6张小刀添加到你的手牌。
+CARD.GRAND_FINALE,GrandFinale,华丽收场,Grand Finale,Silent,Rare,Attack,0,AllEnemies,,只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成50点伤害。,只有当你的抽牌堆中没有牌时才能打出。对所有敌人造成70点伤害。
+CARD.KNIFE_TRAP,KnifeTrap,刀刃陷阱,Knife Trap,Silent,Rare,Skill,2,AnyEnemy,,将你消耗牌堆中的所有小刀对一名敌人打出。,将你消耗牌堆中的所有小刀升级然后对一名敌人打出。
+CARD.MALAISE,Malaise,萎靡,Malaise,Silent,Rare,Skill,-2,AnyEnemy,Exhaust,"消耗,敌人失去X点力量。给予X层虚弱。","消耗,敌人失去X+1点力量。给予X+1层虚弱。"
+CARD.MASTER_PLANNER,MasterPlanner,谋划专家,Master Planner,Silent,Rare,Power,2,Self,,当你打出技能牌时，该牌获得奇巧。,当你打出技能牌时，该牌获得奇巧。
+CARD.MURDER,Murder,谋杀,Murder,Silent,Rare,Attack,3,AnyEnemy,,造成1点伤害。 你在本场战斗中每抽过一张牌，此牌就额外造成1点伤害。,造成1点伤害。 你在本场战斗中每抽过一张牌，此牌就额外造成1点伤害。
+CARD.NIGHTMARE,Nightmare,夜魇,Nightmare,Silent,Rare,Skill,3,Self,Exhaust,"消耗,选择一张牌。 在下个回合将这张牌的3张复制品加入你的手牌。","消耗,选择一张牌。 在下个回合将这张牌的3张复制品加入你的手牌。"
+CARD.SERPENT_FORM,SerpentForm,群蛇形态,Serpent Form,Silent,Rare,Power,3,Self,,你每打出一张牌，就对随机一名敌人造成4点伤害。,你每打出一张牌，就对随机一名敌人造成5点伤害。
+CARD.SHADOWMELD,Shadowmeld,融入暗影,Shadowmeld,Silent,Rare,Skill,1,Self,,本回合你获得的格挡值翻倍。,本回合你获得的格挡值翻倍。
+CARD.SHADOW_STEP,ShadowStep,暗影步,Shadow Step,Silent,Rare,Skill,1,Self,,丢弃所有手牌。 在下个回合，你所有的攻击伤害翻倍。,丢弃所有手牌。 在下个回合，你所有的攻击伤害翻倍。
+CARD.SNEAKY,Sneaky,鬼祟,Sneaky,Silent,Rare,Power,2,Self,Sly,"奇巧,每当其他玩家攻击一名敌人时，获得1点格挡。","奇巧,每当其他玩家攻击一名敌人时，获得2点格挡。"
+CARD.STORM_OF_STEEL,StormOfSteel,钢铁风暴,Storm of Steel,Silent,Rare,Skill,1,Self,,丢弃所有手牌。 每丢弃一张牌，就将一张小刀添加至你的手牌。,丢弃所有手牌。 每丢弃一张牌，就将一张小刀+添加至你的手牌。
+CARD.THE_HUNT,TheHunt,狩猎,The Hunt,Silent,Rare,Attack,1,AnyEnemy,Exhaust,"消耗,造成10点伤害。 斩杀时，额外获得一组卡牌奖励。","消耗,造成20点伤害。 斩杀时，额外获得一组卡牌奖励。"
+CARD.TOOLS_OF_THE_TRADE,ToolsOfTheTrade,必备工具,Tools of the Trade,Silent,Rare,Power,1,Self,,在你的回合开始时，抽1张牌，丢弃1张牌。,在你的回合开始时，抽1张牌，丢弃1张牌。
+CARD.TRACKING,Tracking,跟踪,Tracking,Silent,Rare,Power,2,Self,,有虚弱状态的敌人，所受的攻击伤害翻倍。,有虚弱状态的敌人，所受的攻击伤害翻倍。
+CARD.ACCURACY,Accuracy,精准,Accuracy,Silent,Uncommon,Power,1,Self,,小刀额外造成4点伤害。,小刀额外造成6点伤害。
+CARD.BACKSTAB,Backstab,背刺,Backstab,Silent,Uncommon,Attack,0,AnyEnemy,Exhaust|Innate,"消耗,固有,造成11点伤害。","消耗,固有,造成19点伤害。"
+CARD.BLUR,Blur,残影,Blur,Silent,Uncommon,Skill,1,Self,,获得5点格挡。 你的下一回合开始时格挡不会消失。,获得11点格挡。 你的下一回合开始时格挡不会消失。
+CARD.BOUNCING_FLASK,BouncingFlask,弹跳药瓶,Bouncing Flask,Silent,Uncommon,Skill,2,RandomEnemy,,随机给予敌人3层中毒3次。,随机给予敌人3层中毒5次。
+CARD.BUBBLE_BUBBLE,BubbleBubble,咕嘟冒泡,Bubble Bubble,Silent,Uncommon,Skill,1,AnyEnemy,,如果敌方拥有中毒，则给予9层中毒。,如果敌方拥有中毒，则给予12层中毒。
+CARD.CALCULATED_GAMBLE,CalculatedGamble,计算下注,Calculated Gamble,Silent,Uncommon,Skill,0,Self,Exhaust,"消耗,丢弃你的所有手牌, 然后抽相同数量的牌。","消耗,保留,丢弃你的所有手牌, 然后抽相同数量的牌。"
+CARD.DASH,Dash,冲刺,Dash,Silent,Uncommon,Attack,2,AnyEnemy,,获得10点格挡。 造成10点伤害。,获得16点格挡。 造成16点伤害。
+CARD.ESCAPE_PLAN,EscapePlan,逃脱计划,Escape Plan,Silent,Uncommon,Skill,0,Self,,抽1张牌。 如果抽到的是技能牌，则获得3点格挡。,抽1张牌。 如果抽到的是技能牌，则获得7点格挡。
+CARD.EXPERTISE,Expertise,独门绝技,Expertise,Silent,Uncommon,Skill,1,Self,,抽牌直至你的手牌有6张牌。,抽牌直至你的手牌有8张牌。
+CARD.EXPOSE,Expose,暴露,Expose,Silent,Uncommon,Skill,0,AnyEnemy,Exhaust,"消耗,去除敌人身上的所有格挡值和人工制品。 并给予2层易伤。","消耗,去除敌人身上的所有格挡值和人工制品。 并给予3层易伤。"
+CARD.FINISHER,Finisher,终结技,Finisher,Silent,Uncommon,Attack,1,AnyEnemy,,在这个回合内每打出过一张攻击牌，就造成6点伤害一次。,在这个回合内每打出过一张攻击牌，就造成10点伤害一次。
+CARD.FLANKING,Flanking,夹击,Flanking,Silent,Uncommon,Skill,2,AnyEnemy,,一名敌人在本回合受到的来自其他玩家的伤害翻倍。,一名敌人在本回合受到的来自其他玩家的伤害翻倍。
+CARD.FLECHETTES,Flechettes,飞镖,Flechettes,Silent,Uncommon,Attack,1,AnyEnemy,,手牌中每有一张技能牌，造成5点伤害。,手牌中每有一张技能牌，造成9点伤害。
+CARD.FOLLOW_THROUGH,FollowThrough,跟进,Follow Through,Silent,Uncommon,Attack,1,AllEnemies,,对所有敌人造成6点伤害。 如果在本回合，你打出的上一张牌是技能牌，则给予所有敌人1层虚弱。,对所有敌人造成10点伤害。 如果在本回合，你打出的上一张牌是技能牌，则给予所有敌人2层虚弱。
+CARD.FOOTWORK,Footwork,灵动步法,Footwork,Silent,Uncommon,Power,1,Self,,获得2点敏捷。,获得3点敏捷。
+CARD.HAND_TRICK,HandTrick,手上技法,Hand Trick,Silent,Uncommon,Skill,1,Self,,获得7点格挡。 在本回合给你手牌中的一张技能牌添加奇巧。,获得13点格挡。 在本回合给你手牌中的一张技能牌添加奇巧。
+CARD.HAZE,Haze,迷雾,Haze,Silent,Uncommon,Skill,3,AllEnemies,Sly,"奇巧,给予所有敌人4层中毒。","奇巧,给予所有敌人6层中毒。"
+CARD.HIDDEN_DAGGERS,HiddenDaggers,隐秘匕首,Hidden Daggers,Silent,Uncommon,Skill,0,Self,,丢弃2张牌。 将2张小刀加入你的手牌。,丢弃2张牌。 将2张小刀+加入你的手牌。
+CARD.INFINITE_BLADES,InfiniteBlades,无尽刀刃,Infinite Blades,Silent,Uncommon,Power,1,Self,,在你的回合开始时，在你的手牌中加入1张小刀。,"固有,在你的回合开始时，在你的手牌中加入1张小刀。"
+CARD.LEG_SWEEP,LegSweep,扫腿,Leg Sweep,Silent,Uncommon,Skill,2,AnyEnemy,,给予2层虚弱。 获得11点格挡。,给予3层虚弱。 获得17点格挡。
+CARD.MEMENTO_MORI,MementoMori,铭记死亡,Memento Mori,Silent,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 本回合每丢弃过一张牌，则增加4点额外伤害。,造成12点伤害。 本回合每丢弃过一张牌，则增加6点额外伤害。
+CARD.MIRAGE,Mirage,蜃景,Mirage,Silent,Uncommon,Skill,1,Self,Exhaust,"消耗,获得等同于所有敌人中毒层数的格挡。","消耗,获得等同于所有敌人中毒层数的格挡。"
+CARD.NOXIOUS_FUMES,NoxiousFumes,毒雾,Noxious Fumes,Silent,Uncommon,Power,1,Self,,在你的回合开始时，给予所有敌人2层中毒。,在你的回合开始时，给予所有敌人4层中毒。
+CARD.OUTBREAK,Outbreak,毒性爆发,Outbreak,Silent,Uncommon,Power,1,Self,,每当你给予3次中毒，就对所有敌人造成11点伤害。,每当你给予3次中毒，就对所有敌人造成15点伤害。
+CARD.PHANTOM_BLADES,PhantomBlades,幻影之刃,Phantom Blades,Silent,Uncommon,Power,1,Self,,小刀获得保留。 你在每回合打出的第一张小刀额外造成9点伤害。,小刀获得保留。 你在每回合打出的第一张小刀额外造成12点伤害。
+CARD.PINPOINT,Pinpoint,精密瞄准,Pinpoint,Silent,Uncommon,Attack,3,AnyEnemy,,造成17点伤害。 你在本回合中每打出过一张技能牌，其耗能减少1能量。,造成27点伤害。 你在本回合中每打出过一张技能牌，其耗能减少1能量。
+CARD.POUNCE,Pounce,猛扑,Pounce,Silent,Uncommon,Attack,2,AnyEnemy,,造成12点伤害。 你的下一张技能牌耗能变为0能量。,造成24点伤害。 你的下一张技能牌耗能变为0能量。
+CARD.PRECISE_CUT,PreciseCut,精确切击,Precise Cut,Silent,Uncommon,Attack,0,AnyEnemy,,造成13点伤害。 你的手牌中每有一张牌，此牌的伤害就降低2点。,造成19点伤害。 你的手牌中每有一张牌，此牌的伤害就降低2点。
+CARD.PREDATOR,Predator,猎杀者,Predator,Silent,Uncommon,Attack,2,AnyEnemy,,造成15点伤害。 在下个回合抽2张牌。,造成25点伤害。 在下个回合抽2张牌。
+CARD.REFLEX,Reflex,本能反应,Reflex,Silent,Uncommon,Skill,3,Self,Sly,"奇巧,抽2张牌。","奇巧,抽4张牌。"
+CARD.SKEWER,Skewer,串刺,Skewer,Silent,Uncommon,Attack,-2,AnyEnemy,,造成7点伤害X次。,造成13点伤害X次。
+CARD.SPEEDSTER,Speedster,速行者,Speedster,Silent,Uncommon,Power,2,Self,,每当你在回合进行中抽到一张牌时，对所有敌人造成2点伤害。,每当你在回合进行中抽到一张牌时，对所有敌人造成3点伤害。
+CARD.STRANGLE,Strangle,紧勒,Strangle,Silent,Uncommon,Attack,1,AnyEnemy,,造成8点伤害。 你在这个回合内每出一张牌，该名敌人都会失去2点生命。,造成12点伤害。 你在这个回合内每出一张牌，该名敌人都会失去3点生命。
+CARD.TACTICIAN,Tactician,战术大师,Tactician,Silent,Uncommon,Skill,3,Self,Sly,"奇巧,获得1能量。","奇巧,获得3能量。"
+CARD.UP_MY_SLEEVE,UpMySleeve,袖里乾坤,Up My Sleeve,Silent,Uncommon,Skill,2,Self,,将3张小刀加入你的手牌。 这张牌的耗能减少1。,将5张小刀加入你的手牌。 这张牌的耗能减少1。
+CARD.WELL_LAID_PLANS,WellLaidPlans,计划妥当,Well-Laid Plans,Silent,Uncommon,Power,1,Self,,在你的回合结束时，保留最多1张牌。,在你的回合结束时，保留最多3张牌。
+CARD.BECKON,Beckon,呼唤,Beckon,Status,Status,Status,1,None,,在你的回合结束时，如果这张牌在你的手牌中， 则失去6点生命。,在你的回合结束时，如果这张牌在你的手牌中， 则失去6点生命。
+CARD.BURN,Burn,灼伤,Burn,Status,Status,Status,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，你受到2点伤害。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，你受到2点伤害。"
+CARD.DAZED,Dazed,晕眩,Dazed,Status,Status,Status,-1,None,Ethereal|Unplayable,"虚无,不能被打出","虚无,不能被打出"
+CARD.DEBRIS,Debris,碎屑,Debris,Status,Status,Status,1,None,Exhaust,消耗,消耗
+CARD.FRANTIC_ESCAPE,FranticEscape,狂乱逃离,Frantic Escape,Status,Status,Status,1,Self,,远离。 将沙坑的计数加1。 这张牌的耗能加1。,远离。 将沙坑的计数加1。 这张牌的耗能加1。
+CARD.INFECTION,Infection,感染,Infection,Status,Status,Status,-1,None,Unplayable,"不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则受到3点伤害。","不能被打出,在你的回合结束时，如果这张牌在你的手牌中，则受到3点伤害。"
+CARD.SLIMED,Slimed,黏液,Slimed,Status,Status,Status,1,None,Exhaust,"消耗,抽1张牌。","消耗,抽1张牌。"
+CARD.SOOT,Soot,煤灰,Soot,Status,Status,Status,-1,None,Unplayable,不能被打出,不能被打出
+CARD.TOXIC,Toxic,毒素,Toxic,Status,Status,Status,1,None,Exhaust,"消耗,在你的回合结束时，这张牌在你的手牌中，则受到5点伤害。","消耗,在你的回合结束时，这张牌在你的手牌中，则受到5点伤害。"
+CARD.VOID,Void,虚空,Void,Status,Status,Status,-1,None,Unplayable|Ethereal,"不能被打出,虚无,每当你抽到这张牌时，失去1能量。","不能被打出,虚无,每当你抽到这张牌时，失去1能量。"
+CARD.WOUND,Wound,伤口,Wound,Status,Status,Status,-1,None,Unplayable,不能被打出,不能被打出
+CARD.DISINTEGRATION,Disintegration,瓦解,Disintegration,Token,Status,Status,-1,None,,在你的回合结束时，受到6点伤害。,在你的回合结束时，受到6点伤害。
+CARD.MIND_ROT,MindRot,心灵腐化,Mind Rot,Token,Status,Status,-1,None,,每回合少抽1张牌。,每回合少抽1张牌。
+CARD.SLOTH,Sloth,懒惰,Sloth,Token,Status,Status,-1,None,,你在每个回合不能打出超过3张牌。,你在每个回合不能打出超过3张牌。
+CARD.WASTE_AWAY,WasteAway,衰朽,Waste Away,Token,Status,Status,-1,None,,每回合失去1点能量。,每回合失去1点能量。
+CARD.FUEL,Fuel,燃料,Fuel,Token,Token,Skill,0,Self,Exhaust,"消耗,获得1能量。 抽1张牌。","消耗,获得1能量。 抽3张牌。"
+CARD.GIANT_ROCK,GiantRock,巨石,Giant Rock,Token,Token,Attack,1,AnyEnemy,,造成16点伤害。,造成24点伤害。
+CARD.LUMINESCE,Luminesce,冷光,Luminesce,Token,Token,Skill,0,Self,Exhaust|Retain,"消耗,保留,获得2能量。","消耗,保留,获得4能量。"
+CARD.MINION_DIVE_BOMB,MinionDiveBomb,仆从俯冲,Minion Dive Bomb,Token,Token,Attack,1,AnyEnemy,Exhaust,"消耗,造成13点伤害。","消耗,造成19点伤害。"
+CARD.MINION_SACRIFICE,MinionSacrifice,仆从捐躯,Minion Sacrifice,Token,Token,Skill,0,Self,Exhaust,"消耗,获得9点格挡。","消耗,获得15点格挡。"
+CARD.MINION_STRIKE,MinionStrike,仆从打击,Minion Strike,Token,Token,Attack,0,AnyEnemy,Exhaust,"消耗,造成7点伤害。 抽1张牌。","消耗,造成13点伤害。 抽1张牌。"
+CARD.SHIV,Shiv,小刀,Shiv,Token,Token,Attack,0,AnyEnemy,Exhaust,"消耗,造成4点伤害。","消耗,造成8点伤害。"
+CARD.SOUL,Soul,灵魂,Soul,Token,Token,Skill,0,Self,Exhaust,"消耗,抽2张牌。","消耗,抽4张牌。"
+CARD.SOVEREIGN_BLADE,SovereignBlade,君王之剑,Sovereign Blade,Token,Token,Attack,2,AnyEnemy,Retain,"保留,造成10点伤害","保留,造成10点伤害"
+CARD.SWEEPING_GAZE,SweepingGaze,扫荡凝视,Sweeping Gaze,Token,Token,Attack,0,RandomEnemy,Ethereal|Exhaust,"虚无,消耗,奥斯提对随机一名敌人造成10点伤害。","虚无,消耗,奥斯提对随机一名敌人造成20点伤害。"

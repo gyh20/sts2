@@ -1,0 +1,578 @@
+key,name_chs,name_eng,category,rarity,type,cost,targetType,keywords
+Bash,痛击,Bash,Ironclad,Basic,Attack,2,AnyEnemy,
+StrikeIronclad,打击,Strike,Ironclad,Basic,Attack,1,AnyEnemy,
+DefendIronclad,防御,Defend,Ironclad,Basic,Skill,1,Self,
+Anger,愤怒,Anger,Ironclad,Common,Attack,0,AnyEnemy,
+BodySlam,全身撞击,Body Slam,Ironclad,Common,Attack,1,AnyEnemy,
+Breakthrough,突破,Breakthrough,Ironclad,Common,Attack,1,AllEnemies,
+Cinder,余烬,Cinder,Ironclad,Common,Attack,2,AnyEnemy,
+Headbutt,头槌,Headbutt,Ironclad,Common,Attack,1,AnyEnemy,
+IronWave,铁斩波,Iron Wave,Ironclad,Common,Attack,1,AnyEnemy,
+MoltenFist,熔融之拳,Molten Fist,Ironclad,Common,Attack,1,AnyEnemy,Exhaust
+PerfectedStrike,完美打击,Perfected Strike,Ironclad,Common,Attack,2,AnyEnemy,
+PommelStrike,剑柄打击,Pommel Strike,Ironclad,Common,Attack,1,AnyEnemy,
+SetupStrike,预备打击,Setup Strike,Ironclad,Common,Attack,1,AnyEnemy,
+SwordBoomerang,飞剑回旋镖,Sword Boomerang,Ironclad,Common,Attack,1,RandomEnemy,
+Thunderclap,闪电霹雳,Thunderclap,Ironclad,Common,Attack,1,AllEnemies,
+TwinStrike,双重打击,Twin Strike,Ironclad,Common,Attack,1,AnyEnemy,
+Armaments,武装,Armaments,Ironclad,Common,Skill,1,Self,
+BloodWall,血墙,Blood Wall,Ironclad,Common,Skill,2,Self,
+Bloodletting,放血,Bloodletting,Ironclad,Common,Skill,0,Self,
+Havoc,破灭,Havoc,Ironclad,Common,Skill,1,Self,
+ShrugItOff,耸肩无视,Shrug It Off,Ironclad,Common,Skill,1,Self,
+Tremble,战栗,Tremble,Ironclad,Common,Skill,1,AnyEnemy,
+TrueGrit,坚毅,True Grit,Ironclad,Common,Skill,1,Self,
+AshenStrike,灰烬打击,Ashen Strike,Ironclad,Uncommon,Attack,1,AnyEnemy,
+Bludgeon,重锤,Bludgeon,Ironclad,Uncommon,Attack,3,AnyEnemy,
+Bully,欺凌,Bully,Ironclad,Uncommon,Attack,0,AnyEnemy,
+Dismantle,拆卸,Dismantle,Ironclad,Uncommon,Attack,1,AnyEnemy,
+FightMe,与我一战！,Fight Me!,Ironclad,Uncommon,Attack,2,AnyEnemy,
+Grapple,擒拿,Grapple,Ironclad,Uncommon,Attack,1,AnyEnemy,
+Hemokinesis,御血术,Hemokinesis,Ironclad,Uncommon,Attack,1,AnyEnemy,
+HowlFromBeyond,彼岸咆哮,Howl from Beyond,Ironclad,Uncommon,Attack,3,AllEnemies,
+Pillage,劫掠,Pillage,Ironclad,Uncommon,Attack,1,AnyEnemy,
+Rampage,暴走,Rampage,Ironclad,Uncommon,Attack,1,AnyEnemy,
+Spite,怨恨,Spite,Ironclad,Uncommon,Attack,0,AnyEnemy,
+Stomp,踩踏,Stomp,Ironclad,Uncommon,Attack,3,AllEnemies,
+Unrelenting,无情猛攻,Unrelenting,Ironclad,Uncommon,Attack,2,AnyEnemy,
+Uppercut,上勾拳,Uppercut,Ironclad,Uncommon,Attack,2,AnyEnemy,
+Whirlwind,旋风斩,Whirlwind,Ironclad,Uncommon,Attack,-2,AllEnemies,
+BattleTrance,战斗专注,Battle Trance,Ironclad,Uncommon,Skill,0,Self,
+BurningPact,燃烧契约,Burning Pact,Ironclad,Uncommon,Skill,1,Self,
+DemonicShield,恶魔护盾,Demonic Shield,Ironclad,Uncommon,Skill,0,AnyAlly,Exhaust
+Dominate,主宰,Dominate,Ironclad,Uncommon,Skill,1,AnyEnemy,Exhaust
+EvilEye,邪眼,Evil Eye,Ironclad,Uncommon,Skill,1,Self,
+ExpectAFight,跃跃欲试,Expect a Fight,Ironclad,Uncommon,Skill,2,Self,
+FlameBarrier,火焰屏障,Flame Barrier,Ironclad,Uncommon,Skill,2,Self,
+ForgottenRitual,被遗忘的仪式,Forgotten Ritual,Ironclad,Uncommon,Skill,1,Self,
+InfernalBlade,地狱之刃,Infernal Blade,Ironclad,Uncommon,Skill,1,Self,Exhaust
+Rage,狂怒,Rage,Ironclad,Uncommon,Skill,0,Self,
+SecondWind,重振精神,Second Wind,Ironclad,Uncommon,Skill,1,Self,
+Taunt,挑衅,Taunt,Ironclad,Uncommon,Skill,1,AnyEnemy,
+DrumOfBattle,战鼓,Drum of Battle,Ironclad,Uncommon,Power,0,Self,
+FeelNoPain,无惧疼痛,Feel No Pain,Ironclad,Uncommon,Power,1,Self,
+Inferno,狱火,Inferno,Ironclad,Uncommon,Power,1,Self,
+Inflame,燃烧,Inflame,Ironclad,Uncommon,Power,1,Self,
+Juggling,杂耍,Juggling,Ironclad,Uncommon,Power,1,Self,
+Rupture,撕裂,Rupture,Ironclad,Uncommon,Power,1,Self,
+Stampede,惊逃,Stampede,Ironclad,Uncommon,Power,2,Self,
+StoneArmor,岩石铠甲,Stone Armor,Ironclad,Uncommon,Power,1,Self,
+Vicious,凶恶,Vicious,Ironclad,Uncommon,Power,1,Self,
+Conflagration,焚烧,Conflagration,Ironclad,Rare,Attack,1,AllEnemies,
+Feed,狂宴,Feed,Ironclad,Rare,Attack,1,AnyEnemy,Exhaust
+FiendFire,恶魔之焰,Fiend Fire,Ironclad,Rare,Attack,2,AnyEnemy,Exhaust
+Mangle,凌虐,Mangle,Ironclad,Rare,Attack,3,AnyEnemy,
+PactsEnd,契约终结,Pact's End,Ironclad,Rare,Attack,0,AllEnemies,
+TearAsunder,扯碎,Tear Asunder,Ironclad,Rare,Attack,2,AnyEnemy,
+Thrash,痛殴,Thrash,Ironclad,Rare,Attack,1,AnyEnemy,
+Brand,烙印,Brand,Ironclad,Rare,Skill,0,Self,
+Cascade,倾泻,Cascade,Ironclad,Rare,Skill,-2,Self,
+Colossus,巨像,Colossus,Ironclad,Rare,Skill,1,Self,
+Impervious,岿然不动,Impervious,Ironclad,Rare,Skill,2,Self,Exhaust
+Offering,祭品,Offering,Ironclad,Rare,Skill,0,Self,Exhaust
+OneTwoPunch,连环拳,One-Two Punch,Ironclad,Rare,Skill,1,Self,
+PrimalForce,原始力量,Primal Force,Ironclad,Rare,Skill,0,Self,
+Stoke,添柴,Stoke,Ironclad,Rare,Skill,1,Self,Exhaust
+Aggression,好勇斗狠,Aggression,Ironclad,Rare,Power,1,Self,
+Barricade,壁垒,Barricade,Ironclad,Rare,Power,3,Self,
+CrimsonMantle,绯红披风,Crimson Mantle,Ironclad,Rare,Power,1,Self,
+Cruelty,残酷,Cruelty,Ironclad,Rare,Power,1,Self,
+DarkEmbrace,黑暗之拥,Dark Embrace,Ironclad,Rare,Power,2,Self,
+DemonForm,恶魔形态,Demon Form,Ironclad,Rare,Power,3,Self,
+Hellraiser,地狱狂徒,Hellraiser,Ironclad,Rare,Power,2,Self,
+Juggernaut,势不可当,Juggernaut,Ironclad,Rare,Power,2,Self,
+Pyre,薪火之源,Pyre,Ironclad,Rare,Power,2,Self,
+Tank,肉盾,Tank,Ironclad,Rare,Power,1,Self,
+Unmovable,坚定不移,Unmovable,Ironclad,Rare,Power,2,Self,
+Break,破击,Break,Ironclad,Ancient,Attack,2,AnyEnemy,
+Corruption,腐化,Corruption,Ironclad,Ancient,Power,3,Self,
+Neutralize,中和,Neutralize,Silent,Basic,Attack,0,AnyEnemy,
+StrikeSilent,打击,Strike,Silent,Basic,Attack,1,AnyEnemy,
+DefendSilent,防御,Defend,Silent,Basic,Skill,1,Self,
+Survivor,生存者,Survivor,Silent,Basic,Skill,1,Self,
+DaggerSpray,匕首雨,Dagger Spray,Silent,Common,Attack,1,AllEnemies,
+DaggerThrow,投掷匕首,Dagger Throw,Silent,Common,Attack,1,AnyEnemy,
+FlickFlack,翻越撑击,Flick-Flack,Silent,Common,Attack,1,AllEnemies,Sly
+LeadingStrike,先制打击,Leading Strike,Silent,Common,Attack,1,AnyEnemy,
+PoisonedStab,带毒刺击,Poisoned Stab,Silent,Common,Attack,1,AnyEnemy,
+Ricochet,连续反弹,Ricochet,Silent,Common,Attack,2,RandomEnemy,Sly
+Slice,切割,Slice,Silent,Common,Attack,0,AnyEnemy,
+SuckerPunch,突然一拳,Sucker Punch,Silent,Common,Attack,1,AnyEnemy,
+Acrobatics,杂技,Acrobatics,Silent,Common,Skill,1,Self,
+Anticipate,预判,Anticipate,Silent,Common,Skill,0,Self,
+Backflip,后空翻,Backflip,Silent,Common,Skill,1,Self,
+BladeDance,刀刃之舞,Blade Dance,Silent,Common,Skill,1,Self,Exhaust
+CloakAndDagger,斗篷与匕首,Cloak and Dagger,Silent,Common,Skill,1,Self,
+DeadlyPoison,致命毒药,Deadly Poison,Silent,Common,Skill,1,AnyEnemy,
+Deflect,偏折,Deflect,Silent,Common,Skill,0,Self,
+DodgeAndRoll,闪躲翻滚,Dodge and Roll,Silent,Common,Skill,1,Self,
+PiercingWail,尖啸,Piercing Wail,Silent,Common,Skill,1,AllEnemies,Exhaust
+Prepared,早有准备,Prepared,Silent,Common,Skill,0,Self,
+Snakebite,蛇咬,Snakebite,Silent,Common,Skill,2,AnyEnemy,Retain
+Untouchable,触不可及,Untouchable,Silent,Common,Skill,2,Self,Sly
+Backstab,背刺,Backstab,Silent,Uncommon,Attack,0,AnyEnemy,Exhaust;Innate
+Dash,冲刺,Dash,Silent,Uncommon,Attack,2,AnyEnemy,
+Finisher,终结技,Finisher,Silent,Uncommon,Attack,1,AnyEnemy,
+Flechettes,飞镖,Flechettes,Silent,Uncommon,Attack,1,AnyEnemy,
+FollowThrough,跟进,Follow Through,Silent,Uncommon,Attack,1,AllEnemies,
+MementoMori,铭记死亡,Memento Mori,Silent,Uncommon,Attack,1,AnyEnemy,
+Pinpoint,精密瞄准,Pinpoint,Silent,Uncommon,Attack,3,AnyEnemy,
+Pounce,猛扑,Pounce,Silent,Uncommon,Attack,2,AnyEnemy,
+PreciseCut,精确切击,Precise Cut,Silent,Uncommon,Attack,0,AnyEnemy,
+Predator,猎杀者,Predator,Silent,Uncommon,Attack,2,AnyEnemy,
+Skewer,串刺,Skewer,Silent,Uncommon,Attack,-2,AnyEnemy,
+Strangle,紧勒,Strangle,Silent,Uncommon,Attack,1,AnyEnemy,
+Blur,残影,Blur,Silent,Uncommon,Skill,1,Self,
+BouncingFlask,弹跳药瓶,Bouncing Flask,Silent,Uncommon,Skill,2,RandomEnemy,
+BubbleBubble,咕嘟冒泡,Bubble Bubble,Silent,Uncommon,Skill,1,AnyEnemy,
+CalculatedGamble,计算下注,Calculated Gamble,Silent,Uncommon,Skill,0,Self,Exhaust
+EscapePlan,逃脱计划,Escape Plan,Silent,Uncommon,Skill,0,Self,
+Expertise,独门绝技,Expertise,Silent,Uncommon,Skill,1,Self,
+Expose,暴露,Expose,Silent,Uncommon,Skill,0,AnyEnemy,Exhaust
+Flanking,夹击,Flanking,Silent,Uncommon,Skill,2,AnyEnemy,
+HandTrick,手上技法,Hand Trick,Silent,Uncommon,Skill,1,Self,
+Haze,迷雾,Haze,Silent,Uncommon,Skill,3,AllEnemies,Sly
+HiddenDaggers,隐秘匕首,Hidden Daggers,Silent,Uncommon,Skill,0,Self,
+LegSweep,扫腿,Leg Sweep,Silent,Uncommon,Skill,2,AnyEnemy,
+Mirage,蜃景,Mirage,Silent,Uncommon,Skill,1,Self,Exhaust
+Reflex,本能反应,Reflex,Silent,Uncommon,Skill,3,Self,Sly
+Tactician,战术大师,Tactician,Silent,Uncommon,Skill,3,Self,Sly
+UpMySleeve,袖里乾坤,Up My Sleeve,Silent,Uncommon,Skill,2,Self,
+Accuracy,精准,Accuracy,Silent,Uncommon,Power,1,Self,
+Footwork,灵动步法,Footwork,Silent,Uncommon,Power,1,Self,
+InfiniteBlades,无尽刀刃,Infinite Blades,Silent,Uncommon,Power,1,Self,
+NoxiousFumes,毒雾,Noxious Fumes,Silent,Uncommon,Power,1,Self,
+Outbreak,毒性爆发,Outbreak,Silent,Uncommon,Power,1,Self,
+PhantomBlades,幻影之刃,Phantom Blades,Silent,Uncommon,Power,1,Self,
+Speedster,速行者,Speedster,Silent,Uncommon,Power,2,Self,
+WellLaidPlans,计划妥当,Well-Laid Plans,Silent,Uncommon,Power,1,Self,
+Assassinate,刺杀,Assassinate,Silent,Rare,Attack,0,AnyEnemy,Innate;Exhaust
+EchoingSlash,回响斩击,Echoing Slash,Silent,Rare,Attack,1,AllEnemies,
+GrandFinale,华丽收场,Grand Finale,Silent,Rare,Attack,0,AllEnemies,
+Murder,谋杀,Murder,Silent,Rare,Attack,3,AnyEnemy,
+TheHunt,狩猎,The Hunt,Silent,Rare,Attack,1,AnyEnemy,Exhaust
+Adrenaline,肾上腺素,Adrenaline,Silent,Rare,Skill,0,Self,Exhaust
+BladeOfInk,墨之刃,Blade of Ink,Silent,Rare,Skill,1,Self,
+BulletTime,子弹时间,Bullet Time,Silent,Rare,Skill,3,Self,
+Burst,爆发,Burst,Silent,Rare,Skill,1,Self,
+CorrosiveWave,腐蚀波,Corrosive Wave,Silent,Rare,Skill,1,Self,
+KnifeTrap,刀刃陷阱,Knife Trap,Silent,Rare,Skill,2,AnyEnemy,
+Malaise,萎靡,Malaise,Silent,Rare,Skill,-2,AnyEnemy,Exhaust
+Nightmare,夜魇,Nightmare,Silent,Rare,Skill,3,Self,Exhaust
+ShadowStep,暗影步,Shadow Step,Silent,Rare,Skill,1,Self,
+Shadowmeld,融入暗影,Shadowmeld,Silent,Rare,Skill,1,Self,
+StormOfSteel,钢铁风暴,Storm of Steel,Silent,Rare,Skill,1,Self,
+Abrasive,磨蚀,Abrasive,Silent,Rare,Power,3,Self,Sly
+Accelerant,触媒,Accelerant,Silent,Rare,Power,1,Self,
+Afterimage,余像,Afterimage,Silent,Rare,Power,1,Self,
+Envenom,涂毒,Envenom,Silent,Rare,Power,2,Self,
+FanOfKnives,刀扇,Fan of Knives,Silent,Rare,Power,2,Self,
+MasterPlanner,谋划专家,Master Planner,Silent,Rare,Power,2,Self,
+SerpentForm,群蛇形态,Serpent Form,Silent,Rare,Power,3,Self,
+Sneaky,鬼祟,Sneaky,Silent,Rare,Power,2,Self,Sly
+ToolsOfTheTrade,必备工具,Tools of the Trade,Silent,Rare,Power,1,Self,
+Tracking,跟踪,Tracking,Silent,Rare,Power,2,Self,
+Suppress,压制,Suppress,Silent,Ancient,Attack,0,AnyEnemy,Innate
+WraithForm,幽魂形态,Wraith Form,Silent,Ancient,Power,3,Self,
+StrikeDefect,打击,Strike,Defect,Basic,Attack,1,AnyEnemy,
+DefendDefect,防御,Defend,Defect,Basic,Skill,1,Self,
+Dualcast,双重释放,Dualcast,Defect,Basic,Skill,1,Self,
+Zap,电击,Zap,Defect,Basic,Skill,1,Self,
+BallLightning,球状闪电,Ball Lightning,Defect,Common,Attack,1,AnyEnemy,
+Barrage,弹幕齐射,Barrage,Defect,Common,Attack,1,AnyEnemy,
+BeamCell,光束射线,Beam Cell,Defect,Common,Attack,0,AnyEnemy,
+Claw,爪击,Claw,Defect,Common,Attack,0,AnyEnemy,
+ColdSnap,寒流,Cold Snap,Defect,Common,Attack,1,AnyEnemy,
+CompileDriver,编译冲击,Compile Driver,Defect,Common,Attack,1,AnyEnemy,
+FocusedStrike,集中打击,Focused Strike,Defect,Common,Attack,1,AnyEnemy,
+GoForTheEyes,眼部攻击,Go for the Eyes,Defect,Common,Attack,0,AnyEnemy,
+GunkUp,污秽攻击,Gunk Up,Defect,Common,Attack,1,AnyEnemy,
+MomentumStrike,趁势打击,Momentum Strike,Defect,Common,Attack,1,AnyEnemy,
+SweepingBeam,扫荡射线,Sweeping Beam,Defect,Common,Attack,1,AllEnemies,
+Uproar,骚动,Uproar,Defect,Common,Attack,2,AnyEnemy,
+BoostAway,高速脱离,Boost Away,Defect,Common,Skill,0,Self,
+ChargeBattery,充电,Charge Battery,Defect,Common,Skill,1,Self,
+Coolheaded,冷静头脑,Coolheaded,Defect,Common,Skill,1,Self,
+Hologram,全息影像,Hologram,Defect,Common,Skill,1,Self,Exhaust
+Hotfix,热修复,Hotfix,Defect,Common,Skill,0,Self,
+Leap,飞跃,Leap,Defect,Common,Skill,1,Self,
+LightningRod,引雷针,Lightning Rod,Defect,Common,Skill,1,Self,
+Turbo,内核加速,TURBO,Defect,Common,Skill,0,Self,
+Ftl,超越光速,FTL,Defect,Uncommon,Attack,0,AnyEnemy,
+Null,空无,Null,Defect,Uncommon,Attack,2,AnyEnemy,
+Refract,折射,Refract,Defect,Uncommon,Attack,3,AnyEnemy,
+RocketPunch,火箭飞拳,Rocket Punch,Defect,Uncommon,Attack,2,AnyEnemy,
+Scrape,刮削,Scrape,Defect,Uncommon,Attack,1,AnyEnemy,
+Sunder,分离,Sunder,Defect,Uncommon,Attack,3,AnyEnemy,
+Synthesis,人工合成,Synthesis,Defect,Uncommon,Attack,2,AnyEnemy,
+TeslaCoil,特斯拉线圈,Tesla Coil,Defect,Uncommon,Attack,0,AnyEnemy,
+BootSequence,启动流程,Boot Sequence,Defect,Uncommon,Skill,0,Self,Innate;Exhaust
+Chaos,混沌,Chaos,Defect,Uncommon,Skill,1,Self,
+Chill,冰寒,Chill,Defect,Uncommon,Skill,0,Self,Exhaust
+Compact,压缩,Compact,Defect,Uncommon,Skill,1,Self,
+Darkness,漆黑,Darkness,Defect,Uncommon,Skill,1,Self,
+DoubleEnergy,双倍能量,Double Energy,Defect,Uncommon,Skill,1,Self,Exhaust
+EnergySurge,能量涌动,Energy Surge,Defect,Uncommon,Skill,1,AllAllies,Exhaust
+FightThrough,强撑,Fight Through,Defect,Uncommon,Skill,1,Self,
+Fusion,聚变,Fusion,Defect,Uncommon,Skill,2,Self,
+Glacier,冰川,Glacier,Defect,Uncommon,Skill,2,Self,
+Glasswork,玻璃工艺,Glasswork,Defect,Uncommon,Skill,1,Self,
+Overclock,超频,Overclock,Defect,Uncommon,Skill,0,Self,
+Scavenge,再利用,Scavenge,Defect,Uncommon,Skill,1,Self,
+ShadowShield,暗影之盾,Shadow Shield,Defect,Uncommon,Skill,2,Self,
+Skim,快速检索,Skim,Defect,Uncommon,Skill,1,Self,
+Synchronize,同步,Synchronize,Defect,Uncommon,Skill,1,Self,Exhaust
+Tempest,暴风雨,Tempest,Defect,Uncommon,Skill,-2,Self,
+WhiteNoise,白噪音,White Noise,Defect,Uncommon,Skill,1,Self,Exhaust
+BulkUp,暴涨,Bulk Up,Defect,Uncommon,Power,2,Self,
+Capacitor,扩容,Capacitor,Defect,Uncommon,Power,1,Self,
+Feral,野性,Feral,Defect,Uncommon,Power,2,Self,
+Hailstorm,冰雹风暴,Hailstorm,Defect,Uncommon,Power,1,Self,
+Iteration,迭代,Iteration,Defect,Uncommon,Power,1,Self,
+Loop,循环,Loop,Defect,Uncommon,Power,1,Self,
+Smokestack,烟囱,Smokestack,Defect,Uncommon,Power,1,Self,
+Storm,雷暴,Storm,Defect,Uncommon,Power,1,Self,
+Subroutine,子程序,Subroutine,Defect,Uncommon,Power,1,Self,
+Thunder,雷霆,Thunder,Defect,Uncommon,Power,1,Self,
+AdaptiveStrike,适应打击,Adaptive Strike,Defect,Rare,Attack,2,AnyEnemy,
+AllForOne,万物一心,All for One,Defect,Rare,Attack,2,AnyEnemy,
+FlakCannon,散射炮,Flak Cannon,Defect,Rare,Attack,2,RandomEnemy,
+HelixDrill,螺旋钻击,Helix Drill,Defect,Rare,Attack,0,AnyEnemy,
+Hyperbeam,超能光束,Hyperbeam,Defect,Rare,Attack,2,AllEnemies,
+IceLance,冰之长枪,Ice Lance,Defect,Rare,Attack,3,AnyEnemy,
+MeteorStrike,陨石打击,Meteor Strike,Defect,Rare,Attack,5,AnyEnemy,
+Shatter,打碎,Shatter,Defect,Rare,Attack,1,AllEnemies,
+GeneticAlgorithm,遗传算法,Genetic Algorithm,Defect,Rare,Skill,1,Self,Exhaust
+Ignition,引火,Ignition,Defect,Rare,Skill,1,AnyAlly,Exhaust
+Modded,模组改造,Modded,Defect,Rare,Skill,0,Self,
+MultiCast,多重释放,Multi-Cast,Defect,Rare,Skill,-2,Self,
+Rainbow,彩虹,Rainbow,Defect,Rare,Skill,2,Self,Exhaust
+Reboot,重启,Reboot,Defect,Rare,Skill,0,Self,Exhaust
+SignalBoost,信号增强,Signal Boost,Defect,Rare,Skill,1,Self,Exhaust
+Supercritical,超临界态,Supercritical,Defect,Rare,Skill,0,Self,Exhaust
+Voltaic,电流相生,Voltaic,Defect,Rare,Skill,2,Self,Exhaust
+Buffer,缓冲,Buffer,Defect,Rare,Power,2,Self,
+ConsumingShadow,吞噬暗影,Consuming Shadow,Defect,Rare,Power,2,Self,
+Coolant,冷却剂,Coolant,Defect,Rare,Power,1,Self,
+CreativeAi,创造性AI,Creative AI,Defect,Rare,Power,3,Self,
+Defragment,碎片整理,Defragment,Defect,Rare,Power,1,Self,
+EchoForm,回响形态,Echo Form,Defect,Rare,Power,3,Self,Ethereal
+MachineLearning,机器学习,Machine Learning,Defect,Rare,Power,1,Self,
+Spinner,旋转工艺,Spinner,Defect,Rare,Power,1,Self,
+TrashToTreasure,化废为宝,Trash to Treasure,Defect,Rare,Power,1,Self,
+Quadcast,四重释放,Quadcast,Defect,Ancient,Skill,1,Self,
+BiasedCognition,偏差认知,Biased Cognition,Defect,Ancient,Power,1,Self,
+StrikeNecrobinder,打击,Strike,Necrobinder,Basic,Attack,1,AnyEnemy,
+Unleash,出击,Unleash,Necrobinder,Basic,Attack,1,AnyEnemy,
+Bodyguard,护卫,Bodyguard,Necrobinder,Basic,Skill,1,Self,
+DefendNecrobinder,防御,Defend,Necrobinder,Basic,Skill,1,Self,
+BlightStrike,荒疫打击,Blight Strike,Necrobinder,Common,Attack,1,AnyEnemy,
+Defile,玷污,Defile,Necrobinder,Common,Attack,1,AnyEnemy,Ethereal
+DrainPower,能量汲取,Drain Power,Necrobinder,Common,Attack,1,AnyEnemy,
+Fear,恐惧,Fear,Necrobinder,Common,Attack,1,AnyEnemy,Ethereal
+Flatten,重压,Flatten,Necrobinder,Common,Attack,2,AnyEnemy,
+Graveblast,坟冢爆射,Graveblast,Necrobinder,Common,Attack,1,AnyEnemy,Exhaust
+Poke,戳击,Poke,Necrobinder,Common,Attack,0,AnyEnemy,
+Reap,收割,Reap,Necrobinder,Common,Attack,3,AnyEnemy,Retain
+Reave,剥夺,Reave,Necrobinder,Common,Attack,1,AnyEnemy,
+SculptingStrike,雕琢打击,Sculpting Strike,Necrobinder,Common,Attack,1,AnyEnemy,
+Snap,抓取,Snap,Necrobinder,Common,Attack,1,AnyEnemy,
+Sow,播种,Sow,Necrobinder,Common,Attack,1,AllEnemies,Retain
+Afterlife,来生,Afterlife,Necrobinder,Common,Skill,1,Self,Exhaust
+Defy,违逆,Defy,Necrobinder,Common,Skill,1,AnyEnemy,Ethereal
+GraveWarden,守墓人,Grave Warden,Necrobinder,Common,Skill,1,Self,
+Invoke,唤起,Invoke,Necrobinder,Common,Skill,1,Self,
+NegativePulse,负能量脉冲,Negative Pulse,Necrobinder,Common,Skill,1,AllEnemies,
+PullAggro,吸引仇恨,Pull Aggro,Necrobinder,Common,Skill,2,Self,
+Scourge,鞭打,Scourge,Necrobinder,Common,Skill,1,AnyEnemy,
+Wisp,鬼火,Wisp,Necrobinder,Common,Skill,0,Self,Exhaust
+BoneShards,碎骨,Bone Shards,Necrobinder,Uncommon,Attack,1,AllEnemies,
+Bury,埋葬,Bury,Necrobinder,Uncommon,Attack,4,AnyEnemy,
+DeathMarch,死亡行军,Death March,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+Debilitate,摧残,Debilitate,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+Fetch,取回,Fetch,Necrobinder,Uncommon,Attack,0,AnyEnemy,
+HighFive,击掌,High Five,Necrobinder,Uncommon,Attack,2,AllEnemies,
+PullFromBelow,亡魂牵引,Pull from Below,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+Rattle,猛晃,Rattle,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+RightHandHand,得力助手,Right Hand Hand,Necrobinder,Uncommon,Attack,0,AnyEnemy,
+Severance,切断,Severance,Necrobinder,Uncommon,Attack,2,AnyEnemy,
+SicEm,紧追不放,Sic 'Em,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+Veilpiercer,刺破帷幕,Veilpiercer,Necrobinder,Uncommon,Attack,1,AnyEnemy,
+BorrowedTime,预借时间,Borrowed Time,Necrobinder,Uncommon,Skill,0,Self,
+CaptureSpirit,捕捉灵魂,Capture Spirit,Necrobinder,Uncommon,Skill,1,AnyEnemy,
+Cleanse,洁净,Cleanse,Necrobinder,Uncommon,Skill,1,Self,
+DeathsDoor,死亡之门,Death's Door,Necrobinder,Uncommon,Skill,1,Self,
+Deathbringer,死亡使者,Deathbringer,Necrobinder,Uncommon,Skill,2,AllEnemies,
+Delay,拖延,Delay,Necrobinder,Uncommon,Skill,2,Self,
+Dirge,挽歌,Dirge,Necrobinder,Uncommon,Skill,-2,Self,
+Dredge,清淤,Dredge,Necrobinder,Uncommon,Skill,1,Self,Exhaust
+EnfeeblingTouch,弱化之触,Enfeebling Touch,Necrobinder,Uncommon,Skill,1,AnyEnemy,Ethereal
+LegionOfBone,骸骨军团,Legion of Bone,Necrobinder,Uncommon,Skill,2,AllAllies,Exhaust
+Melancholy,忧郁,Melancholy,Necrobinder,Uncommon,Skill,3,Self,
+NoEscape,无处可逃,No Escape,Necrobinder,Uncommon,Skill,1,AnyEnemy,
+Parse,领会,Parse,Necrobinder,Uncommon,Skill,1,Self,Ethereal
+Putrefy,腐败,Putrefy,Necrobinder,Uncommon,Skill,1,AnyEnemy,Exhaust
+Spur,增生,Spur,Necrobinder,Uncommon,Skill,1,Self,Retain
+Calcify,钙化,Calcify,Necrobinder,Uncommon,Power,1,Self,
+Countdown,倒数计时,Countdown,Necrobinder,Uncommon,Power,1,Self,
+DanseMacabre,死亡之舞,Danse Macabre,Necrobinder,Uncommon,Power,1,Self,
+Friendship,友谊,Friendship,Necrobinder,Uncommon,Power,1,Self,
+Haunt,纠缠,Haunt,Necrobinder,Uncommon,Power,1,Self,
+Lethality,致死性,Lethality,Necrobinder,Uncommon,Power,1,Self,Ethereal
+Pagestorm,书页风暴,Pagestorm,Necrobinder,Uncommon,Power,1,Self,
+Shroud,厄运之衣,Shroud,Necrobinder,Uncommon,Power,1,Self,
+SleightOfFlesh,血肉戏法,Sleight of Flesh,Necrobinder,Uncommon,Power,2,Self,
+BansheesCry,女妖之嚎,Banshee's Cry,Necrobinder,Rare,Attack,6,AllEnemies,
+Eradicate,根除,Eradicate,Necrobinder,Rare,Attack,-2,AnyEnemy,Retain
+Hang,吊杀,Hang,Necrobinder,Rare,Attack,1,AnyEnemy,
+Misery,苦难,Misery,Necrobinder,Rare,Attack,0,AnyEnemy,
+SoulStorm,灵魂风暴,Soul Storm,Necrobinder,Rare,Attack,1,AnyEnemy,
+Squeeze,榨取,Squeeze,Necrobinder,Rare,Attack,3,AnyEnemy,
+TheScythe,巨镰,The Scythe,Necrobinder,Rare,Attack,2,AnyEnemy,Exhaust
+TimesUp,大限已至,Time's Up,Necrobinder,Rare,Attack,2,AnyEnemy,Exhaust
+Eidolon,幻景,Eidolon,Necrobinder,Rare,Skill,2,Self,
+EndOfDays,末日降临,End of Days,Necrobinder,Rare,Skill,3,AllEnemies,
+GlimpseBeyond,彼岸一瞥,Glimpse Beyond,Necrobinder,Rare,Skill,1,AllAllies,Exhaust
+Oblivion,湮灭,Oblivion,Necrobinder,Rare,Skill,0,AnyEnemy,
+Reanimate,死者苏生,Reanimate,Necrobinder,Rare,Skill,3,Self,Exhaust
+Sacrifice,牺牲,Sacrifice,Necrobinder,Rare,Skill,1,Self,Retain
+Seance,降灵,Seance,Necrobinder,Rare,Skill,0,Self,Ethereal
+SharedFate,命运同担,Shared Fate,Necrobinder,Rare,Skill,0,AnyEnemy,Exhaust
+Transfigure,重构,Transfigure,Necrobinder,Rare,Skill,1,Self,Exhaust
+Undeath,不死,Undeath,Necrobinder,Rare,Skill,0,Self,
+CallOfTheVoid,虚空之唤,Call of the Void,Necrobinder,Rare,Power,1,Self,
+Demesne,领域,Demesne,Necrobinder,Rare,Power,3,Self,Ethereal
+DevourLife,吞噬生命,Devour Life,Necrobinder,Rare,Power,1,Self,
+NecroMastery,亡灵精通,Necro Mastery,Necrobinder,Rare,Power,2,Self,
+Neurosurge,精神过载,Neurosurge,Necrobinder,Rare,Power,0,Self,
+ReaperForm,死神形态,Reaper Form,Necrobinder,Rare,Power,3,Self,
+SentryMode,哨卫模式,Sentry Mode,Necrobinder,Rare,Power,2,Self,
+SpiritOfAsh,灰烬之灵,Spirit of Ash,Necrobinder,Rare,Power,1,Self,
+Protector,守护者,Protector,Necrobinder,Ancient,Attack,1,AnyEnemy,
+ForbiddenGrimoire,禁忌魔典,Forbidden Grimoire,Necrobinder,Ancient,Power,2,Self,Eternal
+FallingStar,陨星,Falling Star,Regent,Basic,Attack,0,AnyEnemy,
+StrikeRegent,打击,Strike,Regent,Basic,Attack,1,AnyEnemy,
+DefendRegent,防御,Defend,Regent,Basic,Skill,1,Self,
+Venerate,崇拜,Venerate,Regent,Basic,Skill,1,Self,
+AstralPulse,星界脉冲,Astral Pulse,Regent,Common,Attack,0,AllEnemies,
+Begone,下去！,BEGONE!,Regent,Common,Attack,1,AnyEnemy,
+CelestialMight,天穹之力,Celestial Might,Regent,Common,Attack,2,AnyEnemy,
+CollisionCourse,碰撞轨迹,Collision Course,Regent,Common,Attack,0,AnyEnemy,
+CrescentSpear,新月长矛,Crescent Spear,Regent,Common,Attack,1,AnyEnemy,
+CrushUnder,下砸,Crush Under,Regent,Common,Attack,1,AllEnemies,
+GuidingStar,引导之星,Guiding Star,Regent,Common,Attack,1,AnyEnemy,
+PhotonCut,光子切割,Photon Cut,Regent,Common,Attack,1,AnyEnemy,
+SolarStrike,太阳打击,Solar Strike,Regent,Common,Attack,1,AnyEnemy,
+WroughtInWar,战火铸就,Wrought in War,Regent,Common,Attack,1,AnyEnemy,
+CloakOfStars,群星斗篷,Cloak of Stars,Regent,Common,Skill,0,Self,
+CosmicIndifference,宇宙冷漠,Cosmic Indifference,Regent,Common,Skill,1,Self,
+GatherLight,收集光辉,Gather Light,Regent,Common,Skill,1,Self,
+Glitterstream,流光溢彩,Glitterstream,Regent,Common,Skill,2,Self,
+Glow,辉光,Glow,Regent,Common,Skill,1,Self,
+HiddenCache,隐秘藏品,Hidden Cache,Regent,Common,Skill,1,Self,
+KnowThyPlace,何人僭越,Know Thy Place,Regent,Common,Skill,0,AnyEnemy,Exhaust
+Patter,星星点点,Patter,Regent,Common,Skill,1,Self,
+RefineBlade,淬炼刀刃,Refine Blade,Regent,Common,Skill,1,Self,
+SpoilsOfBattle,战利品,Spoils of Battle,Regent,Common,Skill,1,Self,
+Devastate,葬送,Devastate,Regent,Uncommon,Attack,1,AnyEnemy,
+GammaBlast,伽马爆破,Gamma Blast,Regent,Uncommon,Attack,0,AnyEnemy,
+Hegemony,霸权,Hegemony,Regent,Uncommon,Attack,2,AnyEnemy,
+KinglyKick,王者之踢,Kingly Kick,Regent,Uncommon,Attack,4,AnyEnemy,
+KinglyPunch,王者之拳,Kingly Punch,Regent,Uncommon,Attack,1,AnyEnemy,
+KnockoutBlow,决胜一击,Knockout Blow,Regent,Uncommon,Attack,3,AnyEnemy,
+LunarBlast,月面射击,Lunar Blast,Regent,Uncommon,Attack,0,AnyEnemy,
+Radiate,辐射,Radiate,Regent,Uncommon,Attack,0,AllEnemies,
+ShiningStrike,明耀打击,Shining Strike,Regent,Uncommon,Attack,1,AnyEnemy,
+Stardust,星尘,Stardust,Regent,Uncommon,Attack,0,RandomEnemy,
+Supermassive,超质量体,Supermassive,Regent,Uncommon,Attack,1,AnyEnemy,
+Alignment,星位序列,Alignment,Regent,Uncommon,Skill,0,Self,
+Bulwark,铸墙,Bulwark,Regent,Uncommon,Skill,2,Self,
+Charge,冲锋！！,CHARGE!!,Regent,Uncommon,Skill,1,Self,
+Conqueror,征服者,Conqueror,Regent,Uncommon,Skill,1,AnyEnemy,
+Convergence,汇流,Convergence,Regent,Uncommon,Skill,1,Self,
+Glimmer,微光,Glimmer,Regent,Uncommon,Skill,1,Self,
+Largesse,慷慨捐助,Largesse,Regent,Uncommon,Skill,0,AnyAlly,
+ManifestAuthority,君权自授,Manifest Authority,Regent,Uncommon,Skill,1,Self,
+Monologue,独白,Monologue,Regent,Uncommon,Skill,0,Self,
+ParticleWall,粒子墙,Particle Wall,Regent,Uncommon,Skill,0,Self,
+Prophesize,预言,Prophesize,Regent,Uncommon,Skill,2,Self,
+Quasar,类星体,Quasar,Regent,Uncommon,Skill,0,Self,
+Reflect,倒映,Reflect,Regent,Uncommon,Skill,1,Self,
+Resonance,共鸣,Resonance,Regent,Uncommon,Skill,1,AllEnemies,
+RoyalGamble,胜券在王,Royal Gamble,Regent,Uncommon,Skill,0,Self,Exhaust
+SummonForth,征召上前,Summon Forth,Regent,Uncommon,Skill,1,Self,
+Terraforming,地形改造,Terraforming,Regent,Uncommon,Skill,1,Self,
+BlackHole,黑洞,Black Hole,Regent,Uncommon,Power,1,Self,
+ChildOfTheStars,群星之子,Child of the Stars,Regent,Uncommon,Power,1,Self,
+Furnace,熔炉,Furnace,Regent,Uncommon,Power,1,Self,
+Orbit,环绕轨道,Orbit,Regent,Uncommon,Power,2,Self,
+PaleBlueDot,暗淡蓝点,Pale Blue Dot,Regent,Uncommon,Power,1,Self,
+Parry,招架,Parry,Regent,Uncommon,Power,1,Self,
+PillarOfCreation,创世之柱,Pillar of Creation,Regent,Uncommon,Power,1,Self,
+SpectrumShift,光谱偏移,Spectrum Shift,Regent,Uncommon,Power,2,Self,
+BeatIntoShape,锻打成型,Beat into Shape,Regent,Rare,Attack,1,AnyEnemy,
+Bombardment,轰击,Bombardment,Regent,Rare,Attack,3,AnyEnemy,Exhaust
+Comet,彗星,Comet,Regent,Rare,Attack,0,AnyEnemy,
+CrashLanding,迫降,Crash Landing,Regent,Rare,Attack,1,AllEnemies,
+DyingStar,星灭,Dying Star,Regent,Rare,Attack,1,AllEnemies,Ethereal
+HeavenlyDrill,天际钻头,Heavenly Drill,Regent,Rare,Attack,-2,AnyEnemy,
+HeirloomHammer,传承之锤,Heirloom Hammer,Regent,Rare,Attack,2,AnyEnemy,
+MakeItSo,如此甚好,Make It So,Regent,Rare,Attack,0,AnyEnemy,
+SevenStars,七星,Seven Stars,Regent,Rare,Attack,2,AllEnemies,
+BigBang,大爆炸,Big Bang,Regent,Rare,Skill,0,Self,Exhaust
+BundleOfJoy,新生之喜,Bundle of Joy,Regent,Rare,Skill,2,Self,Exhaust
+DecisionsDecisions,抉择，抉择,"Decisions, Decisions",Regent,Rare,Skill,0,Self,Exhaust
+ForegoneConclusion,既定事项,Foregone Conclusion,Regent,Rare,Skill,1,Self,
+Guards,护驾！！！,GUARDS!!!,Regent,Rare,Skill,2,Self,Exhaust
+IAmInvincible,所向无敌,I Am Invincible,Regent,Rare,Skill,1,Self,
+TheSmith,铸剑者,The Smith,Regent,Rare,Skill,1,Self,
+Arsenal,武器库,Arsenal,Regent,Rare,Power,1,Self,
+Genesis,创世纪,Genesis,Regent,Rare,Power,2,Self,
+HammerTime,锤子时间,Hammer Time,Regent,Rare,Power,2,Self,
+MonarchsGaze,王之凝视,Monarch's Gaze,Regent,Rare,Power,3,Self,
+NeutronAegis,中子护盾,Neutron Aegis,Regent,Rare,Power,1,Self,
+Royalties,王国资产,Royalties,Regent,Rare,Power,1,Self,
+SeekingEdge,追踪之刃,Seeking Edge,Regent,Rare,Power,1,Self,
+SwordSage,剑圣,Sword Sage,Regent,Rare,Power,2,Self,
+Tyranny,暴政,Tyranny,Regent,Rare,Power,1,Self,
+VoidForm,虚空形态,Void Form,Regent,Rare,Power,3,Self,
+MeteorShower,流星雨,Meteor Shower,Regent,Ancient,Attack,0,AllEnemies,
+TheSealedThrone,封印王座,The Sealed Throne,Regent,Ancient,Power,1,Self,
+DramaticEntrance,闪亮登场,Dramatic Entrance,Colorless,Uncommon,Attack,0,AllEnemies,Exhaust;Innate
+Fisticuffs,拳斗,Fisticuffs,Colorless,Uncommon,Attack,1,AnyEnemy,
+FlashOfSteel,亮剑,Flash of Steel,Colorless,Uncommon,Attack,0,AnyEnemy,
+GangUp,群起攻之,Gang Up,Colorless,Uncommon,Attack,1,AnyEnemy,
+MindBlast,心灵震慑,Mind Blast,Colorless,Uncommon,Attack,1,AnyEnemy,Innate
+Omnislice,万向斩,Omnislice,Colorless,Uncommon,Attack,0,AnyEnemy,
+SeekerStrike,探寻打击,Seeker Strike,Colorless,Uncommon,Attack,1,AnyEnemy,
+TagTeam,双打组合,Tag Team,Colorless,Uncommon,Attack,2,AnyEnemy,
+ThrummingHatchet,无休手斧,Thrumming Hatchet,Colorless,Uncommon,Attack,1,AnyEnemy,
+UltimateStrike,究极打击,Ultimate Strike,Colorless,Uncommon,Attack,1,AnyEnemy,
+Volley,连射,Volley,Colorless,Uncommon,Attack,-2,RandomEnemy,
+BelieveInYou,相信着你,Believe in You,Colorless,Uncommon,Skill,0,AnyAlly,
+Catastrophe,横祸,Catastrophe,Colorless,Uncommon,Skill,2,Self,
+Coordinate,协同配合,Coordinate,Colorless,Uncommon,Skill,1,AnyAlly,
+DarkShackles,黑暗镣铐,Dark Shackles,Colorless,Uncommon,Skill,0,AnyEnemy,Exhaust
+Discovery,发现,Discovery,Colorless,Uncommon,Skill,1,Self,Exhaust
+Equilibrium,均衡,Equilibrium,Colorless,Uncommon,Skill,2,Self,
+Finesse,妙计,Finesse,Colorless,Uncommon,Skill,0,Self,
+HuddleUp,抱团,Huddle Up,Colorless,Uncommon,Skill,1,AllAllies,
+Impatience,急躁,Impatience,Colorless,Uncommon,Skill,0,Self,
+Intercept,拦截,Intercept,Colorless,Uncommon,Skill,1,AnyAlly,
+JackOfAllTrades,花样百出,Jack of All Trades,Colorless,Uncommon,Skill,0,Self,Exhaust
+Lift,托举,Lift,Colorless,Uncommon,Skill,1,AnyAlly,
+PanicButton,应急按钮,Panic Button,Colorless,Uncommon,Skill,0,Self,Exhaust
+Production,生产制造,Production,Colorless,Uncommon,Skill,0,Self,Exhaust
+Prolong,延伸,Prolong,Colorless,Uncommon,Skill,0,Self,Exhaust
+Purity,净化,Purity,Colorless,Uncommon,Skill,0,Self,Retain;Exhaust
+Restlessness,心神不宁,Restlessness,Colorless,Uncommon,Skill,0,Self,Retain
+Shockwave,震荡波,Shockwave,Colorless,Uncommon,Skill,2,AllEnemies,Exhaust
+Splash,飞溅,Splash,Colorless,Uncommon,Skill,1,Self,
+TheBomb,炸弹,The Bomb,Colorless,Uncommon,Skill,2,Self,
+ThinkingAhead,深谋远虑,Thinking Ahead,Colorless,Uncommon,Skill,0,Self,Exhaust
+UltimateDefend,究极防御,Ultimate Defend,Colorless,Uncommon,Skill,1,Self,
+Automation,自动化,Automation,Colorless,Uncommon,Power,1,Self,
+Fasten,勒紧,Fasten,Colorless,Uncommon,Power,1,Self,
+Panache,神气制胜,Panache,Colorless,Uncommon,Power,0,Self,
+PrepTime,准备时间,Prep Time,Colorless,Uncommon,Power,1,Self,
+Prowess,非凡技艺,Prowess,Colorless,Uncommon,Power,1,Self,
+Stratagem,计策,Stratagem,Colorless,Uncommon,Power,1,Self,
+Bolas,流星锤,Bolas,Colorless,Rare,Attack,0,AnyEnemy,
+GoldAxe,金斧,Gold Axe,Colorless,Rare,Attack,1,AnyEnemy,
+HandOfGreed,贪婪之手,Hand of Greed,Colorless,Rare,Attack,2,AnyEnemy,
+Jackpot,大奖,Jackpot,Colorless,Rare,Attack,3,AnyEnemy,
+Knockdown,击倒,Knockdown,Colorless,Rare,Attack,3,AnyEnemy,
+Rend,撕碎,Rend,Colorless,Rare,Attack,2,AnyEnemy,
+Salvo,箭雨,Salvo,Colorless,Rare,Attack,1,AnyEnemy,
+Alchemize,炼制药水,Alchemize,Colorless,Rare,Skill,1,Self,Exhaust
+Anointed,天选,Anointed,Colorless,Rare,Skill,1,Self,Exhaust
+BeatDown,狠揍,Beat Down,Colorless,Rare,Skill,3,RandomEnemy,
+HiddenGem,未掘宝石,Hidden Gem,Colorless,Rare,Skill,1,Self,
+MasterOfStrategy,战略大师,Master of Strategy,Colorless,Rare,Skill,0,Self,Exhaust
+Mimic,拟态,Mimic,Colorless,Rare,Skill,1,AnyAlly,Exhaust
+Rally,集结,Rally,Colorless,Rare,Skill,2,AllAllies,
+Scrawl,潦草急就,Scrawl,Colorless,Rare,Skill,1,Self,Exhaust
+SecretTechnique,秘密技法,Secret Technique,Colorless,Rare,Skill,0,Self,Exhaust
+SecretWeapon,秘密武器,Secret Weapon,Colorless,Rare,Skill,0,Self,Exhaust
+TheGambit,孤注一掷,The Gambit,Colorless,Rare,Skill,0,Self,
+BeaconOfHope,希望灯塔,Beacon of Hope,Colorless,Rare,Power,1,Self,
+Calamity,灾祸,Calamity,Colorless,Rare,Power,3,Self,
+Entropy,熵,Entropy,Colorless,Rare,Power,1,Self,
+EternalArmor,永恒铠甲,Eternal Armor,Colorless,Rare,Power,3,Self,
+Mayhem,乱战,Mayhem,Colorless,Rare,Power,2,Self,
+Nostalgia,怀旧,Nostalgia,Colorless,Rare,Power,1,Self,
+RollingBoulder,滚石,Rolling Boulder,Colorless,Rare,Power,3,Self,
+AscendersBane,进阶之灾,Ascender's Bane,Curse,Curse,Curse,-1,None,Eternal;Unplayable;Ethereal
+BadLuck,霉运,Bad Luck,Curse,Curse,Curse,-1,None,Eternal;Unplayable
+Clumsy,笨拙,Clumsy,Curse,Curse,Curse,-1,None,Unplayable;Ethereal
+CurseOfTheBell,铃铛的诅咒,Curse of the Bell,Curse,Curse,Curse,-1,None,Eternal;Unplayable
+Debt,债务,Debt,Curse,Curse,Curse,-1,None,Unplayable
+Decay,腐朽,Decay,Curse,Curse,Curse,-1,None,Unplayable
+Doubt,疑虑,Doubt,Curse,Curse,Curse,-1,None,Unplayable
+Enthralled,执迷,Enthralled,Curse,Curse,Curse,2,None,Eternal
+Folly,愚行,Folly,Curse,Curse,Curse,-1,None,Unplayable;Eternal;Innate
+Greed,贪婪,Greed,Curse,Curse,Curse,-1,None,Eternal;Unplayable
+Guilty,愧疚,Guilty,Curse,Curse,Curse,-1,None,Unplayable
+Injury,受伤,Injury,Curse,Curse,Curse,-1,None,Unplayable
+Normality,凡庸,Normality,Curse,Curse,Curse,-1,None,Unplayable
+PoorSleep,睡眠不佳,Poor Sleep,Curse,Curse,Curse,-1,None,Unplayable;Retain
+Regret,悔恨,Regret,Curse,Curse,Curse,-1,None,Unplayable
+Shame,羞耻,Shame,Curse,Curse,Curse,-1,None,Unplayable
+SporeMind,孢子心灵,Spore Mind,Curse,Curse,Curse,1,None,Exhaust
+Writhe,苦恼,Writhe,Curse,Curse,Curse,-1,None,Innate;Unplayable
+Beckon,呼唤,Beckon,Status,Status,Status,1,None,
+Burn,灼伤,Burn,Status,Status,Status,-1,None,Unplayable
+Dazed,晕眩,Dazed,Status,Status,Status,-1,None,Ethereal;Unplayable
+Debris,碎屑,Debris,Status,Status,Status,1,None,Exhaust
+FranticEscape,狂乱逃离,Frantic Escape,Status,Status,Status,1,Self,
+Infection,感染,Infection,Status,Status,Status,-1,None,Unplayable
+Slimed,黏液,Slimed,Status,Status,Status,1,None,Exhaust
+Soot,煤灰,Soot,Status,Status,Status,-1,None,Unplayable
+Toxic,毒素,Toxic,Status,Status,Status,1,None,Exhaust
+Void,虚空,Void,Status,Status,Status,-1,None,Unplayable;Ethereal
+Wound,伤口,Wound,Status,Status,Status,-1,None,Unplayable
+RipAndTear,狂乱撕扯,Rip and Tear,Event,Uncommon,Attack,1,RandomEnemy,
+Maul,撕咬,Maul,Event,Ancient,Attack,1,AnyEnemy,
+NeowsFury,涅奥之怒,Neow's Fury,Event,Ancient,Attack,1,AnyEnemy,Exhaust
+Whistle,吹哨,Whistle,Event,Ancient,Attack,3,AnyEnemy,Exhaust
+Apotheosis,神化,Apotheosis,Event,Ancient,Skill,2,Self,Exhaust;Innate
+Apparition,灵体,Apparition,Event,Ancient,Skill,1,Self,Ethereal;Exhaust
+BrightestFlame,至亮之焰,Brightest Flame,Event,Ancient,Skill,0,Self,
+Relax,放松,Relax,Event,Ancient,Skill,3,Self,Exhaust
+Wish,许愿,Wish,Event,Ancient,Skill,0,Self,Exhaust
+ByrdSwoop,异鸟扑击,Byrd Swoop,Event,Event,Attack,0,AnyEnemy,
+Clash,交锋,Clash,Event,Event,Attack,0,AnyEnemy,
+Exterminate,杀灭,Exterminate,Event,Event,Attack,1,AllEnemies,
+Peck,啄击,Peck,Event,Event,Attack,1,AnyEnemy,
+Rebound,弹回,Rebound,Event,Event,Attack,1,AnyEnemy,
+Squash,压扁,Squash,Event,Event,Attack,1,AnyEnemy,
+Distraction,声东击西,Distraction,Event,Event,Skill,1,Self,Exhaust
+DualWield,双持,Dual Wield,Event,Event,Skill,1,Self,
+Enlightenment,开悟,Enlightenment,Event,Event,Skill,0,Self,Exhaust
+Entrench,巩固,Entrench,Event,Event,Skill,2,Self,
+FeedingFrenzy,疯狂进食,Feeding Frenzy,Event,Event,Skill,0,Self,
+Metamorphosis,羽化,Metamorphosis,Event,Event,Skill,2,Self,Exhaust
+Outmaneuver,抢占先机,Outmaneuver,Event,Event,Skill,1,Self,
+Stack,堆栈,Stack,Event,Event,Skill,1,Self,
+ToricToughness,坚韧之环,Toric Toughness,Event,Event,Skill,2,Self,
+Caltrops,铁蒺藜,Caltrops,Event,Event,Power,1,Self,
+HelloWorld,你好世界,Hello World,Event,Event,Power,1,Self,
+MadScience,疯狂科学,Mad Science,Event,Unknown,Unknown,0,Unknown,
+Disintegration,瓦解,Disintegration,Token,Status,Status,-1,None,
+MindRot,心灵腐化,Mind Rot,Token,Status,Status,-1,None,
+Sloth,懒惰,Sloth,Token,Status,Status,-1,None,
+WasteAway,衰朽,Waste Away,Token,Status,Status,-1,None,
+GiantRock,巨石,Giant Rock,Token,Token,Attack,1,AnyEnemy,
+MinionDiveBomb,仆从俯冲,Minion Dive Bomb,Token,Token,Attack,1,AnyEnemy,Exhaust
+MinionStrike,仆从打击,Minion Strike,Token,Token,Attack,0,AnyEnemy,Exhaust
+Shiv,小刀,Shiv,Token,Token,Attack,0,AnyEnemy,Exhaust
+SovereignBlade,君王之剑,Sovereign Blade,Token,Token,Attack,2,AnyEnemy,Retain
+SweepingGaze,扫荡凝视,Sweeping Gaze,Token,Token,Attack,0,RandomEnemy,Ethereal;Exhaust
+Fuel,燃料,Fuel,Token,Token,Skill,0,Self,Exhaust
+Luminesce,冷光,Luminesce,Token,Token,Skill,0,Self,Exhaust;Retain
+MinionSacrifice,仆从捐躯,Minion Sacrifice,Token,Token,Skill,0,Self,Exhaust
+Soul,灵魂,Soul,Token,Token,Skill,0,Self,Exhaust
+ByrdonisEgg,多尼斯异鸟蛋,Byrdonis Egg,Quest,Quest,Quest,-1,None,Unplayable
+LanternKey,灯火钥匙,Lantern Key,Quest,Quest,Quest,-1,Self,Unplayable
+SpoilsMap,藏宝图,Spoils Map,Quest,Quest,Quest,-1,Self,Unplayable
+DeprecatedCard,弃用卡牌,Deprecated Card,Deprecated,Deprecated,,0,,Unplayable

@@ -113,6 +113,15 @@
     }
   },
   {
+    "id": "S13",
+    "difficulty": "S",
+    "description": "某一角色收集过 75 张不同的牌",
+    "kind": "card_collection",
+    "params": {
+      "count": 75
+    }
+  },
+  {
     "id": "A01",
     "difficulty": "A",
     "description": "赢得一局游戏并获得 >=7 徽章",
@@ -283,6 +292,33 @@
     }
   },
   {
+    "id": "A20",
+    "difficulty": "A",
+    "description": "某一角色收集过 60 张不同的牌",
+    "kind": "card_collection",
+    "params": {
+      "count": 60
+    }
+  },
+  {
+    "id": "A21",
+    "difficulty": "A",
+    "description": "不在任何怪物/事件中获得攻击牌并通关",
+    "kind": "no_source_card_type",
+    "params": {
+      "type": "Attack"
+    }
+  },
+  {
+    "id": "A22",
+    "difficulty": "A",
+    "description": "不在任何怪物/事件中获得技能牌并通关",
+    "kind": "no_source_card_type",
+    "params": {
+      "type": "Skill"
+    }
+  },
+  {
     "id": "B01",
     "difficulty": "B",
     "description": "赢得一局游戏并获得 >=5 徽章",
@@ -437,6 +473,24 @@
     }
   },
   {
+    "id": "B18",
+    "difficulty": "B",
+    "description": "某一角色收集过 45 张不同的牌",
+    "kind": "card_collection",
+    "params": {
+      "count": 45
+    }
+  },
+  {
+    "id": "B19",
+    "difficulty": "B",
+    "description": "不在任何怪物/事件中获得能力牌并通关",
+    "kind": "no_source_card_type",
+    "params": {
+      "type": "Power"
+    }
+  },
+  {
     "id": "C01",
     "difficulty": "C",
     "description": "赢得一局游戏并获得 >=3 徽章",
@@ -579,6 +633,15 @@
     }
   },
   {
+    "id": "C16",
+    "difficulty": "C",
+    "description": "某一角色收集过 30 张不同的牌",
+    "kind": "card_collection",
+    "params": {
+      "count": 30
+    }
+  },
+  {
     "id": "D01",
     "difficulty": "D",
     "description": "赢得一局游戏并获得 >=1 徽章",
@@ -655,6 +718,15 @@
       "roomType": "unknown",
       "count": 5,
       "win": true
+    }
+  },
+  {
+    "id": "D09",
+    "difficulty": "D",
+    "description": "某一角色收集过 15 张不同的牌",
+    "kind": "card_collection",
+    "params": {
+      "count": 15
     }
   }
 ]
