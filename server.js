@@ -15,6 +15,9 @@ const CHARACTERS = ['CHARACTER.IRONCLAD','CHARACTER.SILENT','CHARACTER.DEFECT','
 const TEAM_COLORS = ['#ef4444', '#3b82f6', '#22c55e', '#f59e0b'];
 const SESSION_COOKIE = 'sts2_session';
 const SESSION_COOKIE_PATH = '/sts2';
+const ROOT_USER_ID = 'root';
+const ROOT_USERNAME = 'root';
+const ROOT_PASSWORD_HASH = 'root-admin-v1-2026-05-16$9529edbdfb42e1fbc792a3b09403e4487d906b4711d6c2b8286a0b795fc1f312';
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -91,21 +94,64 @@ function getUser(req, db){
   if(!uid) return null;
   return db.users.find(u => u.id === uid) || null;
 }
-function publicUser(u){ return u ? { id:u.id, username:u.username, createdAt:u.createdAt } : null; }
+function isRootUser(u){ return !!u && (u.role === 'root' || u.id === ROOT_USER_ID || String(u.username || '').toLowerCase() === ROOT_USERNAME); }
+function publicUser(u){ return u ? { id:u.id, username:u.username, createdAt:u.createdAt, isRoot:isRootUser(u) } : null; }
+function ensureRootUser(db){
+  let changed = false;
+  let root = db.users.find(u => u.id === ROOT_USER_ID || String(u.username || '').toLowerCase() === ROOT_USERNAME);
+  if(!root){
+    root = { id:ROOT_USER_ID, username:ROOT_USERNAME, passwordHash:ROOT_PASSWORD_HASH, role:'root', createdAt:now() };
+    db.users.unshift(root);
+    changed = true;
+  }
+  if(root.id !== ROOT_USER_ID){ root.id = ROOT_USER_ID; changed = true; }
+  if(root.username !== ROOT_USERNAME){ root.username = ROOT_USERNAME; changed = true; }
+  if(root.role !== 'root'){ root.role = 'root'; changed = true; }
+  if(root.passwordHash !== ROOT_PASSWORD_HASH){ root.passwordHash = ROOT_PASSWORD_HASH; changed = true; }
+  return changed;
+}
 function roomForClient(room, db, viewer){
   const users = Object.fromEntries(db.users.map(u => [u.id, publicUser(u)]));
   const teamByUser = room.members || {};
-  const canSeeAllSubmissions = room.status === 'finished';
+  const canSeeAllSubmissions = room.status === 'finished' || isRootUser(viewer);
   const viewerTeam = viewer ? teamByUser[viewer.id] : null;
   return {
     ...room,
     users,
-    viewerRole: viewer && room.hostUserId === viewer.id ? 'host' : 'player',
+    viewerRole: isRootUser(viewer) ? 'root' : (viewer && room.hostUserId === viewer.id ? 'host' : 'player'),
     viewerTeam,
     submissions: db.submissions.filter(s => s.roomId === room.id && (canSeeAllSubmissions || s.teamId === viewerTeam)).map(s => ({
       id:s.id, roomId:s.roomId, userId:s.userId, teamId:s.teamId, seed:s.seed, createdAt:s.createdAt,
       passedCells:s.passedCells, summary:s.summary, result:s.result, public: canSeeAllSubmissions || s.teamId === viewerTeam
     }))
+  };
+}
+function adminSummary(db){
+  const userById = Object.fromEntries(db.users.map(u => [u.id, publicUser(u)]));
+  return {
+    users: db.users.map(u => ({
+      id:u.id, username:u.username, role:isRootUser(u) ? 'root' : 'player', createdAt:u.createdAt,
+      roomsHosted: db.rooms.filter(r => r.hostUserId === u.id).length,
+      roomsJoined: db.rooms.filter(r => r.members?.[u.id]).length,
+      submissions: db.submissions.filter(s => s.userId === u.id).length
+    })),
+    rooms: db.rooms.map(r => ({
+      id:r.id, status:r.status, createdAt:r.createdAt, startedAt:r.startedAt, endedAt:r.endedAt,
+      hostUserId:r.hostUserId, hostUsername:userById[r.hostUserId]?.username || r.hostUserId,
+      memberCount:Object.keys(r.members || {}).length,
+      members:Object.entries(r.members || {}).map(([userId, teamId]) => ({ userId, username:userById[userId]?.username || userId, teamId })),
+      mode:r.settings?.mode, seedCount:r.settings?.seedCount, k:r.settings?.k, requiredLines:r.settings?.requiredLines,
+      lockout:!!r.settings?.lockout, durationMinutes:r.settings?.durationMinutes || 0,
+      boardClaims:Object.keys(r.board || {}).length, winnerTeamId:r.winnerTeamId || null,
+      submissions: db.submissions.filter(s => s.roomId === r.id).length,
+      latestSubmissionAt: Math.max(0, ...db.submissions.filter(s => s.roomId === r.id).map(s => s.createdAt || 0)) || null
+    })).sort((a,b)=>(b.createdAt||0)-(a.createdAt||0)),
+    submissions: {
+      total: db.submissions.length,
+      passed: db.submissions.filter(s => s.result?.ok).length,
+      failed: db.submissions.filter(s => !s.result?.ok).length
+    },
+    generatedAt: now()
   };
 }
 function randomSeed(){
@@ -397,7 +443,10 @@ function serveStatic(req, res, pathname){
 }
 
 async function handleApi(req, res, pathname){
-  const db = readDb(); const user = getUser(req, db);
+  const db = readDb();
+  const rootChanged = ensureRootUser(db);
+  const user = getUser(req, db);
+  if(rootChanged) writeDb(db);
   const parts = pathname.replace(/^\/sts2/, '').split('/').filter(Boolean); // api, ...
   try{
     if(req.method === 'GET' && parts[1] === 'tasks') return json(res, 200, { tasks:TASKS, characters:CHARACTERS });
@@ -425,6 +474,22 @@ async function handleApi(req, res, pathname){
     }
     if(req.method === 'GET' && parts[1] === 'me') return json(res, 200, { user:publicUser(user) });
     if(!user) return fail(res, 401, '请先登录');
+
+    if(parts[1] === 'admin'){
+      if(!isRootUser(user)) return fail(res, 403, '只有 root 可以访问后台');
+      if(req.method === 'GET' && parts.length === 2) return json(res, 200, adminSummary(db));
+      if(req.method === 'POST' && parts[2] === 'rooms' && parts[3] && parts[4] === 'delete'){
+        const id = String(parts[3] || '').toUpperCase();
+        const idx = db.rooms.findIndex(r => r.id === id);
+        if(idx < 0) return fail(res, 404, '房间不存在');
+        const removed = db.rooms.splice(idx, 1)[0];
+        const before = db.submissions.length;
+        db.submissions = db.submissions.filter(s => s.roomId !== id);
+        writeDb(db);
+        return json(res, 200, { ok:true, deletedRoomId:id, deletedSubmissions: before - db.submissions.length, room: { id:removed.id, status:removed.status } });
+      }
+      return fail(res, 404, 'admin not found');
+    }
 
     if(req.method === 'GET' && parts[1] === 'rooms' && parts.length === 2) return json(res, 200, { rooms: db.rooms.map(r => ({ id:r.id, status:r.status, hostUserId:r.hostUserId, createdAt:r.createdAt, members:Object.keys(r.members||{}).length, mode:r.settings.mode })) });
     if(req.method === 'POST' && parts[1] === 'rooms' && parts.length === 2){
@@ -523,6 +588,7 @@ async function route(req, res){
   if(pathname === '/sts2') return send(res, 301, '', { location:'/sts2/' });
   const norm = pathname.replace(/^\/sts2(?=\/|$)/, '') || '/';
   if(norm.startsWith('/api/')) return handleApi(req, res, pathname);
+  if(norm.startsWith('/admin')) return serveStatic(req, res, '/index.html');
   if(norm.startsWith('/eval/')) return serveStatic(req, res, '/index.html');
   if(norm.startsWith('/room/')) return serveStatic(req, res, '/index.html');
   if(serveStatic(req, res, pathname)) return;

@@ -1,7 +1,7 @@
 const BASE = location.pathname.startsWith('/sts2') ? '/sts2' : '';
 const $ = sel => document.querySelector(sel);
 const app = $('#app');
-let state = { user:null, room:null, submission:null, view:'board', tasks:[], characters:[], error:'', ok:'' };
+let state = { user:null, room:null, submission:null, admin:null, view:'board', tasks:[], characters:[], error:'', ok:'' };
 const api = async (path, opts={}) => {
   const res = await fetch(`${BASE}/api${path}`, { credentials:'include', headers:{'content-type':'application/json'}, ...opts });
   const data = await res.json().catch(()=>({error:'bad json'}));
@@ -21,6 +21,7 @@ async function boot(){
 }
 async function routeFromLocation(joinRoom=false){
   try{
+    if(location.pathname.match(/\/admin\/?$/)) return await loadAdmin(false);
     const m = location.pathname.match(/\/room\/([A-Z0-9_-]+)/i);
     if(m) return await loadRoom(m[1].toUpperCase(), joinRoom);
     const ev = location.pathname.match(/\/eval\/([A-Za-z0-9_-]+)/);
@@ -30,31 +31,52 @@ async function routeFromLocation(joinRoom=false){
   }
 }
 function layout(body){
-  app.innerHTML = `<div class="wrap"><div class="top"><div class="brand"><h1>STS2 Bingo</h1><p>Slay the Spire 2 存档自动评测 · 房间对战 · Lockout</p></div><div class="row">${state.user?`<span class="pill">👤 ${esc(state.user.username)}</span><button class="btn secondary" id="logout">退出</button>`:''}</div></div>${state.error?`<div class="error">${esc(state.error)}</div><br>`:''}${state.ok?`<div class="ok">${esc(state.ok)}</div><br>`:''}${body}</div>`;
-  $('#logout')?.addEventListener('click', async()=>{ await post('/logout'); state.user=null; state.room=null; state.submission=null; history.pushState(null,'',BASE+'/'); render(); });
+  app.innerHTML = `<div class="wrap"><div class="top"><div class="brand"><h1>STS2 Bingo</h1><p>Slay the Spire 2 存档自动评测 · 房间对战 · Lockout</p></div><div class="row">${state.user?`${state.user.isRoot?`<button class="btn secondary" id="adminBtn">后台</button>`:''}<span class="pill">👤 ${esc(state.user.username)}${state.user.isRoot?' · root':''}</span><button class="btn secondary" id="logout">退出</button>`:''}</div></div>${state.error?`<div class="error">${esc(state.error)}</div><br>`:''}${state.ok?`<div class="ok">${esc(state.ok)}</div><br>`:''}${body}</div>`;
+  $('#adminBtn')?.addEventListener('click', async()=>{ try{ await loadAdmin(); render(); }catch(e){ setMsg('error', e.message); } });
+  $('#logout')?.addEventListener('click', async()=>{ await post('/logout'); state.user=null; state.room=null; state.submission=null; state.admin=null; history.pushState(null,'',BASE+'/'); render(); });
 }
-function render(){ if(!state.user) return renderLogin(); if(state.submission) return renderEval(); if(state.room) return renderRoom(); return renderHome(); }
+function render(){ if(!state.user) return renderLogin(); if(state.admin) return renderAdmin(); if(state.submission) return renderEval(); if(state.room) return renderRoom(); return renderHome(); }
 function renderLogin(){
   layout(`<div class="grid two"><div class="card"><h2>登录 / 注册</h2><p class="muted">用户名随便注册，密码只是用来区分玩家。</p><label>用户名</label><input id="u" placeholder="例如 gyh20"><label>密码</label><input id="p" type="password" placeholder="至少 3 位"><br><br><div class="row"><button class="btn" id="login">登录</button><button class="btn secondary" id="reg">注册并登录</button></div></div><div class="card"><h2>怎么玩</h2><p>创建房间后分享链接。房主设定种子、进阶、角色、普通/任务模式与 lockout。玩家提交 STS2 存档 JSON，系统自动判定格子。</p><p class="muted">提交间隔：同一玩家每 5 分钟一次。游戏结束后所有提交公开。</p></div></div>`);
   const go = async mode => { try{ const data=await post('/'+mode,{username:$('#u').value,password:$('#p').value}); state.user=data.user; state.error=''; await routeFromLocation(true); render(); }catch(e){ setMsg('error',e.message); } };
   $('#login').onclick=()=>go('login'); $('#reg').onclick=()=>go('register');
 }
 function renderHome(){
-  layout(`<div class="grid two"><div class="card"><h2>房间</h2><div class="row"><button class="btn" id="create">创建房间</button><input id="rid" placeholder="输入房间 ID"><button class="btn secondary" id="join">加入</button></div><p class="muted small">房间链接形如 ${location.origin}${BASE}/room/ABC123</p></div><div class="card"><h2>任务库</h2><p>已内置 ${state.tasks.length} 条任务，支持 S/A/B/C/D 难度抽取。后续只需要更新 tasks/catalog.json 即可动态扩展。</p></div></div>`);
+  layout(`<div class="grid two"><div class="card"><h2>房间</h2><div class="row"><button class="btn" id="create">创建房间</button><input id="rid" placeholder="输入房间 ID"><button class="btn secondary" id="join">加入</button></div><p class="muted small">房间链接形如 ${location.origin}${BASE}/room/ABC123</p></div><div class="card"><h2>任务库</h2><p>已内置 ${state.tasks.length} 条任务，支持 S/A/B/C/D 难度抽取。后续只需要更新 tasks/catalog.json 即可动态扩展。</p>${state.user?.isRoot?`<div class="hr"></div><button class="btn secondary" id="adminHome">进入 root 后台</button>`:''}</div></div>`);
   $('#create').onclick=async()=>{ try{ const d=await post('/rooms'); state.room=d.room; state.view='board'; history.pushState(null,'',`${BASE}/room/${d.room.id}`); render(); }catch(e){setMsg('error',e.message);} };
   $('#join').onclick=async()=>{ try{ const id=$('#rid').value.trim().toUpperCase(); if(!id)return; await loadRoom(id,true); render(); }catch(e){setMsg('error',e.message);} };
+  $('#adminHome')?.addEventListener('click', async()=>{ try{ await loadAdmin(); render(); }catch(e){ setMsg('error', e.message); } });
 }
 async function loadRoom(id, join=true){
-  const d = await api(`/rooms/${id}`); state.room=d.room; state.submission=null; state.view='board';
+  const d = await api(`/rooms/${id}`); state.room=d.room; state.submission=null; state.admin=null; state.view='board';
   if(join && !state.room.members?.[state.user.id]) state.room=(await post(`/rooms/${id}/join`,{})).room;
   history.pushState(null,'',`${BASE}/room/${id}`);
 }
 async function loadSubmission(id){
-  const d = await api(`/submissions/${id}`); state.submission=d.submission; state.room=d.room;
+  const d = await api(`/submissions/${id}`); state.submission=d.submission; state.room=d.room; state.admin=null;
+}
+async function loadAdmin(push=true){
+  const d = await api('/admin');
+  state.admin=d; state.room=null; state.submission=null; state.view='admin';
+  if(push) history.pushState(null,'',`${BASE}/admin`);
 }
 function renderEval(){
   const s=state.submission, r=state.room;
   layout(`<div class="card"><div class="row" style="justify-content:space-between"><h2>评测 ${esc(s.id)}</h2><a class="pill" href="${BASE}/room/${r.id}">返回房间 ${r.id}</a></div><div class="grid three"><div><b>提交者</b><p>${esc(r.users[s.userId]?.username||s.userId)}</p></div><div><b>队伍</b><p>${esc(teamName(s.teamId))}</p></div><div><b>时间</b><p>${date(s.createdAt)}</p></div></div><div class="hr"></div><h3>${s.result?.ok?'✅ 通过':'❌ 未通过'}</h3><p>${esc(s.result?.reason||'')}</p><p class="muted">通过格子：${(s.passedCells||[]).join(', ')||'无'}</p><pre class="card" style="white-space:pre-wrap;overflow:auto">${esc(JSON.stringify(s.summary,null,2))}</pre></div>`);
+}
+function renderAdmin(){
+  const a=state.admin;
+  const active=a.rooms.filter(r=>r.status!=='finished').length;
+  layout(`<div class="grid three"><div class="card"><h2>用户</h2><p class="big">${a.users.length}</p><p class="muted small">注册用户总数</p></div><div class="card"><h2>房间</h2><p class="big">${a.rooms.length}</p><p class="muted small">${active} 个未结束</p></div><div class="card"><h2>提交</h2><p class="big">${a.submissions.total}</p><p class="muted small">通过 ${a.submissions.passed} / 未通过 ${a.submissions.failed}</p></div></div><br><div class="grid two admin-grid"><div class="card"><div class="row" style="justify-content:space-between"><h2>所有用户</h2><button class="btn secondary" id="refreshAdmin1">刷新</button></div><div class="admin-list">${a.users.map(u=>`<div class="sub"><div class="row" style="justify-content:space-between"><b>${esc(u.username)}</b><span class="pill">${esc(u.role)}</span></div><div class="small muted">ID: ${esc(u.id)} · 注册: ${date(u.createdAt)}</div><div class="small muted">主持 ${u.roomsHosted} · 加入 ${u.roomsJoined} · 提交 ${u.submissions}</div></div>`).join('')||'<p class="muted">暂无用户</p>'}</div></div><div class="card"><div class="row" style="justify-content:space-between"><h2>所有游戏/房间</h2><button class="btn secondary" id="refreshAdmin2">刷新</button></div><div class="admin-list">${a.rooms.map(r=>`<div class="sub"><div class="row" style="justify-content:space-between"><div><b>${esc(r.id)}</b> <span class="pill">${esc(r.status)}</span> <span class="pill">${esc(r.mode)}</span></div><button class="btn danger small" data-delete-room="${esc(r.id)}">删除房间</button></div><div class="small muted">房主: ${esc(r.hostUsername)} · 成员 ${r.memberCount} · 提交 ${r.submissions} · 占格 ${r.boardClaims}</div><div class="small muted">创建: ${date(r.createdAt)} · 开始: ${date(r.startedAt)} · 结束: ${date(r.endedAt)}</div><div class="small muted">设置: n=${r.seedCount}, k=${r.k}, lines=${r.requiredLines}, lockout=${r.lockout?'开':'关'}, 时长=${r.durationMinutes||'unlimited'}</div><div class="small muted">成员: ${r.members.map(m=>`${esc(m.username)}(${esc(m.teamId)})`).join('、')||'无'}</div><div class="row"><a class="pill" href="${BASE}/room/${esc(r.id)}">打开房间</a></div></div>`).join('')||'<p class="muted">暂无房间</p>'}</div></div></div>`);
+  const refresh=async()=>{ try{ await loadAdmin(false); render(); }catch(e){ setMsg('error', e.message); } };
+  $('#refreshAdmin1')?.addEventListener('click', refresh);
+  $('#refreshAdmin2')?.addEventListener('click', refresh);
+  document.querySelectorAll('[data-delete-room]').forEach(btn=>btn.addEventListener('click', async()=>{
+    const id=btn.dataset.deleteRoom;
+    if(!confirm(`确定删除房间 ${id}？相关提交记录也会删除。这个操作不可撤销。`)) return;
+    try{ await post(`/admin/rooms/${id}/delete`,{}); await loadAdmin(false); setMsg('ok',`已删除房间 ${id}`); }
+    catch(e){ setMsg('error', e.message); }
+  }));
 }
 function teamName(id){ return state.room.teams.find(t=>t.id===id)?.name || id || '未分队'; }
 function teamColor(id){ return state.room.teams.find(t=>t.id===id)?.color || '#888'; }
