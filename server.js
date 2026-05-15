@@ -170,6 +170,13 @@ function normalizeSettings(input, old){
   if(Number.isFinite(Number(input.requiredLines))) s.requiredLines = Math.max(1, Math.min(12, Math.floor(Number(input.requiredLines))));
   return s;
 }
+function resolveSeedCharacters(settings){
+  for(const seed of settings.seeds || []){
+    if(!seed.character){
+      seed.character = CHARACTERS[Math.floor(Math.random() * CHARACTERS.length)];
+    }
+  }
+}
 function generateTaskBoard(counts){
   const chosen = [];
   for(const d of ['S','A','B','C','D']){
@@ -464,6 +471,7 @@ async function handleApi(req, res, pathname){
       if(req.method === 'POST' && parts[3] === 'start'){
         if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以开始');
         if(room.status !== 'lobby') return fail(res, 400, '游戏已经开始，不能重复开始或修改设置');
+        resolveSeedCharacters(room.settings);
         if(room.settings.mode === 'tasks' && (!room.settings.board || room.settings.board.length !== 25)) room.settings.board = generateTaskBoard(room.settings.taskCounts);
         room.board = {}; room.aggregate = {};
         db.submissions = db.submissions.filter(s => s.roomId !== room.id);
