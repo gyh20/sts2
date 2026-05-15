@@ -423,6 +423,7 @@ async function handleApi(req, res, pathname){
       }
       if(req.method === 'POST' && parts[3] === 'settings'){
         if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以修改设置');
+        if(room.status !== 'lobby') return fail(res, 400, '游戏开始后不能修改设置');
         const b = await readJson(req, 256*1024);
         room.settings = normalizeSettings(b, room.settings);
         room.board = {}; room.aggregate = {}; room.winnerTeamId = null; room.status = 'lobby'; room.startedAt = null; room.endedAt = null;
@@ -430,6 +431,7 @@ async function handleApi(req, res, pathname){
       }
       if(req.method === 'POST' && parts[3] === 'generate'){
         if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以生成');
+        if(room.status !== 'lobby') return fail(res, 400, '游戏开始后不能修改设置/重新生成');
         const b = await readJson(req, 64*1024);
         const allAsc = b.ascension === '' || b.ascension == null ? null : Math.max(0, Math.min(10, Math.floor(Number(b.ascension))));
         const allChar = String(b.character || '').trim().toUpperCase();
@@ -438,7 +440,8 @@ async function handleApi(req, res, pathname){
         room.board = {}; room.aggregate = {}; writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) });
       }
       if(req.method === 'POST' && parts[3] === 'start'){
-        if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以开始/重开');
+        if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以开始');
+        if(room.status !== 'lobby') return fail(res, 400, '游戏已经开始，不能重复开始或修改设置');
         if(room.settings.mode === 'tasks' && (!room.settings.board || room.settings.board.length !== 25)) room.settings.board = generateTaskBoard(room.settings.taskCounts);
         room.board = {}; room.aggregate = {};
         db.submissions = db.submissions.filter(s => s.roomId !== room.id);
