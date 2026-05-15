@@ -129,6 +129,22 @@ function defaultRoom(userId){
     board: {}, aggregate: {}, winnerTeamId: null
   };
 }
+function newGameFromRoom(oldRoom, userId){
+  const room = defaultRoom(userId);
+  const old = oldRoom.settings || room.settings;
+  room.settings = {
+    ...JSON.parse(JSON.stringify(old)),
+    seedCount: old.seedCount || 5,
+    seeds: Array.from({length: old.seedCount || 5}, (_, i) => ({
+      seed: randomSeed(),
+      ascension: old.seeds?.[i]?.ascension ?? 0,
+      character: old.seeds?.[i]?.character ?? ''
+    })),
+    board: []
+  };
+  room.settings.k = Math.max(1, Math.min(room.settings.seedCount, Number(room.settings.k || 1)));
+  return room;
+}
 function normalizeSettings(input, old){
   const s = JSON.parse(JSON.stringify(old));
   if(Number.isFinite(Number(input.seedCount))){
@@ -406,6 +422,12 @@ async function handleApi(req, res, pathname){
       if(!room) return fail(res, 404, '房间不存在');
       checkWinner(room);
       if(req.method === 'GET' && parts.length === 3){ writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) }); }
+      if(req.method === 'POST' && parts[3] === 'new-game'){
+        if(room.status !== 'finished') return fail(res, 400, '只有结束的游戏可以开新的一局');
+        if(!room.members[user.id]) return fail(res, 403, '只有房间成员可以基于本局创建新房间');
+        const nextRoom = newGameFromRoom(room, user.id);
+        db.rooms.push(nextRoom); writeDb(db); return json(res, 200, { room:roomForClient(nextRoom, db, user) });
+      }
       if(req.method === 'POST' && parts[3] === 'join'){
         const b = await readJson(req, 64*1024);
         if(room.status !== 'lobby' && !room.members[user.id]) return fail(res, 400, '游戏开始后不能再加入房间');
