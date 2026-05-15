@@ -16,24 +16,33 @@ const setMsg = (type,msg) => { state.error = type==='error'?msg:''; state.ok = t
 async function boot(){
   try{ const [me, t] = await Promise.all([api('/me'), api('/tasks')]); state.user=me.user; state.tasks=t.tasks; state.characters=t.characters; }
   catch(e){ state.error=e.message; }
-  const m = location.pathname.match(/\/room\/([A-Z0-9]+)/i); if(m && state.user) await loadRoom(m[1], false);
-  const ev = location.pathname.match(/\/eval\/([A-Za-z0-9_-]+)/); if(ev && state.user) await loadSubmission(ev[1]);
+  if(state.user) await routeFromLocation(false);
   render();
+}
+async function routeFromLocation(joinRoom=false){
+  try{
+    const m = location.pathname.match(/\/room\/([A-Z0-9_-]+)/i);
+    if(m) return await loadRoom(m[1].toUpperCase(), joinRoom);
+    const ev = location.pathname.match(/\/eval\/([A-Za-z0-9_-]+)/);
+    if(ev) return await loadSubmission(ev[1]);
+  }catch(e){
+    state.error = e.message;
+  }
 }
 function layout(body){
   app.innerHTML = `<div class="wrap"><div class="top"><div class="brand"><h1>STS2 Bingo</h1><p>Slay the Spire 2 存档自动评测 · 房间对战 · Lockout</p></div><div class="row">${state.user?`<span class="pill">👤 ${esc(state.user.username)}</span><button class="btn secondary" id="logout">退出</button>`:''}</div></div>${state.error?`<div class="error">${esc(state.error)}</div><br>`:''}${state.ok?`<div class="ok">${esc(state.ok)}</div><br>`:''}${body}</div>`;
-  $('#logout')?.addEventListener('click', async()=>{ await post('/logout'); state.user=null; state.room=null; history.pushState(null,'',BASE+'/'); render(); });
+  $('#logout')?.addEventListener('click', async()=>{ await post('/logout'); state.user=null; state.room=null; state.submission=null; history.pushState(null,'',BASE+'/'); render(); });
 }
 function render(){ if(!state.user) return renderLogin(); if(state.submission) return renderEval(); if(state.room) return renderRoom(); return renderHome(); }
 function renderLogin(){
   layout(`<div class="grid two"><div class="card"><h2>登录 / 注册</h2><p class="muted">用户名随便注册，密码只是用来区分玩家。</p><label>用户名</label><input id="u" placeholder="例如 gyh20"><label>密码</label><input id="p" type="password" placeholder="至少 3 位"><br><br><div class="row"><button class="btn" id="login">登录</button><button class="btn secondary" id="reg">注册并登录</button></div></div><div class="card"><h2>怎么玩</h2><p>创建房间后分享链接。房主设定种子、进阶、角色、普通/任务模式与 lockout。玩家提交 STS2 存档 JSON，系统自动判定格子。</p><p class="muted">提交间隔：同一玩家每 5 分钟一次。游戏结束后所有提交公开。</p></div></div>`);
-  const go = async mode => { try{ const data=await post('/'+mode,{username:$('#u').value,password:$('#p').value}); state.user=data.user; state.error=''; renderHome(); }catch(e){ setMsg('error',e.message); } };
+  const go = async mode => { try{ const data=await post('/'+mode,{username:$('#u').value,password:$('#p').value}); state.user=data.user; state.error=''; await routeFromLocation(true); render(); }catch(e){ setMsg('error',e.message); } };
   $('#login').onclick=()=>go('login'); $('#reg').onclick=()=>go('register');
 }
 function renderHome(){
   layout(`<div class="grid two"><div class="card"><h2>房间</h2><div class="row"><button class="btn" id="create">创建房间</button><input id="rid" placeholder="输入房间 ID"><button class="btn secondary" id="join">加入</button></div><p class="muted small">房间链接形如 ${location.origin}${BASE}/room/ABC123</p></div><div class="card"><h2>任务库</h2><p>已内置 ${state.tasks.length} 条任务，支持 S/A/B/C/D 难度抽取。后续只需要更新 tasks/catalog.json 即可动态扩展。</p></div></div>`);
   $('#create').onclick=async()=>{ try{ const d=await post('/rooms'); state.room=d.room; history.pushState(null,'',`${BASE}/room/${d.room.id}`); render(); }catch(e){setMsg('error',e.message);} };
-  $('#join').onclick=async()=>{ const id=$('#rid').value.trim().toUpperCase(); if(!id)return; await loadRoom(id,true); };
+  $('#join').onclick=async()=>{ try{ const id=$('#rid').value.trim().toUpperCase(); if(!id)return; await loadRoom(id,true); render(); }catch(e){setMsg('error',e.message);} };
 }
 async function loadRoom(id, join=true){
   const d = await api(`/rooms/${id}`); state.room=d.room; state.submission=null;
@@ -49,7 +58,7 @@ function renderEval(){
 }
 function teamName(id){ return state.room.teams.find(t=>t.id===id)?.name || id || '未分队'; }
 function teamColor(id){ return state.room.teams.find(t=>t.id===id)?.color || '#888'; }
-function roomHeader(){ const r=state.room; return `<div class="card"><div class="row" style="justify-content:space-between"><div><h2>房间 ${r.id} <span class="pill">${r.status}</span></h2><p class="muted">分享链接：${location.origin}${BASE}/room/${r.id}</p></div><div class="row"><button class="btn secondary" id="copy">复制链接</button>${r.viewerRole==='host'?`<button class="btn" id="start">开始/重开</button><button class="btn danger" id="finish">结束</button>`:''}</div></div><div class="teams">${r.teams.map(t=>`<div class="team"><div class="row"><span class="dot" style="background:${t.color}"></span><b>${esc(t.name)}</b></div><div class="small muted">${Object.entries(r.members||{}).filter(([u,tid])=>tid===t.id).map(([u])=>esc(r.users[u]?.username||u)).join('、')||'空'}</div>${r.viewerTeam!==t.id?`<button class="btn secondary small" data-team="${t.id}">加入/切换</button>`:`<span class="pill">你在这里</span>`}</div>`).join('')}</div>${r.status==='finished'?`<div class="notice">游戏已结束。胜者：${r.winnerTeamId?teamName(r.winnerTeamId):'时间到/手动结束'}。提交记录已公开。</div>`:''}</div>`; }
+function roomHeader(){ const r=state.room; return `<div class="card"><div class="row" style="justify-content:space-between"><div><h2>房间 ${r.id} <span class="pill">${r.status}</span></h2><p class="muted">分享链接：${location.origin}${BASE}/room/${r.id}</p></div><div class="row"><button class="btn secondary" id="copy">复制链接</button>${r.viewerRole==='host'?`<button class="btn" id="start">开始/重开</button><button class="btn danger" id="finish">结束</button>`:''}</div></div><div class="teams">${r.teams.map(t=>`<div class="team"><div class="row"><span class="dot" style="background:${t.color}"></span><b>${esc(t.name)}</b></div><div class="small muted">${Object.entries(r.members||{}).filter(([u,tid])=>tid===t.id).map(([u])=>esc(r.users[u]?.username||u)).join('、')||'空'}</div>${r.viewerTeam!==t.id && r.status==='lobby'?`<button class="btn secondary small" data-team="${t.id}">加入/切换</button>`:r.viewerTeam===t.id?`<span class="pill">你在这里</span>`:''}</div>`).join('')}</div>${r.status==='finished'?`<div class="notice">游戏已结束。胜者：${r.winnerTeamId?teamName(r.winnerTeamId):'时间到/手动结束'}。提交记录已公开。</div>`:''}</div>`; }
 function renderRoom(){
   const r=state.room;
   layout(`${roomHeader()}<br><div class="grid two"><div>${renderBoard()}</div><div class="grid"><div>${r.viewerRole==='host'?renderSettings():renderReadonlySettings()}</div>${renderSubmit()}${renderSubmissions()}</div></div>`);
@@ -66,7 +75,14 @@ function renderSubmit(){ return `<div class="card"><h2>提交评测</h2><p class
 function renderSubmissions(){ const subs=state.room.submissions||[]; return `<div class="card submissions"><h2>提交记录</h2>${subs.length?subs.slice().reverse().map(s=>`<div class="sub"><div class="row"><b>${esc(state.room.users[s.userId]?.username||s.userId)}</b><span class="pill">${esc(teamName(s.teamId))}</span><span class="small muted">${date(s.createdAt)}</span></div><div>${s.result?.ok?'✅':'❌'} ${esc(s.result?.reason||'')}</div><div class="small muted">seed ${esc(s.seed||'未知')} · ${s.summary?.win?'胜利':'未胜利'} · ${s.summary?fmtTime(s.summary.runTime):''}</div><a href="${BASE}/eval/${s.id}" target="_blank">评测链接</a></div>`).join(''):'<p class="muted">暂无提交</p>'}</div>`; }
 function collectSettings(){ const s=state.room.settings; const seedCount=Number($('#seedCount').value); const seeds=[]; document.querySelectorAll('[data-seed]').forEach(inp=>{ const i=Number(inp.dataset.seed); seeds[i]={ seed:inp.value, ascension:Number(document.querySelector(`[data-asc="${i}"]`).value), character:document.querySelector(`[data-char="${i}"]`).value }; }); const taskCounts={}; document.querySelectorAll('[data-diff]').forEach(i=>taskCounts[i.dataset.diff]=Number(i.value)); return { seedCount, seeds, mode:$('#mode').value, durationMinutes:Number($('#duration').value), k:Number($('#k').value), requiredLines:Number($('#lines').value), lockout:$('#lockout').value==='1', taskCounts }; }
 function bindRoom(){
-  $('#copy')?.addEventListener('click', async()=>{ await navigator.clipboard.writeText(location.href); setMsg('ok','房间链接已复制'); });
+  $('#copy')?.addEventListener('click', async()=>{
+    try{
+      await navigator.clipboard.writeText(location.href);
+      setMsg('ok','房间链接已复制');
+    }catch{
+      prompt('复制这个房间链接：', location.href);
+    }
+  });
   document.querySelectorAll('[data-team]').forEach(b=>b.onclick=async()=>{ try{ state.room=(await post(`/rooms/${state.room.id}/team`,{teamId:b.dataset.team})).room; render(); }catch(e){setMsg('error',e.message);} });
   $('#saveSettings')?.addEventListener('click', async()=>{ try{ state.room=(await post(`/rooms/${state.room.id}/settings`, collectSettings())).room; setMsg('ok','设置已保存'); }catch(e){setMsg('error',e.message);} });
   $('#generate')?.addEventListener('click', async()=>{ try{ await post(`/rooms/${state.room.id}/settings`, collectSettings()); const d=await post(`/rooms/${state.room.id}/generate`, { ascension:$('#allAsc').value, character:$('#allChar').value }); state.room=d.room; setMsg('ok','已生成种子/任务'); }catch(e){setMsg('error',e.message);} });

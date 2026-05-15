@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const ROOT = __dirname;
-const PUBLIC = path.join(ROOT, 'public');
+const PUBLIC = path.resolve(ROOT, 'public');
 const DATA_DIR = path.join(ROOT, 'data');
 const DB_FILE = path.join(DATA_DIR, 'db.json');
 const TASKS = JSON.parse(fs.readFileSync(path.join(ROOT, 'tasks', 'catalog.json'), 'utf8'));
@@ -13,11 +13,19 @@ const SAVE_LIMIT = 3 * 1024 * 1024;
 const MIN_SUBMIT_INTERVAL_MS = 5 * 60 * 1000;
 const CHARACTERS = ['CHARACTER.IRONCLAD','CHARACTER.SILENT','CHARACTER.DEFECT','CHARACTER.WATCHER','CHARACTER.NECROBINDER','CHARACTER.REGENT'];
 const TEAM_COLORS = ['#ef4444', '#3b82f6', '#22c55e', '#f59e0b'];
+const SESSION_COOKIE = 'sts2_session';
+const SESSION_COOKIE_PATH = '/sts2';
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 
 function now(){ return Date.now(); }
 function rid(len=8){ return crypto.randomBytes(Math.ceil(len*0.75)).toString('base64url').slice(0,len); }
+function roomId(len=6){
+  const alphabet = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
+  let s = '';
+  for(let i=0;i<len;i++) s += alphabet[Math.floor(Math.random()*alphabet.length)];
+  return s;
+}
 function readDb(){
   if(!fs.existsSync(DB_FILE)) return { users: [], rooms: [], sessions: {}, submissions: [] };
   try{
@@ -42,9 +50,19 @@ function parseCookies(req){
   const out = {};
   String(req.headers.cookie || '').split(';').forEach(part => {
     const i = part.indexOf('='); if(i < 0) return;
-    out[part.slice(0,i).trim()] = decodeURIComponent(part.slice(i+1).trim());
+    try{
+      out[part.slice(0,i).trim()] = decodeURIComponent(part.slice(i+1).trim());
+    }catch{
+      // Ignore malformed cookie values instead of letting one bad header crash the service.
+    }
   });
   return out;
+}
+function sessionCookie(token){
+  return `${SESSION_COOKIE}=${encodeURIComponent(token)}; HttpOnly; Path=${SESSION_COOKIE_PATH}; SameSite=Lax`;
+}
+function clearSessionCookie(){
+  return `${SESSION_COOKIE}=; Max-Age=0; Path=${SESSION_COOKIE_PATH}; SameSite=Lax`;
 }
 function send(res, code, body, headers={}){
   const isJson = typeof body !== 'string' && !Buffer.isBuffer(body);
@@ -68,7 +86,7 @@ async function readJson(req, limit=SAVE_LIMIT){
   try{ return JSON.parse(raw); }catch{ throw new Error('JSON 格式错误'); }
 }
 function getUser(req, db){
-  const token = parseCookies(req).sts2_session;
+  const token = parseCookies(req)[SESSION_COOKIE];
   const uid = token && db.sessions[token];
   if(!uid) return null;
   return db.users.find(u => u.id === uid) || null;
@@ -97,7 +115,7 @@ function randomSeed(){
 }
 function defaultTeams(){ return [0,1].map(i => ({ id:`team${i+1}`, name:`队伍 ${i+1}`, color:TEAM_COLORS[i] })); }
 function defaultRoom(userId){
-  const id = rid(6).toUpperCase();
+  const id = roomId();
   return {
     id, hostUserId:userId, createdAt:now(), status:'lobby', startedAt:null, endedAt:null,
     teams: defaultTeams(), members: { [userId]:'team1' },
@@ -264,7 +282,8 @@ function seedMatches(setting, s){
   if(setting.character){
     const want = String(setting.character).toUpperCase();
     const got = String(s.character || '').toUpperCase();
-    if(got && got !== want) return { ok:false, reason:`角色不匹配：${got} ≠ ${want}` };
+    if(!got) return { ok:false, reason:`角色缺失：需要 ${want}` };
+    if(got !== want) return { ok:false, reason:`角色不匹配：${got} ≠ ${want}` };
   }
   return { ok:true, reason:'匹配' };
 }
@@ -339,8 +358,8 @@ function evaluateSubmission(room, user, raw){
 function serveStatic(req, res, pathname){
   let p = pathname.replace(/^\/sts2(?=\/|$)/, '') || '/';
   if(p === '/') p = '/index.html';
-  const file = path.normalize(path.join(PUBLIC, p));
-  if(!file.startsWith(PUBLIC)) return fail(res, 403, 'forbidden');
+  const file = path.resolve(path.join(PUBLIC, p));
+  if(file !== PUBLIC && !file.startsWith(PUBLIC + path.sep)) return fail(res, 403, 'forbidden');
   if(!fs.existsSync(file) || fs.statSync(file).isDirectory()) return false;
   const ext = path.extname(file).toLowerCase();
   const types = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.svg':'image/svg+xml' };
@@ -362,18 +381,18 @@ async function handleApi(req, res, pathname){
       if(db.users.some(u => u.username.toLowerCase() === username.toLowerCase())) return fail(res, 409, '用户名已存在');
       const u = { id:rid(10), username, passwordHash:hashPassword(password), createdAt:now() };
       const token = rid(32); db.users.push(u); db.sessions[token] = u.id; writeDb(db);
-      return json(res, 200, { user:publicUser(u) }, { 'set-cookie': `sts2_session=${encodeURIComponent(token)}; HttpOnly; Path=/; SameSite=Lax` });
+      return json(res, 200, { user:publicUser(u) }, { 'set-cookie': sessionCookie(token) });
     }
     if(req.method === 'POST' && parts[1] === 'login'){
       const b = await readJson(req, 64*1024);
       const u = db.users.find(x => x.username.toLowerCase() === String(b.username || '').trim().toLowerCase());
       if(!u || !verifyPassword(String(b.password || ''), u.passwordHash)) return fail(res, 401, '用户名或密码错误');
       const token = rid(32); db.sessions[token] = u.id; writeDb(db);
-      return json(res, 200, { user:publicUser(u) }, { 'set-cookie': `sts2_session=${encodeURIComponent(token)}; HttpOnly; Path=/; SameSite=Lax` });
+      return json(res, 200, { user:publicUser(u) }, { 'set-cookie': sessionCookie(token) });
     }
     if(req.method === 'POST' && parts[1] === 'logout'){
-      const token = parseCookies(req).sts2_session; if(token) delete db.sessions[token]; writeDb(db);
-      return json(res, 200, { ok:true }, { 'set-cookie':'sts2_session=; Max-Age=0; Path=/; SameSite=Lax' });
+      const token = parseCookies(req)[SESSION_COOKIE]; if(token) delete db.sessions[token]; writeDb(db);
+      return json(res, 200, { ok:true }, { 'set-cookie':clearSessionCookie() });
     }
     if(req.method === 'GET' && parts[1] === 'me') return json(res, 200, { user:publicUser(user) });
     if(!user) return fail(res, 401, '请先登录');
@@ -389,12 +408,14 @@ async function handleApi(req, res, pathname){
       if(req.method === 'GET' && parts.length === 3){ writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) }); }
       if(req.method === 'POST' && parts[3] === 'join'){
         const b = await readJson(req, 64*1024);
+        if(room.status !== 'lobby' && !room.members[user.id]) return fail(res, 400, '游戏开始后不能再加入房间');
         if(!room.members[user.id] && Object.keys(room.members).length >= 4) return fail(res, 400, '房间最多四个人');
         const teamId = room.teams.find(t=>t.id===b.teamId)?.id || room.teams[0].id;
         room.members[user.id] = teamId; writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) });
       }
       if(req.method === 'POST' && parts[3] === 'team'){
         const b = await readJson(req, 64*1024);
+        if(room.status !== 'lobby') return fail(res, 400, '游戏开始后不能切换队伍');
         if(!room.members[user.id]) room.members[user.id] = room.teams[0].id;
         const teamId = room.teams.find(t=>t.id===b.teamId)?.id;
         if(!teamId) return fail(res, 400, '队伍不存在');
@@ -419,6 +440,8 @@ async function handleApi(req, res, pathname){
       if(req.method === 'POST' && parts[3] === 'start'){
         if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以开始/重开');
         if(room.settings.mode === 'tasks' && (!room.settings.board || room.settings.board.length !== 25)) room.settings.board = generateTaskBoard(room.settings.taskCounts);
+        room.board = {}; room.aggregate = {};
+        db.submissions = db.submissions.filter(s => s.roomId !== room.id);
         room.status='playing'; room.startedAt=now(); room.endedAt=null; room.winnerTeamId=null; writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) });
       }
       if(req.method === 'POST' && parts[3] === 'finish'){
@@ -427,7 +450,7 @@ async function handleApi(req, res, pathname){
       }
       if(req.method === 'POST' && parts[3] === 'submit'){
         if(!room.members[user.id]) return fail(res, 403, '请先加入房间');
-        if(room.status === 'finished') return fail(res, 400, '游戏已结束');
+        if(room.status !== 'playing') return fail(res, 400, room.status === 'finished' ? '游戏已结束' : '游戏尚未开始');
         const last = db.submissions.filter(s => s.roomId === room.id && s.userId === user.id).sort((a,b)=>b.createdAt-a.createdAt)[0];
         if(last && now() - last.createdAt < MIN_SUBMIT_INTERVAL_MS) return fail(res, 429, `两次评测至少间隔 5 分钟，还需 ${Math.ceil((MIN_SUBMIT_INTERVAL_MS - (now()-last.createdAt))/1000)} 秒`);
         const b = await readJson(req, SAVE_LIMIT);
@@ -449,9 +472,15 @@ async function handleApi(req, res, pathname){
   }catch(e){ return fail(res, 400, e.message || '请求失败'); }
 }
 
-const server = http.createServer(async (req, res) => {
-  const u = new URL(req.url, 'http://localhost');
-  let pathname = decodeURIComponent(u.pathname);
+let mutationQueue = Promise.resolve();
+async function route(req, res){
+  let pathname;
+  try{
+    const u = new URL(req.url, 'http://localhost');
+    pathname = decodeURIComponent(u.pathname);
+  }catch{
+    return fail(res, 400, 'URL 格式错误');
+  }
   if(pathname === '/sts2') return send(res, 301, '', { location:'/sts2/' });
   const norm = pathname.replace(/^\/sts2(?=\/|$)/, '') || '/';
   if(norm.startsWith('/api/')) return handleApi(req, res, pathname);
@@ -459,5 +488,22 @@ const server = http.createServer(async (req, res) => {
   if(norm.startsWith('/room/')) return serveStatic(req, res, '/index.html');
   if(serveStatic(req, res, pathname)) return;
   return serveStatic(req, res, '/index.html');
+}
+const server = http.createServer(async (req, res) => {
+  try{
+    if(req.method !== 'GET' && req.url.includes('/api/')){
+      const prev = mutationQueue.catch(()=>{});
+      let release;
+      mutationQueue = new Promise(resolve => { release = resolve; });
+      await prev;
+      try{ await route(req, res); }
+      finally{ release(); }
+    }else{
+      await route(req, res);
+    }
+  }catch(e){
+    if(!res.headersSent) fail(res, 500, '服务器错误');
+    else res.end();
+  }
 });
 server.listen(PORT, '127.0.0.1', () => console.log(`sts2 listening on http://127.0.0.1:${PORT}`));
