@@ -12,7 +12,7 @@ const PORT = Number(process.env.PORT || 8790);
 const SAVE_LIMIT = 3 * 1024 * 1024;
 const MIN_SUBMIT_INTERVAL_MS = 5 * 60 * 1000;
 const CHARACTERS = ['CHARACTER.IRONCLAD','CHARACTER.SILENT','CHARACTER.DEFECT','CHARACTER.NECROBINDER','CHARACTER.REGENT'];
-const TEAM_COLORS = ['#ef4444', '#3b82f6', '#22c55e', '#f59e0b'];
+const TEAM_COLORS = ['#ef4444', '#3b82f6', '#22c55e', '#f59e0b', '#a855f7', '#14b8a6'];
 const SESSION_COOKIE = 'sts2_session';
 const SESSION_COOKIE_PATH = '/sts2';
 const ROOT_USER_ID = 'root';
@@ -34,6 +34,11 @@ function readDb(){
   try{
     const db = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
     db.users ||= []; db.rooms ||= []; db.sessions ||= {}; db.submissions ||= [];
+    const fallbackTeams = defaultTeams();
+    for(const room of db.rooms){
+      const existing = new Set((room.teams || []).map(t => t.id));
+      room.teams = [...(room.teams || []), ...fallbackTeams.filter(t => !existing.has(t.id))];
+    }
     return db;
   }catch(e){ return { users: [], rooms: [], sessions: {}, submissions: [] }; }
 }
@@ -159,7 +164,7 @@ function randomSeed(){
   let s=''; for(let i=0;i<10;i++) s += alphabet[Math.floor(Math.random()*alphabet.length)];
   return s;
 }
-function defaultTeams(){ return [0,1].map(i => ({ id:`team${i+1}`, name:`队伍 ${i+1}`, color:TEAM_COLORS[i] })); }
+function defaultTeams(){ return Array.from({ length: 6 }, (_, i) => ({ id:`team${i+1}`, name:`队伍 ${i+1}`, color:TEAM_COLORS[i] })); }
 function defaultRoom(userId){
   const id = roomId();
   return {
@@ -509,7 +514,8 @@ async function handleApi(req, res, pathname){
       if(req.method === 'POST' && parts[3] === 'join'){
         const b = await readJson(req, 64*1024);
         if(room.status !== 'lobby' && !room.members[user.id]) return fail(res, 400, '游戏开始后不能再加入房间');
-        if(!room.members[user.id] && Object.keys(room.members).length >= 4) return fail(res, 400, '房间最多四个人');
+        const maxMembers = Math.max(4, room.teams.length);
+        if(!room.members[user.id] && Object.keys(room.members).length >= maxMembers) return fail(res, 400, `房间最多 ${maxMembers} 个人`);
         const teamId = room.teams.find(t=>t.id===b.teamId)?.id || room.teams[0].id;
         room.members[user.id] = teamId; writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) });
       }
