@@ -62,24 +62,6 @@
     "params": {}
   },
   {
-    "id": "S08",
-    "difficulty": "S",
-    "description": "所有种子一共获得 5n 徽章，n 为种子数",
-    "kind": "badges_total",
-    "params": {
-      "perSeed": 5
-    }
-  },
-  {
-    "id": "S09",
-    "difficulty": "S",
-    "description": "通关 n 个种子，n 为种子数。",
-    "kind": "wins_total",
-    "params": {
-      "mode": "all"
-    }
-  },
-  {
     "id": "S10",
     "difficulty": "S",
     "description": "赢得一局游戏并进入至少 6 个商店",
@@ -211,34 +193,16 @@
     }
   },
   {
-    "id": "A11",
-    "difficulty": "A",
-    "description": "所有种子一共获得 4n 徽章，n 为种子数",
-    "kind": "badges_total",
-    "params": {
-      "perSeed": 4
-    }
-  },
-  {
-    "id": "A12",
-    "difficulty": "A",
-    "description": "通关 ceil(n/2) 个种子，n 为种子数。",
-    "kind": "wins_total",
-    "params": {
-      "mode": "half"
-    }
-  },
-  {
     "id": "A13",
     "difficulty": "A",
-    "description": "在每一场战斗结束后都抓取卡牌并胜利",
+    "description": "在每一场有卡牌奖励的战斗结束后都抓取卡牌并胜利",
     "kind": "take_card_after_each_fight",
     "params": {}
   },
   {
     "id": "A14",
     "difficulty": "A",
-    "description": "不抓取任何金卡并胜利",
+    "description": "不抓取任何稀有卡（Rare，金卡）并胜利",
     "kind": "no_rare_card_pick",
     "params": {}
   },
@@ -415,15 +379,6 @@
     "params": {}
   },
   {
-    "id": "B12",
-    "difficulty": "B",
-    "description": "所有种子一共获得 3n 徽章，n 为种子数",
-    "kind": "badges_total",
-    "params": {
-      "perSeed": 3
-    }
-  },
-  {
     "id": "B13",
     "difficulty": "B",
     "description": "放弃所有 boss 奖励的卡牌并胜利",
@@ -433,7 +388,7 @@
   {
     "id": "B14",
     "difficulty": "B",
-    "description": "胜利并最终拥有至少 4 张相同的卡（忽略升级）",
+    "description": "胜利并最终拥有至少 4 张相同的卡（忽略升级，且不计初始打击/防御）",
     "kind": "duplicate_card",
     "params": {
       "count": 4
@@ -561,15 +516,6 @@
     "kind": "boss_turn_ge",
     "params": {
       "turns": 15
-    }
-  },
-  {
-    "id": "C09",
-    "difficulty": "C",
-    "description": "所有种子一共获得 2n 徽章，n 为种子数",
-    "kind": "badges_total",
-    "params": {
-      "perSeed": 2
     }
   },
   {

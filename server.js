@@ -273,15 +273,17 @@ function resolveSeedCharacters(settings){
   }
 }
 function generateTaskBoard(counts){
+  const desired = Object.fromEntries(['S','A','B','C','D'].map(d => [d, Math.max(0, Math.floor(Number(counts?.[d] || 0)))]));
+  const total = Object.values(desired).reduce((a,b)=>a+b,0);
+  if(total !== 25) throw new Error(`任务数量总和必须为 25（当前 ${total}）`);
   const chosen = [];
   for(const d of ['S','A','B','C','D']){
     const pool = TASKS.filter(t => t.difficulty === d);
+    if(desired[d] > pool.length) throw new Error(`${d} 级任务池只有 ${pool.length} 个，不能抽取 ${desired[d]} 个`);
     const shuffled = [...pool].sort(() => Math.random() - 0.5);
-    chosen.push(...shuffled.slice(0, Math.max(0, Number(counts[d] || 0))));
+    chosen.push(...shuffled.slice(0, desired[d]));
   }
-  const fallback = [...TASKS].sort(() => Math.random() - 0.5);
-  for(const t of fallback){ if(chosen.length >= 25) break; if(!chosen.find(x=>x.id===t.id)) chosen.push(t); }
-  return chosen.slice(0,25).sort(() => Math.random() - 0.5).map((t, i) => ({ cellId:`task${i}`, taskId:t.id, ...t }));
+  return chosen.sort(() => Math.random() - 0.5).map((t, i) => ({ cellId:`task${i}`, taskId:t.id, ...t }));
 }
 function normalizeCardId(input){
   let raw = typeof input === 'object' && input ? (input.id || input.card_id || input.cardId || input.key || input.name) : input;
@@ -334,7 +336,13 @@ function allPlayerSummaries(run){
     const relics = p.relics || [];
     const badges = p.badges || [];
     const cardCounts = {};
-    deck.forEach(c => { const id = normalizeCardId(c) || String(c.id||'').replace(/\+.*/, ''); cardCounts[id] = (cardCounts[id]||0)+1; });
+    deck.forEach(c => {
+      const id = normalizeCardId(c) || String(c.id||'').replace(/\+.*/, '');
+      const floorAdded = Number(c.floor_added_to_deck ?? c.floorAddedToDeck ?? NaN);
+      const isInitialStrikeDefend = floorAdded === 1 && /^CARD\.(STRIKE|DEFEND)_/.test(id);
+      if(isInitialStrikeDefend) return;
+      cardCounts[id] = (cardCounts[id]||0)+1;
+    });
     return {
       idx, character: p.character || p.character_id || '', currentHp: p.current_hp ?? last.current_hp ?? null,
       maxHp: p.max_hp ?? last.max_hp ?? null, gold: p.gold ?? last.current_gold ?? 0,
@@ -344,26 +352,39 @@ function allPlayerSummaries(run){
   });
 }
 function collectStats(run){
-  const bossTurns = [], bossDamage = [], fightRewards = [], removed = [], upgraded = [], restChoices = [], sourceCardGains = [];
+  const bossTurns = [], bossDamage = [], fightRewards = [], removed = [], upgraded = [], restChoices = [], cardGains = [], sourceCardGains = [];
   const roomCounts = {};
   let bossRewardCardOffered = 0, bossRewardCardPicked = 0;
   for(const act of run.map_point_history || []) for(const mp of act || []){
-    const typ = mp.map_point_type || mp.rooms?.[0]?.room_type || '';
-    roomCounts[typ] = (roomCounts[typ] || 0) + 1;
+    const mapTyp = mp.map_point_type || '';
+    const roomTyp = mp.rooms?.[0]?.room_type || '';
+    const typ = mapTyp || roomTyp;
+    if(mapTyp) roomCounts[mapTyp] = (roomCounts[mapTyp] || 0) + 1;
+    if(roomTyp && roomTyp !== mapTyp) roomCounts[roomTyp] = (roomCounts[roomTyp] || 0) + 1;
     const room = mp.rooms?.[0] || {};
     if(typ === 'boss') bossTurns.push(Number(room.turns_taken || 0));
     for(const ps of mp.player_stats || []){
       if(typ === 'boss') bossDamage.push(Number(ps.damage_taken || 0));
-      if(['monster','elite','boss'].includes(typ)) fightRewards.push({ typ, picked:(ps.cards_gained||[]).length>0 || (ps.card_choices||[]).some(c=>c.was_picked) });
+      if(['monster','elite','boss'].includes(typ)){
+        const choices = ps.card_choices || [];
+        const gained = ps.cards_gained || [];
+        if(choices.length || gained.length) fightRewards.push({ typ, picked:gained.length>0 || choices.some(c=>c.was_picked) });
+      }
       const isMonsterOrEvent = ['monster','elite','boss','event','unknown','ancient'].includes(String(typ).toLowerCase());
-      if(isMonsterOrEvent){
-        for(const c of ps.cards_gained || []){
-          const id = normalizeCardId(c);
-          if(id && CARD_INDEX.bySaveId[id]) sourceCardGains.push({ id, source:typ });
+      for(const c of ps.cards_gained || []){
+        const id = normalizeCardId(c);
+        if(id && CARD_INDEX.bySaveId[id]){
+          const item = { id, source:typ };
+          cardGains.push(item);
+          if(isMonsterOrEvent) sourceCardGains.push(item);
         }
-        for(const c of ps.card_choices || []) if(c.was_picked){
-          const id = normalizeCardId(c);
-          if(id && CARD_INDEX.bySaveId[id]) sourceCardGains.push({ id, source:typ });
+      }
+      for(const c of ps.card_choices || []) if(c.was_picked){
+        const id = normalizeCardId(c);
+        if(id && CARD_INDEX.bySaveId[id]){
+          const item = { id, source:typ };
+          cardGains.push(item);
+          if(isMonsterOrEvent) sourceCardGains.push(item);
         }
       }
       for(const c of ps.cards_removed || []) removed.push(c.id || c);
@@ -376,7 +397,7 @@ function collectStats(run){
       }
     }
   }
-  return { bossTurns, bossDamage, fightRewards, removed, upgraded, restChoices, roomCounts, sourceCardGains, bossRewardCardOffered, bossRewardCardPicked };
+  return { bossTurns, bossDamage, fightRewards, removed, upgraded, restChoices, roomCounts, cardGains, sourceCardGains, bossRewardCardOffered, bossRewardCardPicked };
 }
 function extractRun(raw){
   let run;
@@ -419,8 +440,13 @@ function evalTask(task, ex, room, teamId){
       const starterRemoved = st.removed.some(id => /STRIKE_|DEFEND_|BASH/.test(String(id)));
       return passResult(s.win && !starterRemoved, starterRemoved ? '检测到初始牌被移除/变化' : '未检测到初始牌移除记录', starterRemoved ? 0 : 1);
     }
-    case 'take_card_after_each_fight': return passResult(s.win && st.fightRewards.length>0 && st.fightRewards.every(x=>x.picked), `战斗抓牌 ${st.fightRewards.filter(x=>x.picked).length}/${st.fightRewards.length}`, st.fightRewards.filter(x=>x.picked).length);
-    case 'no_rare_card_pick': return passResult(s.win, '存档缺少卡牌稀有度字段，当前仅验证胜利；金卡抓取需后续补充卡库', s.win ? 1 : 0);
+    case 'take_card_after_each_fight': return passResult(s.win && st.fightRewards.length>0 && st.fightRewards.every(x=>x.picked), `有卡牌奖励的战斗抓牌 ${st.fightRewards.filter(x=>x.picked).length}/${st.fightRewards.length}`, st.fightRewards.filter(x=>x.picked).length);
+    case 'no_rare_card_pick': {
+      const bad = (st.cardGains || []).filter(x => CARD_INDEX.bySaveId[x.id]?.rarity === 'Rare');
+      const names = [...new Set(bad.map(x => CARD_INDEX.bySaveId[x.id]?.name_chs || CARD_INDEX.bySaveId[x.id]?.name_eng || x.id))];
+      if(!s.win) return passResult(false, bad.length ? `未通关；且获得稀有卡：${names.slice(0,6).join('、')}${names.length>6?'等':''}` : '未通关；未获得稀有卡', bad.length);
+      return passResult(bad.length === 0, bad.length ? `获得稀有卡：${names.slice(0,6).join('、')}${names.length>6?'等':''}` : '未获得稀有卡', bad.length);
+    }
     case 'no_source_card_type': {
       const type = String(p.type || '');
       const bad = (st.sourceCardGains || []).filter(x => CARD_INDEX.bySaveId[x.id]?.type === type);
@@ -576,7 +602,7 @@ function serveStatic(req, res, pathname){
   if(!fs.existsSync(file) || fs.statSync(file).isDirectory()) return false;
   const ext = path.extname(file).toLowerCase();
   const types = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.svg':'image/svg+xml' };
-  send(res, 200, fs.readFileSync(file), { 'content-type': types[ext] || 'application/octet-stream', ...(ext === '.html' ? { 'cache-control':'no-store' } : {}) });
+  send(res, 200, fs.readFileSync(file), { 'content-type': types[ext] || 'application/octet-stream', ...(['.html','.js','.css'].includes(ext) ? { 'cache-control':'no-store' } : {}) });
   return true;
 }
 
@@ -678,7 +704,11 @@ async function handleApi(req, res, pathname){
         if(room.hostUserId !== user.id) return fail(res, 403, '只有房主可以修改设置');
         if(room.status !== 'lobby') return fail(res, 400, '游戏开始后不能修改设置');
         const b = await readJson(req, 256*1024);
+        const oldMode = room.settings?.mode;
+        const oldTaskCounts = JSON.stringify(room.settings?.taskCounts || {});
         room.settings = normalizeSettings(b, room.settings);
+        const newTaskCounts = JSON.stringify(room.settings?.taskCounts || {});
+        if(oldMode !== room.settings.mode || oldTaskCounts !== newTaskCounts) room.settings.board = [];
         room.board = {}; room.aggregate = {}; room.cardCollections = {}; room.winnerTeamId = null; room.status = 'lobby'; room.startedAt = null; room.endedAt = null;
         writeDb(db); return json(res, 200, { room:roomForClient(room, db, user) });
       }

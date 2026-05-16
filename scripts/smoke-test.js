@@ -15,5 +15,5 @@ for (const task of tasks) {
   const md = path.join(root, 'tasks', `${task.id}.md`);
   if (!fs.existsSync(md)) throw new Error(`missing task description: ${task.id}.md`);
 }
-if (tasks.length !== 79) throw new Error(`expected 79 tasks, got ${tasks.length}`);
+if (tasks.length !== 73) throw new Error(`expected 73 tasks, got ${tasks.length}`);
 console.log(`smoke ok: ${tasks.length} tasks, syntax checked`);
